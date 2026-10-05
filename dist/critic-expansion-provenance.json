@@ -1,0 +1,29 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "native_save_source_sha256": "a806bc7807b84d3fa7c60c286efc8a3130b6fa2fef102fea859c7c1b9d59120c",
+  "runtime_reproducer": "tools/check_expansion_runtime.py",
+  "save_reproducer": "tools/check_expansion_save.py",
+  "evidence": "Actual native emulation with joypad inputs and read-only observers. Earned SRAM bytes stay private and are reproducible from campaign/preparation inputs and power cycles; synthetic fixtures are isolated in the save harness.",
+  "save_bytes_omitted": true,
+  "artifacts": {
+    "dist/critic-expansion-B-replay-inputs.json": "36dd1d2d3dd1537b96f55d3164ccfe5d4668d7ada9c2bdd9a093dffaf9ec7c1b",
+    "dist/critic-expansion-campaign-inputs.json": "87c6bd920a5d4aa4a49068655490b769e8b2441264993acacb3666b2cce986a5",
+    "dist/critic-expansion-campaign-probes-report.json": "31ee295b688be4146f49636060f827d2d0b4e0c7f116d44ad53d9c7a9d5e6d95",
+    "dist/critic-expansion-campaign-profile-report.json": "7b45dd3b9180252323334edfa381fa3d706fa3a542b950ed2f6868de7a16f5ef",
+    "dist/critic-expansion-completed-replay-report.json": "d7f1ad28871512ed89d1d4801c1a113e4f084fba92a16a7c938aa3b227565e3a",
+    "dist/critic-expansion-fast-S-inputs.json": "1e1dec0ef77c83d47c7fd279dfe08c3f226dfa4c01a3af940a31d79fd791fce8",
+    "dist/critic-expansion-menu-report.json": "bfba85f9350793c173d10c42c7574a2db3fdc5169eb16b1f2a239ae37d9fa80d",
+    "dist/critic-expansion-network-18-1-inputs.json": "0f995e92a104563fcc380c770a7961411ff0e89d1520d72776aa008c2f9a1299",
+    "dist/critic-expansion-network-21-1-inputs.json": "b5390da807aa49f004b1eaba57cfabe72fad6fd01f2df40d0b128294176ee6be",
+    "dist/critic-expansion-network-23-1-inputs.json": "e9453d573c1724d4f85a99ec4ffd289cfc8c306364d34e8e593df2b71c9fef8c",
+    "dist/critic-expansion-network-report.json": "c35147157edbc440316b1a71f1541207b7609b1ed4dd8be1e7e7cd47057a0cff",
+    "dist/critic-expansion-opening-inputs.json": "eb7e6c6acc43e8a7242d01d2fe037db462ed5b7eb9edfeacfa862c6ee6a571d4",
+    "dist/critic-expansion-opening-report.json": "ba40dbe053021d0365af803e356567e99cdf29e882c2fcf9e7af3017019026ff",
+    "dist/critic-expansion-over-par-A-inputs.json": "84898a9e2633aa2546c6cd554699b38e0dadb0ad66d809c0c7bdaf88e2b961ce",
+    "dist/critic-expansion-rank-report.json": "c65a569d7605e18dd2fe1513467ff8110dacc9f09133f4afa15f2b109d4704e2",
+    "dist/critic-expansion-replay-preparation-inputs.json": "e5fbdc551c1e5b1fb84709c864e3172cc16a13a8dd64f7252949c7560e3f8b5b",
+    "dist/critic-expansion-save-report.json": "00c45d3fde4e2ca821fa13bb96d070d4c21100aa43bb4f15a898ccfd7fd2b3e2",
+    "dist/critic-expansion-three-room-inputs.json": "1e1dec0ef77c83d47c7fd279dfe08c3f226dfa4c01a3af940a31d79fd791fce8",
+    "dist/critic-expansion-three-room-report.json": "0063aac9da88771597ae40c26938a702d58fd86d0a7edb1f2477deed5b180c75"
+  }
+}

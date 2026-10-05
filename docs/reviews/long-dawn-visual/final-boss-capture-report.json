@@ -1,0 +1,1030 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "input_artifact_sha256": "87c6bd920a5d4aa4a49068655490b769e8b2441264993acacb3666b2cce986a5",
+  "method": "Independent emulator; linear joypad input replay from 8192 bytes of zero SRAM; no snapshots or gameplay-memory writes",
+  "frames": 108466,
+  "last_hp": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0
+  },
+  "ending_completed": true,
+  "deaths": 0,
+  "captures": {
+    "1-approach": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 5,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 77,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 5,
+        "run_seal_bits": 511,
+        "stage_frames": 3956,
+        "boss_hp": 6,
+        "boss_guard": 0,
+        "camera_x": 1555,
+        "boss_x": 1680,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "CHECKPOINT - SAVED"
+      ],
+      "frame": 25432,
+      "native_path": "images/linear-boss-1-approach-native.png",
+      "native_sha256": "dc0a673ad5ac80838b395d5b71bd9b8c914411fe114cb44d88bc80a2d9cc72d9",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-1-approach-native.png"
+    },
+    "1-tell": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 5,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 77,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 5,
+        "run_seal_bits": 511,
+        "stage_frames": 4002,
+        "boss_hp": 6,
+        "boss_guard": 0,
+        "camera_x": 1632,
+        "boss_x": 1680,
+        "deaths": 0,
+        "boss_palettes": [
+          3
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $77 HP6 B+"
+      ],
+      "frame": 25478,
+      "native_path": "images/linear-boss-1-tell-native.png",
+      "native_sha256": "466923591077fd5f8ceeff634a91ea269eb47f1c3cd4cfb6d5ba811c17a01f46",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-1-tell-native.png"
+    },
+    "1-hit-1": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 5,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 77,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 5,
+        "run_seal_bits": 511,
+        "stage_frames": 4042,
+        "boss_hp": 5,
+        "boss_guard": 0,
+        "camera_x": 1624,
+        "boss_x": 1680,
+        "deaths": 0,
+        "boss_palettes": [
+          4
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $77 HP5 B+"
+      ],
+      "frame": 25518,
+      "native_path": "images/linear-boss-1-hit-1-native.png",
+      "native_sha256": "63785e3a33705b26733375bc46ee8a623987945190f2d928726784bb3cc8894c",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-1-hit-1-native.png"
+    },
+    "1-hit-2": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 5,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 77,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 5,
+        "run_seal_bits": 511,
+        "stage_frames": 4111,
+        "boss_hp": 4,
+        "boss_guard": 0,
+        "camera_x": 1625,
+        "boss_x": 1680,
+        "deaths": 0,
+        "boss_palettes": [
+          3
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $77 HP4 B+"
+      ],
+      "frame": 25587,
+      "native_path": "images/linear-boss-1-hit-2-native.png",
+      "native_sha256": "67d6e66d8e5e813834fe9903b33c349b2d42c9b99788cf2984a07251e040aa0c",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-1-hit-2-native.png"
+    },
+    "1-hit-3": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 5,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 77,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 5,
+        "run_seal_bits": 511,
+        "stage_frames": 4235,
+        "boss_hp": 3,
+        "boss_guard": 0,
+        "camera_x": 1625,
+        "boss_x": 1680,
+        "deaths": 0,
+        "boss_palettes": [
+          4
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $77 HP3 B+"
+      ],
+      "frame": 25711,
+      "native_path": "images/linear-boss-1-hit-3-native.png",
+      "native_sha256": "7333f3bdfebf2e086e47c0879dce2c8d3e18df7615c63acd320deb0b9eb9e8d3",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-1-hit-3-native.png"
+    },
+    "1-hit-4": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 5,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 77,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 5,
+        "run_seal_bits": 511,
+        "stage_frames": 4304,
+        "boss_hp": 2,
+        "boss_guard": 0,
+        "camera_x": 1624,
+        "boss_x": 1680,
+        "deaths": 0,
+        "boss_palettes": [
+          4
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $77 HP2 B+"
+      ],
+      "frame": 25780,
+      "native_path": "images/linear-boss-1-hit-4-native.png",
+      "native_sha256": "41bf04ddd03d3506720984500b70003209c0d721616eee6dc02d91b38447bd8d",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-1-hit-4-native.png"
+    },
+    "1-hit-5": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 5,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 77,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 5,
+        "run_seal_bits": 511,
+        "stage_frames": 4388,
+        "boss_hp": 1,
+        "boss_guard": 0,
+        "camera_x": 1625,
+        "boss_x": 1680,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $77 HP1 B+"
+      ],
+      "frame": 25864,
+      "native_path": "images/linear-boss-1-hit-5-native.png",
+      "native_sha256": "61834be2bf4b00c1a6b827ebd2337568e9d87b0e9b08096a4acbb00c4393f5c0",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-1-hit-5-native.png"
+    },
+    "1-hit-6": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 5,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 77,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 5,
+        "run_seal_bits": 511,
+        "stage_frames": 4457,
+        "boss_hp": 0,
+        "boss_guard": 0,
+        "camera_x": 1624,
+        "boss_x": 1680,
+        "deaths": 0,
+        "boss_palettes": []
+      },
+      "window_lines": [
+        "H*** S9/9 $77 HP0 B+"
+      ],
+      "frame": 25933,
+      "native_path": "images/linear-boss-1-hit-6-native.png",
+      "native_sha256": "cdbce4c465ea6f78af6e92c6ebc834924204dc44dc51d35197d26a0a1cc00692",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-1-hit-6-native.png"
+    },
+    "2-approach": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 11,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 71,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 11,
+        "run_seal_bits": 511,
+        "stage_frames": 3777,
+        "boss_hp": 6,
+        "boss_guard": 0,
+        "camera_x": 1418,
+        "boss_x": 1542,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "CHECKPOINT - SAVED"
+      ],
+      "frame": 51472,
+      "native_path": "images/linear-boss-2-approach-native.png",
+      "native_sha256": "c4ac1a05d149fceaa7683ca04e7a620c8f72bb2992e39381aff6e4e365012f5d",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-2-approach-native.png"
+    },
+    "2-tell": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 11,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 71,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 11,
+        "run_seal_bits": 511,
+        "stage_frames": 3781,
+        "boss_hp": 6,
+        "boss_guard": 0,
+        "camera_x": 1429,
+        "boss_x": 1539,
+        "deaths": 0,
+        "boss_palettes": [
+          3
+        ]
+      },
+      "window_lines": [
+        "CHECKPOINT - SAVED"
+      ],
+      "frame": 51476,
+      "native_path": "images/linear-boss-2-tell-native.png",
+      "native_sha256": "18b7a14891c80d8e91df6ff8fec0a755487c312b23fa27a16233c0070acf7ef6",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-2-tell-native.png"
+    },
+    "2-hit-1": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 11,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 71,
+        "health": 2,
+        "map_selection": 0,
+        "unlocked": 11,
+        "run_seal_bits": 511,
+        "stage_frames": 3886,
+        "boss_hp": 5,
+        "boss_guard": 0,
+        "camera_x": 1450,
+        "boss_x": 1530,
+        "deaths": 0,
+        "boss_palettes": [
+          4
+        ]
+      },
+      "window_lines": [
+        "H**. S9/9 $71 HP5 B+"
+      ],
+      "frame": 51581,
+      "native_path": "images/linear-boss-2-hit-1-native.png",
+      "native_sha256": "6ec0576a0b0cedb68ad6a1d2d210db5c9142edf32bb64e44a91946b1a46d7d7a",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-2-hit-1-native.png"
+    },
+    "2-hit-2": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 11,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 71,
+        "health": 2,
+        "map_selection": 0,
+        "unlocked": 11,
+        "run_seal_bits": 511,
+        "stage_frames": 3984,
+        "boss_hp": 4,
+        "boss_guard": 0,
+        "camera_x": 1452,
+        "boss_x": 1510,
+        "deaths": 0,
+        "boss_palettes": [
+          4
+        ]
+      },
+      "window_lines": [
+        "H**. S9/9 $71 HP4 B+"
+      ],
+      "frame": 51679,
+      "native_path": "images/linear-boss-2-hit-2-native.png",
+      "native_sha256": "2d917e9fa6871a27b4a9af9e85865e2020e437747a597ec06efcbd821036ee2f",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-2-hit-2-native.png"
+    },
+    "2-hit-3": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 11,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 71,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 11,
+        "run_seal_bits": 511,
+        "stage_frames": 4059,
+        "boss_hp": 3,
+        "boss_guard": 0,
+        "camera_x": 1448,
+        "boss_x": 1524,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "WAKE CHAIN! +HEART"
+      ],
+      "frame": 51755,
+      "native_path": "images/linear-boss-2-hit-3-native.png",
+      "native_sha256": "f8c09a3c698a9b38b642ac6b46643be7fd18627738ed243ee679a3dcded7e761",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-2-hit-3-native.png"
+    },
+    "2-hit-4": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 11,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 71,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 11,
+        "run_seal_bits": 511,
+        "stage_frames": 4135,
+        "boss_hp": 2,
+        "boss_guard": 0,
+        "camera_x": 1464,
+        "boss_x": 1525,
+        "deaths": 0,
+        "boss_palettes": [
+          4
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $71 HP2 B+"
+      ],
+      "frame": 51831,
+      "native_path": "images/linear-boss-2-hit-4-native.png",
+      "native_sha256": "0796a009bf66c5023340209a372dd328b50aa77cc9be85f56e36da84069da413",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-2-hit-4-native.png"
+    },
+    "2-hit-5": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 11,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 71,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 11,
+        "run_seal_bits": 511,
+        "stage_frames": 4233,
+        "boss_hp": 1,
+        "boss_guard": 0,
+        "camera_x": 1445,
+        "boss_x": 1505,
+        "deaths": 0,
+        "boss_palettes": [
+          3
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $71 HP1 B+"
+      ],
+      "frame": 51929,
+      "native_path": "images/linear-boss-2-hit-5-native.png",
+      "native_sha256": "4c69fe71c433b66c399391796de2871d5947d9ebe9e809cec471291bac2438f7",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-2-hit-5-native.png"
+    },
+    "2-hit-6": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 11,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 71,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 11,
+        "run_seal_bits": 511,
+        "stage_frames": 4304,
+        "boss_hp": 0,
+        "boss_guard": 0,
+        "camera_x": 1477,
+        "boss_x": 1534,
+        "deaths": 0,
+        "boss_palettes": []
+      },
+      "window_lines": [
+        "H*** S9/9 $71 HP0 B+"
+      ],
+      "frame": 52000,
+      "native_path": "images/linear-boss-2-hit-6-native.png",
+      "native_sha256": "23be740634270051217daad673266d8bc450a17c354d1d0654e51eaaec5da7f5",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-2-hit-6-native.png"
+    },
+    "3-open": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 17,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 79,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 17,
+        "run_seal_bits": 511,
+        "stage_frames": 4196,
+        "boss_hp": 6,
+        "boss_guard": 0,
+        "camera_x": 1448,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "CHECKPOINT - SAVED"
+      ],
+      "frame": 79493,
+      "native_path": "images/linear-boss-3-open-native.png",
+      "native_sha256": "d3b18607717300b710bbb17d451c62eccdea3bc669e95c100d79af2c0e2696d7",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-3-open-native.png"
+    },
+    "3-approach": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 17,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 79,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 17,
+        "run_seal_bits": 511,
+        "stage_frames": 4197,
+        "boss_hp": 6,
+        "boss_guard": 0,
+        "camera_x": 1451,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "CHECKPOINT - SAVED"
+      ],
+      "frame": 79494,
+      "native_path": "images/linear-boss-3-approach-native.png",
+      "native_sha256": "d2adbe62373e9be67ddc5ffadc0d4ec223cd01ed5172c7cf057d57431fe77992",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-3-approach-native.png"
+    },
+    "3-guard": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 17,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 79,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 17,
+        "run_seal_bits": 511,
+        "stage_frames": 4227,
+        "boss_hp": 6,
+        "boss_guard": 1,
+        "camera_x": 1489,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          6
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $79 HP6 B+"
+      ],
+      "frame": 79524,
+      "native_path": "images/linear-boss-3-guard-native.png",
+      "native_sha256": "50b741970b35dec1ad4d9d2d88b9c7183127e836306c0e815f088437780bf79f",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-3-guard-native.png"
+    },
+    "3-hit-1": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 17,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 79,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 17,
+        "run_seal_bits": 511,
+        "stage_frames": 4292,
+        "boss_hp": 5,
+        "boss_guard": 0,
+        "camera_x": 1515,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          4
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $79 HP5 B+"
+      ],
+      "frame": 79589,
+      "native_path": "images/linear-boss-3-hit-1-native.png",
+      "native_sha256": "cf49e06b36a62afd77ec901978f79bfdeb6f99a153812c6eb92de63b4fee4861",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-3-hit-1-native.png"
+    },
+    "3-tell": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 17,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 79,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 17,
+        "run_seal_bits": 511,
+        "stage_frames": 4353,
+        "boss_hp": 5,
+        "boss_guard": 1,
+        "camera_x": 1528,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          6
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $79 HP5 B+"
+      ],
+      "frame": 79650,
+      "native_path": "images/linear-boss-3-tell-native.png",
+      "native_sha256": "40b7953117a04427b2e964e5c85e21c532080d7e57271cbfea019d14541d28fb",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-3-tell-native.png"
+    },
+    "3-hit-2": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 17,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 79,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 17,
+        "run_seal_bits": 511,
+        "stage_frames": 4413,
+        "boss_hp": 4,
+        "boss_guard": 0,
+        "camera_x": 1518,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          4
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $79 HP4 B+"
+      ],
+      "frame": 79710,
+      "native_path": "images/linear-boss-3-hit-2-native.png",
+      "native_sha256": "cc4de10492b22ebb5a3b88778fe446436faf5496c791c1b8f84b2d3f3d0dd5f0",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-3-hit-2-native.png"
+    },
+    "3-hit-3": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 17,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 79,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 17,
+        "run_seal_bits": 511,
+        "stage_frames": 4481,
+        "boss_hp": 3,
+        "boss_guard": 1,
+        "camera_x": 1520,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          6
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $79 HP3 B+"
+      ],
+      "frame": 79778,
+      "native_path": "images/linear-boss-3-hit-3-native.png",
+      "native_sha256": "5c5f424ba37009293639afd832eede59de1b979770fd3dc01118787cb4ba78da",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-3-hit-3-native.png"
+    },
+    "3-hit-4": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 17,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 79,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 17,
+        "run_seal_bits": 511,
+        "stage_frames": 4550,
+        "boss_hp": 2,
+        "boss_guard": 0,
+        "camera_x": 1521,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $79 HP2 B+"
+      ],
+      "frame": 79847,
+      "native_path": "images/linear-boss-3-hit-4-native.png",
+      "native_sha256": "7e684a896d34861be9bfb457f6788c15df98308cb118ac0791d7c14abb11ac3e",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-3-hit-4-native.png"
+    },
+    "3-hit-5": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 17,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 79,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 17,
+        "run_seal_bits": 511,
+        "stage_frames": 4671,
+        "boss_hp": 1,
+        "boss_guard": 0,
+        "camera_x": 1520,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $79 HP1 B+"
+      ],
+      "frame": 79968,
+      "native_path": "images/linear-boss-3-hit-5-native.png",
+      "native_sha256": "6ff4af30870f37f4600ca5bc6208301ea412a8950f073690d1897813f65d4a7b",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-3-hit-5-native.png"
+    },
+    "3-hit-6": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 17,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 79,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 17,
+        "run_seal_bits": 511,
+        "stage_frames": 4738,
+        "boss_hp": 0,
+        "boss_guard": 0,
+        "camera_x": 1519,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": []
+      },
+      "window_lines": [
+        "H*** S9/9 $79 HP0 B+"
+      ],
+      "frame": 80035,
+      "native_path": "images/linear-boss-3-hit-6-native.png",
+      "native_sha256": "4c64ea72252858dc153bf6fc84ca23656e5cc4e76cd2808974ec5d5b4273a272",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-3-hit-6-native.png"
+    },
+    "4-approach": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 23,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 74,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 23,
+        "run_seal_bits": 511,
+        "stage_frames": 4007,
+        "boss_hp": 6,
+        "boss_guard": 0,
+        "camera_x": 1451,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "CHECKPOINT - SAVED"
+      ],
+      "frame": 107841,
+      "native_path": "images/linear-boss-4-approach-native.png",
+      "native_sha256": "674e507d6423e7a9f5fee1e7af35dedf98526bcf4a171b15259c953e4b303423",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-4-approach-native.png"
+    },
+    "4-tell": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 23,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 74,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 23,
+        "run_seal_bits": 511,
+        "stage_frames": 4042,
+        "boss_hp": 6,
+        "boss_guard": 0,
+        "camera_x": 1501,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          3
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $74 HP6 B+"
+      ],
+      "frame": 107876,
+      "native_path": "images/linear-boss-4-tell-native.png",
+      "native_sha256": "ac8e9871c145c2d3392de5363798b83fa820ce66d621829244ef3ace5269c827",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-4-tell-native.png"
+    },
+    "4-hit-1": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 23,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 74,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 23,
+        "run_seal_bits": 511,
+        "stage_frames": 4094,
+        "boss_hp": 5,
+        "boss_guard": 0,
+        "camera_x": 1521,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $74 HP5 B+"
+      ],
+      "frame": 107928,
+      "native_path": "images/linear-boss-4-hit-1-native.png",
+      "native_sha256": "455d1f42af35b3feba88c069c78241f0a1b765f561c8306f9d668b56cd59e6b4",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-4-hit-1-native.png"
+    },
+    "4-hit-2": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 23,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 74,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 23,
+        "run_seal_bits": 511,
+        "stage_frames": 4161,
+        "boss_hp": 4,
+        "boss_guard": 0,
+        "camera_x": 1519,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          4
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $74 HP4 B+"
+      ],
+      "frame": 107995,
+      "native_path": "images/linear-boss-4-hit-2-native.png",
+      "native_sha256": "a7b9eaa7bf9db79ab9a8bef208409814269d5af203f8c8264e6064e654fb418b",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-4-hit-2-native.png"
+    },
+    "4-hit-3": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 23,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 74,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 23,
+        "run_seal_bits": 511,
+        "stage_frames": 4229,
+        "boss_hp": 3,
+        "boss_guard": 0,
+        "camera_x": 1520,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          3
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $74 HP3 B+"
+      ],
+      "frame": 108063,
+      "native_path": "images/linear-boss-4-hit-3-native.png",
+      "native_sha256": "cc24dcb7a2a716662004bd915e57ee1fbb2309decf29f699f44dc3f44306c17d",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-4-hit-3-native.png"
+    },
+    "4-hit-4": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 23,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 74,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 23,
+        "run_seal_bits": 511,
+        "stage_frames": 4318,
+        "boss_hp": 2,
+        "boss_guard": 0,
+        "camera_x": 1522,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $74 HP2 B+"
+      ],
+      "frame": 108152,
+      "native_path": "images/linear-boss-4-hit-4-native.png",
+      "native_sha256": "237df791e832f2c262e0dbdf71a539571f93de69e3de08df18c840e14924d010",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-4-hit-4-native.png"
+    },
+    "4-hit-5": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 23,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 74,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 23,
+        "run_seal_bits": 511,
+        "stage_frames": 4387,
+        "boss_hp": 1,
+        "boss_guard": 0,
+        "camera_x": 1520,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": [
+          7
+        ]
+      },
+      "window_lines": [
+        "H*** S9/9 $74 HP1 B+"
+      ],
+      "frame": 108221,
+      "native_path": "images/linear-boss-4-hit-5-native.png",
+      "native_sha256": "2e74d10ad69e8da5911d49869af6dba119b4c1e6f4e5809121c1c749f64fe76d",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-4-hit-5-native.png"
+    },
+    "4-hit-6": {
+      "state": {
+        "game_mode": 1,
+        "stage_id": 23,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 74,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 23,
+        "run_seal_bits": 511,
+        "stage_frames": 4467,
+        "boss_hp": 0,
+        "boss_guard": 0,
+        "camera_x": 1522,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": []
+      },
+      "window_lines": [
+        "H*** S9/9 $74 HP0 B+"
+      ],
+      "frame": 108301,
+      "native_path": "images/linear-boss-4-hit-6-native.png",
+      "native_sha256": "16f6b0ffa7f2516d9d5cd853a2e52a5faa3471a6c383b32b105155ef68b40af6",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-4-hit-6-native.png"
+    },
+    "ending": {
+      "state": {
+        "game_mode": 6,
+        "stage_id": 23,
+        "room_id": 2,
+        "seal_count": 9,
+        "stars": 74,
+        "health": 3,
+        "map_selection": 0,
+        "unlocked": 23,
+        "run_seal_bits": 511,
+        "stage_frames": 4491,
+        "boss_hp": 0,
+        "boss_guard": 0,
+        "camera_x": 1528,
+        "boss_x": 1576,
+        "deaths": 0,
+        "boss_palettes": []
+      },
+      "window_lines": [
+        " THE SKY REMEMBERS.",
+        "",
+        "THE MOONWHALE WAKES.",
+        "A SEA OF DREAMS",
+        "FLOWS HOME AGAIN.",
+        "A LONG DAWN, AT LAST",
+        "THANK YOU, MOON HARE",
+        "",
+        "A ATLAS   B TITLE",
+        ""
+      ],
+      "frame": 108466,
+      "native_path": "images/linear-boss-ending-native.png",
+      "native_sha256": "4388c819a11065bc3d02876b28ce20dbf7deccc7856d26af7ccf193b0210838a",
+      "original_native_path": "/Users/soyadiaoune/Desktop/chromatic-platformer/publish/moonwake/build/visual-review/network-check/linear-boss-ending-native.png"
+    }
+  }
+}

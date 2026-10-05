@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#10162b">
-<title>Moonwake — A postcard from the sky sea</title>
+<title>Moonwake: The Long Dawn</title>
 <style>
 :root{color-scheme:dark;--ink:#10162b;--cream:#f7ecc9;--gold:#f39b73;--mist:#aaaec3}
 *{box-sizing:border-box}body{margin:0;background:var(--ink);color:var(--cream);font:16px/1.6 system-ui,sans-serif}
@@ -36,13 +36,13 @@ h1{font-size:clamp(39px,4.9vw,61px);line-height:1.1;letter-spacing:-.04em}h1 em{
 </style>
 </head>
 <body><main>
-<header><div class="wordmark">MOONWAKE<span class="mini"> A POSTCARD FROM THE SKY SEA</span></div><nav><a href="research.md">Field notes</a><a href="../dist/moonwake.gbc" download>Get the cartridge ROM ↗</a></nav></header>
+<header><div class="wordmark">MOONWAKE<span class="mini"> THE LONG DAWN</span></div><nav><a href="research.md">Field notes</a><a href="../dist/moonwake.gbc" download>Get the cartridge ROM ↗</a></nav></header>
 <div class="layout">
 <section class="intro"><div class="eyebrow">An original adventure for Game Boy Color & Chromatic</div>
 <h1>The moon fell asleep.<br><em>You brought a scarf.</em></h1>
 <p>A little hare. A comet-red scarf. A sea floating above the world. Run, leap, and thread through lanterns to bring the morning home.</p>
 <div class="actions"><button id="launch">Enter the sky sea <span>↗</span></button><a class="download" href="../dist/moonwake.gbc" download>Download Moonwake</a></div>
-<div class="status" id="status" role="status" aria-live="polite">12 stages · 4 painted worlds · 36 secret moon seals</div>
+<div class="status" id="status" role="status" aria-live="polite">24 long stages · 8 worlds · 216 hidden moon seals</div>
 <div class="little-note">MADE FOR SMALL SCREENS. BUILT FOR BIG DREAMS.</div>
 </section>
 <section class="game" aria-label="Moonwake game">
@@ -55,18 +55,22 @@ h1{font-size:clamp(39px,4.9vw,61px);line-height:1.1;letter-spacing:-.04em}h1 em{
 </div>
 </section>
 </div>
-<section class="worlds" aria-label="The four worlds">
+<section class="worlds" aria-label="The eight worlds">
 <article><img src="../assets/native/world_0.png" alt="Peach sunset and floating pagodas"><span>01 / SAFFRON HARBOR</span><h2>Rooftops still warm.</h2></article>
 <article><img src="../assets/native/world_1.png" alt="Jade rain and giant lotus gardens"><span>02 / JADE MONSOON</span><h2>Rain that rings.</h2></article>
 <article><img src="../assets/native/world_2.png" alt="Celestial clockworks in violet sky"><span>03 / VIOLET ENGINES</span><h2>A night in motion.</h2></article>
 <article><img src="../assets/native/world_3.png" alt="An immense whale beneath a glowing moon"><span>04 / MOONWHALE</span><h2>A dream going home.</h2></article>
+<article><img src="../assets/native/world_4.png" alt="Phoenix kite above a glowing lantern festival"><span>05 / EMBER FESTIVAL</span><h2>Wishes take wing.</h2></article>
+<article><img src="../assets/native/world_5.png" alt="A pearl shell observatory among the stars"><span>06 / PEARL OBSERVATORY</span><h2>Tomorrow in a teacup.</h2></article>
+<article><img src="../assets/native/world_6.png" alt="Luminous fruit tree beneath an aurora"><span>07 / AURORA ORCHARD</span><h2>Morning on a bough.</h2></article>
+<article><img src="../assets/native/world_7.png" alt="Floating book cathedral in peach dawn"><span>08 / DAWN ARCHIVE</span><h2>The sky remembers.</h2></article>
 </section>
 <section class="instructions" aria-label="How to play">
 <div><strong>Find your rhythm.</strong><p><kbd>←</kbd> <kbd>→</kbd> run. <kbd>Z</kbd> jumps; hold it to reach higher. Land softly or bounce off a wandering beetle.</p></div>
 <div><strong>Follow the light.</strong><p><kbd>X</kbd> sends your scarf flying. Land, strike a foe, or touch a lantern to refill your dash. Chain the lights to reach the secret upper routes.</p></div>
-<div><strong>Leave a little stardust.</strong><p>Find three moon seals in every stage. Beat its par time for an S rank. <kbd>Enter</kbd> pauses and opens the atlas. <kbd>Shift</kbd> returns to your checkpoint.</p></div>
+<div><strong>Leave a little stardust.</strong><p>Find three seals per section, nine per long stage. Explore lower passages with Down + Z. Earn all nine within par for an S rank. <kbd>Enter</kbd> pauses and opens the atlas. <kbd>Shift</kbd> returns to your checkpoint.</p></div>
 </section>
-<p class="credits">An original native Game Boy Color game. Progress saves on the cartridge. The preview runs the compiled ROM with <a href="https://github.com/torch2424/wasmboy">WasmBoy 0.7.1</a> · <a href="vendor/wasmboy-LICENSE">GPL license</a>. <a href="soundtrack.md">Eight original chiptune themes</a> · <a href="../README.md">Game notes</a>.</p>
+<p class="credits">An original native Game Boy Color game. Progress saves on the cartridge. The preview runs the compiled ROM with <a href="https://github.com/torch2424/wasmboy">WasmBoy 0.7.1</a> · <a href="vendor/wasmboy-LICENSE">GPL license</a>. <a href="soundtrack.md">Fifteen original chiptune themes</a> · <a href="../README.md">Game notes</a>.</p>
 </main>
 <script src="vendor/wasmboy.js"></script>
 <script>
@@ -79,7 +83,7 @@ function controller(){if(!ready)return;const state={};for(const k of keyboard)st
 async function start(){
  launch.disabled=true;status.textContent='Opening a postcard from the sky…';
  try {
-  if(!ready){await emulator.config({useGbcWhenOptional:true,isAudioEnabled:true,frameSkip:0,gameboyFrameRate:60},canvas);await emulator.loadROM('../dist/moonwake.gbc?v=9310fa3d598b72b4');await emulator.disableDefaultJoypad();ready=true;}
+  if(!ready){await emulator.config({useGbcWhenOptional:true,isAudioEnabled:true,frameSkip:0,gameboyFrameRate:60},canvas);await emulator.loadROM('../dist/moonwake.gbc?v=6ef653eba34dae18');await emulator.disableDefaultJoypad();ready=true;}
   await emulator.resumeAudioContext();await emulator.play();playing=true;
   document.querySelector('.poster').hidden=true;launch.textContent='Resume game';launch.hidden=true;pause.disabled=false;pause.textContent='Pause preview';
   status.textContent='Arrows run · Z jumps · X dashes · Enter starts or pauses.';canvas.focus({preventScroll:true});

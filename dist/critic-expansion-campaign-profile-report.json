@@ -1,0 +1,3378 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "trace": "dist/critic-expansion-campaign-inputs.json",
+  "evidence": "Fresh blank SRAM, linear joypad trace, read-only symbol/CPU-cycle hooks; room loading and menus excluded from first-to-last-physics cadence.",
+  "video_frames": 108466,
+  "clears": [
+    {
+      "stage": 0,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 3839,
+      "deaths": 0
+    },
+    {
+      "stage": 1,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4013,
+      "deaths": 0
+    },
+    {
+      "stage": 2,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4005,
+      "deaths": 0
+    },
+    {
+      "stage": 3,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4057,
+      "deaths": 0
+    },
+    {
+      "stage": 4,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4048,
+      "deaths": 0
+    },
+    {
+      "stage": 5,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4481,
+      "deaths": 0
+    },
+    {
+      "stage": 6,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4041,
+      "deaths": 0
+    },
+    {
+      "stage": 7,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4163,
+      "deaths": 0
+    },
+    {
+      "stage": 8,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 3992,
+      "deaths": 0
+    },
+    {
+      "stage": 9,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 3953,
+      "deaths": 0
+    },
+    {
+      "stage": 10,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4152,
+      "deaths": 0
+    },
+    {
+      "stage": 11,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4328,
+      "deaths": 0
+    },
+    {
+      "stage": 12,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4308,
+      "deaths": 0
+    },
+    {
+      "stage": 13,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4474,
+      "deaths": 0
+    },
+    {
+      "stage": 14,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4279,
+      "deaths": 0
+    },
+    {
+      "stage": 15,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4296,
+      "deaths": 0
+    },
+    {
+      "stage": 16,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4422,
+      "deaths": 0
+    },
+    {
+      "stage": 17,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4761,
+      "deaths": 0
+    },
+    {
+      "stage": 18,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4545,
+      "deaths": 0
+    },
+    {
+      "stage": 19,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4389,
+      "deaths": 0
+    },
+    {
+      "stage": 20,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4358,
+      "deaths": 0
+    },
+    {
+      "stage": 21,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4637,
+      "deaths": 0
+    },
+    {
+      "stage": 22,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4345,
+      "deaths": 0
+    },
+    {
+      "stage": 23,
+      "room": 2,
+      "seals": 9,
+      "rank": 3,
+      "ticks": 4491,
+      "deaths": 0
+    }
+  ],
+  "final_state": {
+    "game_mode": 6,
+    "stage_id": 23,
+    "room_id": 2,
+    "health": 3,
+    "grounded": 0,
+    "dash_charge": 1,
+    "dash_timer": 0,
+    "seal_count": 9,
+    "stars": 74,
+    "checkpoint_on": 1,
+    "boss_hp": 0,
+    "deaths": 0,
+    "stage_frames": 4491,
+    "camera_x": 1528,
+    "run_seal_bits": 511,
+    "journey_frames": 102377,
+    "x": 1672.0,
+    "y": 84.0625,
+    "vx": 2.625,
+    "vy": 5.125,
+    "video_frame": 108466
+  },
+  "rooms": {
+    "0:0": {
+      "physics_ticks": 1004,
+      "video_frames_first_to_last_physics": 1016,
+      "cadence_percent": 98.82,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1004,
+          "mean_cycles": 1185,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.061
+        },
+        "game_tick -> physics": {
+          "calls": 1004,
+          "mean_cycles": 1039,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1004,
+          "mean_cycles": 9442,
+          "mean_double_speed_frame_share": 0.067,
+          "max_double_speed_frame_share": 0.157
+        },
+        "world_tick -> camera_update": {
+          "calls": 1003,
+          "mean_cycles": 13352,
+          "mean_double_speed_frame_share": 0.095,
+          "max_double_speed_frame_share": 2.76
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1003,
+          "mean_cycles": 17661,
+          "mean_double_speed_frame_share": 0.126,
+          "max_double_speed_frame_share": 0.433
+        },
+        "draw_objects -> hud_update": {
+          "calls": 79,
+          "mean_cycles": 17800,
+          "mean_double_speed_frame_share": 0.127,
+          "max_double_speed_frame_share": 0.185
+        }
+      }
+    },
+    "0:1": {
+      "physics_ticks": 1473,
+      "video_frames_first_to_last_physics": 1491,
+      "cadence_percent": 98.79,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1473,
+          "mean_cycles": 20464,
+          "mean_double_speed_frame_share": 0.146,
+          "max_double_speed_frame_share": 0.44
+        },
+        "draw_objects -> hud_update": {
+          "calls": 277,
+          "mean_cycles": 23222,
+          "mean_double_speed_frame_share": 0.165,
+          "max_double_speed_frame_share": 0.245
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1473,
+          "mean_cycles": 1229,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.054
+        },
+        "game_tick -> physics": {
+          "calls": 1473,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1473,
+          "mean_cycles": 15125,
+          "mean_double_speed_frame_share": 0.108,
+          "max_double_speed_frame_share": 0.259
+        },
+        "world_tick -> camera_update": {
+          "calls": 1472,
+          "mean_cycles": 14892,
+          "mean_double_speed_frame_share": 0.106,
+          "max_double_speed_frame_share": 2.72
+        }
+      }
+    },
+    "0:2": {
+      "physics_ticks": 1362,
+      "video_frames_first_to_last_physics": 1381,
+      "cadence_percent": 98.62,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1362,
+          "mean_cycles": 21253,
+          "mean_double_speed_frame_share": 0.151,
+          "max_double_speed_frame_share": 0.44
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1362,
+          "mean_cycles": 1216,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.048
+        },
+        "game_tick -> physics": {
+          "calls": 1362,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1362,
+          "mean_cycles": 14260,
+          "mean_double_speed_frame_share": 0.102,
+          "max_double_speed_frame_share": 0.237
+        },
+        "world_tick -> camera_update": {
+          "calls": 1361,
+          "mean_cycles": 14745,
+          "mean_double_speed_frame_share": 0.105,
+          "max_double_speed_frame_share": 2.778
+        },
+        "draw_objects -> hud_update": {
+          "calls": 249,
+          "mean_cycles": 23827,
+          "mean_double_speed_frame_share": 0.17,
+          "max_double_speed_frame_share": 0.243
+        }
+      }
+    },
+    "1:0": {
+      "physics_ticks": 1132,
+      "video_frames_first_to_last_physics": 1146,
+      "cadence_percent": 98.78,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1132,
+          "mean_cycles": 1234,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.053
+        },
+        "game_tick -> physics": {
+          "calls": 1132,
+          "mean_cycles": 1039,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1132,
+          "mean_cycles": 9904,
+          "mean_double_speed_frame_share": 0.071,
+          "max_double_speed_frame_share": 0.163
+        },
+        "world_tick -> camera_update": {
+          "calls": 1131,
+          "mean_cycles": 16244,
+          "mean_double_speed_frame_share": 0.116,
+          "max_double_speed_frame_share": 2.711
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1131,
+          "mean_cycles": 18194,
+          "mean_double_speed_frame_share": 0.13,
+          "max_double_speed_frame_share": 0.424
+        },
+        "draw_objects -> hud_update": {
+          "calls": 121,
+          "mean_cycles": 23613,
+          "mean_double_speed_frame_share": 0.168,
+          "max_double_speed_frame_share": 0.207
+        }
+      }
+    },
+    "1:1": {
+      "physics_ticks": 1411,
+      "video_frames_first_to_last_physics": 1432,
+      "cadence_percent": 98.53,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1411,
+          "mean_cycles": 21224,
+          "mean_double_speed_frame_share": 0.151,
+          "max_double_speed_frame_share": 0.438
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1411,
+          "mean_cycles": 1236,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.053
+        },
+        "game_tick -> physics": {
+          "calls": 1411,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1411,
+          "mean_cycles": 14084,
+          "mean_double_speed_frame_share": 0.1,
+          "max_double_speed_frame_share": 0.255
+        },
+        "world_tick -> camera_update": {
+          "calls": 1410,
+          "mean_cycles": 17706,
+          "mean_double_speed_frame_share": 0.126,
+          "max_double_speed_frame_share": 2.759
+        },
+        "draw_objects -> hud_update": {
+          "calls": 251,
+          "mean_cycles": 23717,
+          "mean_double_speed_frame_share": 0.169,
+          "max_double_speed_frame_share": 0.236
+        }
+      }
+    },
+    "1:2": {
+      "physics_ticks": 1470,
+      "video_frames_first_to_last_physics": 1490,
+      "cadence_percent": 98.66,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1470,
+          "mean_cycles": 19336,
+          "mean_double_speed_frame_share": 0.138,
+          "max_double_speed_frame_share": 0.436
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1470,
+          "mean_cycles": 1194,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.055
+        },
+        "game_tick -> physics": {
+          "calls": 1470,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1470,
+          "mean_cycles": 15262,
+          "mean_double_speed_frame_share": 0.109,
+          "max_double_speed_frame_share": 0.257
+        },
+        "world_tick -> camera_update": {
+          "calls": 1469,
+          "mean_cycles": 16737,
+          "mean_double_speed_frame_share": 0.119,
+          "max_double_speed_frame_share": 2.76
+        },
+        "draw_objects -> hud_update": {
+          "calls": 184,
+          "mean_cycles": 22272,
+          "mean_double_speed_frame_share": 0.159,
+          "max_double_speed_frame_share": 0.231
+        }
+      }
+    },
+    "2:0": {
+      "physics_ticks": 1200,
+      "video_frames_first_to_last_physics": 1219,
+      "cadence_percent": 98.44,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1200,
+          "mean_cycles": 1270,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.054
+        },
+        "game_tick -> physics": {
+          "calls": 1200,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1200,
+          "mean_cycles": 9897,
+          "mean_double_speed_frame_share": 0.07,
+          "max_double_speed_frame_share": 0.168
+        },
+        "world_tick -> camera_update": {
+          "calls": 1199,
+          "mean_cycles": 20523,
+          "mean_double_speed_frame_share": 0.146,
+          "max_double_speed_frame_share": 2.783
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1199,
+          "mean_cycles": 18120,
+          "mean_double_speed_frame_share": 0.129,
+          "max_double_speed_frame_share": 0.423
+        },
+        "draw_objects -> hud_update": {
+          "calls": 126,
+          "mean_cycles": 25070,
+          "mean_double_speed_frame_share": 0.178,
+          "max_double_speed_frame_share": 0.218
+        }
+      }
+    },
+    "2:1": {
+      "physics_ticks": 1452,
+      "video_frames_first_to_last_physics": 1466,
+      "cadence_percent": 99.05,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1452,
+          "mean_cycles": 19770,
+          "mean_double_speed_frame_share": 0.141,
+          "max_double_speed_frame_share": 0.449
+        },
+        "draw_objects -> hud_update": {
+          "calls": 280,
+          "mean_cycles": 23778,
+          "mean_double_speed_frame_share": 0.169,
+          "max_double_speed_frame_share": 0.255
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1452,
+          "mean_cycles": 1221,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.052
+        },
+        "game_tick -> physics": {
+          "calls": 1452,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1452,
+          "mean_cycles": 14477,
+          "mean_double_speed_frame_share": 0.103,
+          "max_double_speed_frame_share": 0.262
+        },
+        "world_tick -> camera_update": {
+          "calls": 1451,
+          "mean_cycles": 14807,
+          "mean_double_speed_frame_share": 0.105,
+          "max_double_speed_frame_share": 2.735
+        }
+      }
+    },
+    "2:2": {
+      "physics_ticks": 1353,
+      "video_frames_first_to_last_physics": 1371,
+      "cadence_percent": 98.69,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1353,
+          "mean_cycles": 20381,
+          "mean_double_speed_frame_share": 0.145,
+          "max_double_speed_frame_share": 0.436
+        },
+        "draw_objects -> hud_update": {
+          "calls": 208,
+          "mean_cycles": 22061,
+          "mean_double_speed_frame_share": 0.157,
+          "max_double_speed_frame_share": 0.248
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1353,
+          "mean_cycles": 1235,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.049
+        },
+        "game_tick -> physics": {
+          "calls": 1353,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1353,
+          "mean_cycles": 14207,
+          "mean_double_speed_frame_share": 0.101,
+          "max_double_speed_frame_share": 0.23
+        },
+        "world_tick -> camera_update": {
+          "calls": 1352,
+          "mean_cycles": 17007,
+          "mean_double_speed_frame_share": 0.121,
+          "max_double_speed_frame_share": 2.737
+        }
+      }
+    },
+    "3:0": {
+      "physics_ticks": 1271,
+      "video_frames_first_to_last_physics": 1287,
+      "cadence_percent": 98.76,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1271,
+          "mean_cycles": 1117,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.053
+        },
+        "game_tick -> physics": {
+          "calls": 1271,
+          "mean_cycles": 1039,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1271,
+          "mean_cycles": 10272,
+          "mean_double_speed_frame_share": 0.073,
+          "max_double_speed_frame_share": 0.183
+        },
+        "world_tick -> camera_update": {
+          "calls": 1270,
+          "mean_cycles": 19612,
+          "mean_double_speed_frame_share": 0.14,
+          "max_double_speed_frame_share": 2.761
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1270,
+          "mean_cycles": 18572,
+          "mean_double_speed_frame_share": 0.132,
+          "max_double_speed_frame_share": 0.42
+        },
+        "draw_objects -> hud_update": {
+          "calls": 28,
+          "mean_cycles": 24037,
+          "mean_double_speed_frame_share": 0.171,
+          "max_double_speed_frame_share": 0.217
+        }
+      }
+    },
+    "3:1": {
+      "physics_ticks": 1470,
+      "video_frames_first_to_last_physics": 1490,
+      "cadence_percent": 98.66,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1470,
+          "mean_cycles": 20105,
+          "mean_double_speed_frame_share": 0.143,
+          "max_double_speed_frame_share": 0.443
+        },
+        "draw_objects -> hud_update": {
+          "calls": 279,
+          "mean_cycles": 24908,
+          "mean_double_speed_frame_share": 0.177,
+          "max_double_speed_frame_share": 0.253
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1470,
+          "mean_cycles": 1145,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.05
+        },
+        "game_tick -> physics": {
+          "calls": 1470,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1470,
+          "mean_cycles": 14040,
+          "mean_double_speed_frame_share": 0.1,
+          "max_double_speed_frame_share": 0.254
+        },
+        "world_tick -> camera_update": {
+          "calls": 1469,
+          "mean_cycles": 19854,
+          "mean_double_speed_frame_share": 0.141,
+          "max_double_speed_frame_share": 2.746
+        }
+      }
+    },
+    "3:2": {
+      "physics_ticks": 1316,
+      "video_frames_first_to_last_physics": 1336,
+      "cadence_percent": 98.5,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1316,
+          "mean_cycles": 20419,
+          "mean_double_speed_frame_share": 0.145,
+          "max_double_speed_frame_share": 0.435
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1316,
+          "mean_cycles": 1162,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.048
+        },
+        "game_tick -> physics": {
+          "calls": 1316,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1316,
+          "mean_cycles": 14959,
+          "mean_double_speed_frame_share": 0.107,
+          "max_double_speed_frame_share": 0.244
+        },
+        "world_tick -> camera_update": {
+          "calls": 1315,
+          "mean_cycles": 19907,
+          "mean_double_speed_frame_share": 0.142,
+          "max_double_speed_frame_share": 2.75
+        },
+        "draw_objects -> hud_update": {
+          "calls": 255,
+          "mean_cycles": 24262,
+          "mean_double_speed_frame_share": 0.173,
+          "max_double_speed_frame_share": 0.246
+        }
+      }
+    },
+    "4:0": {
+      "physics_ticks": 1227,
+      "video_frames_first_to_last_physics": 1254,
+      "cadence_percent": 97.85,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1227,
+          "mean_cycles": 1150,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.045
+        },
+        "game_tick -> physics": {
+          "calls": 1227,
+          "mean_cycles": 1039,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1227,
+          "mean_cycles": 10282,
+          "mean_double_speed_frame_share": 0.073,
+          "max_double_speed_frame_share": 0.169
+        },
+        "world_tick -> camera_update": {
+          "calls": 1226,
+          "mean_cycles": 22379,
+          "mean_double_speed_frame_share": 0.159,
+          "max_double_speed_frame_share": 3.747
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1226,
+          "mean_cycles": 18609,
+          "mean_double_speed_frame_share": 0.133,
+          "max_double_speed_frame_share": 0.423
+        },
+        "draw_objects -> hud_update": {
+          "calls": 124,
+          "mean_cycles": 24686,
+          "mean_double_speed_frame_share": 0.176,
+          "max_double_speed_frame_share": 0.232
+        }
+      }
+    },
+    "4:1": {
+      "physics_ticks": 1384,
+      "video_frames_first_to_last_physics": 1408,
+      "cadence_percent": 98.3,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1384,
+          "mean_cycles": 21866,
+          "mean_double_speed_frame_share": 0.156,
+          "max_double_speed_frame_share": 0.442
+        },
+        "draw_objects -> hud_update": {
+          "calls": 265,
+          "mean_cycles": 24664,
+          "mean_double_speed_frame_share": 0.176,
+          "max_double_speed_frame_share": 0.252
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1384,
+          "mean_cycles": 1143,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.052
+        },
+        "game_tick -> physics": {
+          "calls": 1384,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1384,
+          "mean_cycles": 14334,
+          "mean_double_speed_frame_share": 0.102,
+          "max_double_speed_frame_share": 0.251
+        },
+        "world_tick -> camera_update": {
+          "calls": 1383,
+          "mean_cycles": 21048,
+          "mean_double_speed_frame_share": 0.15,
+          "max_double_speed_frame_share": 4.08
+        }
+      }
+    },
+    "4:2": {
+      "physics_ticks": 1437,
+      "video_frames_first_to_last_physics": 1457,
+      "cadence_percent": 98.63,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1437,
+          "mean_cycles": 20864,
+          "mean_double_speed_frame_share": 0.149,
+          "max_double_speed_frame_share": 0.441
+        },
+        "draw_objects -> hud_update": {
+          "calls": 189,
+          "mean_cycles": 23093,
+          "mean_double_speed_frame_share": 0.164,
+          "max_double_speed_frame_share": 0.23
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1437,
+          "mean_cycles": 1125,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.053
+        },
+        "game_tick -> physics": {
+          "calls": 1437,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1437,
+          "mean_cycles": 14356,
+          "mean_double_speed_frame_share": 0.102,
+          "max_double_speed_frame_share": 0.251
+        },
+        "world_tick -> camera_update": {
+          "calls": 1436,
+          "mean_cycles": 17460,
+          "mean_double_speed_frame_share": 0.124,
+          "max_double_speed_frame_share": 2.768
+        }
+      }
+    },
+    "5:0": {
+      "physics_ticks": 1241,
+      "video_frames_first_to_last_physics": 1259,
+      "cadence_percent": 98.57,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1241,
+          "mean_cycles": 1129,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.052
+        },
+        "game_tick -> physics": {
+          "calls": 1241,
+          "mean_cycles": 1039,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1241,
+          "mean_cycles": 10526,
+          "mean_double_speed_frame_share": 0.075,
+          "max_double_speed_frame_share": 0.189
+        },
+        "world_tick -> camera_update": {
+          "calls": 1240,
+          "mean_cycles": 22486,
+          "mean_double_speed_frame_share": 0.16,
+          "max_double_speed_frame_share": 2.772
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1240,
+          "mean_cycles": 18599,
+          "mean_double_speed_frame_share": 0.132,
+          "max_double_speed_frame_share": 0.414
+        },
+        "draw_objects -> hud_update": {
+          "calls": 121,
+          "mean_cycles": 31223,
+          "mean_double_speed_frame_share": 0.222,
+          "max_double_speed_frame_share": 0.268
+        }
+      }
+    },
+    "5:1": {
+      "physics_ticks": 1428,
+      "video_frames_first_to_last_physics": 1444,
+      "cadence_percent": 98.89,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1428,
+          "mean_cycles": 21238,
+          "mean_double_speed_frame_share": 0.151,
+          "max_double_speed_frame_share": 0.446
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1428,
+          "mean_cycles": 1161,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.052
+        },
+        "game_tick -> physics": {
+          "calls": 1428,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1428,
+          "mean_cycles": 13834,
+          "mean_double_speed_frame_share": 0.098,
+          "max_double_speed_frame_share": 0.249
+        },
+        "world_tick -> camera_update": {
+          "calls": 1427,
+          "mean_cycles": 19180,
+          "mean_double_speed_frame_share": 0.137,
+          "max_double_speed_frame_share": 2.778
+        },
+        "draw_objects -> hud_update": {
+          "calls": 256,
+          "mean_cycles": 25279,
+          "mean_double_speed_frame_share": 0.18,
+          "max_double_speed_frame_share": 0.238
+        }
+      }
+    },
+    "5:2": {
+      "physics_ticks": 1812,
+      "video_frames_first_to_last_physics": 1852,
+      "cadence_percent": 97.84,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1812,
+          "mean_cycles": 16412,
+          "mean_double_speed_frame_share": 0.117,
+          "max_double_speed_frame_share": 0.44
+        },
+        "draw_objects -> hud_update": {
+          "calls": 295,
+          "mean_cycles": 34536,
+          "mean_double_speed_frame_share": 0.246,
+          "max_double_speed_frame_share": 0.358
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1812,
+          "mean_cycles": 1258,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.057
+        },
+        "game_tick -> physics": {
+          "calls": 1812,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1812,
+          "mean_cycles": 14027,
+          "mean_double_speed_frame_share": 0.1,
+          "max_double_speed_frame_share": 0.229
+        },
+        "world_tick -> camera_update": {
+          "calls": 1811,
+          "mean_cycles": 16536,
+          "mean_double_speed_frame_share": 0.118,
+          "max_double_speed_frame_share": 2.785
+        }
+      }
+    },
+    "6:0": {
+      "physics_ticks": 1150,
+      "video_frames_first_to_last_physics": 1168,
+      "cadence_percent": 98.46,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1150,
+          "mean_cycles": 1297,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.058
+        },
+        "game_tick -> physics": {
+          "calls": 1150,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1150,
+          "mean_cycles": 9787,
+          "mean_double_speed_frame_share": 0.07,
+          "max_double_speed_frame_share": 0.157
+        },
+        "world_tick -> camera_update": {
+          "calls": 1149,
+          "mean_cycles": 22205,
+          "mean_double_speed_frame_share": 0.158,
+          "max_double_speed_frame_share": 2.784
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1149,
+          "mean_cycles": 18748,
+          "mean_double_speed_frame_share": 0.133,
+          "max_double_speed_frame_share": 0.42
+        },
+        "draw_objects -> hud_update": {
+          "calls": 122,
+          "mean_cycles": 25758,
+          "mean_double_speed_frame_share": 0.183,
+          "max_double_speed_frame_share": 0.22
+        }
+      }
+    },
+    "6:1": {
+      "physics_ticks": 1443,
+      "video_frames_first_to_last_physics": 1465,
+      "cadence_percent": 98.5,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1443,
+          "mean_cycles": 19772,
+          "mean_double_speed_frame_share": 0.141,
+          "max_double_speed_frame_share": 0.443
+        },
+        "draw_objects -> hud_update": {
+          "calls": 249,
+          "mean_cycles": 25552,
+          "mean_double_speed_frame_share": 0.182,
+          "max_double_speed_frame_share": 0.268
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1443,
+          "mean_cycles": 1279,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.056
+        },
+        "game_tick -> physics": {
+          "calls": 1443,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1443,
+          "mean_cycles": 14448,
+          "mean_double_speed_frame_share": 0.103,
+          "max_double_speed_frame_share": 0.25
+        },
+        "world_tick -> camera_update": {
+          "calls": 1442,
+          "mean_cycles": 18876,
+          "mean_double_speed_frame_share": 0.134,
+          "max_double_speed_frame_share": 2.759
+        }
+      }
+    },
+    "6:2": {
+      "physics_ticks": 1448,
+      "video_frames_first_to_last_physics": 1470,
+      "cadence_percent": 98.5,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1448,
+          "mean_cycles": 20578,
+          "mean_double_speed_frame_share": 0.147,
+          "max_double_speed_frame_share": 0.442
+        },
+        "draw_objects -> hud_update": {
+          "calls": 268,
+          "mean_cycles": 24794,
+          "mean_double_speed_frame_share": 0.177,
+          "max_double_speed_frame_share": 0.257
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1448,
+          "mean_cycles": 1298,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.058
+        },
+        "game_tick -> physics": {
+          "calls": 1448,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1448,
+          "mean_cycles": 14416,
+          "mean_double_speed_frame_share": 0.103,
+          "max_double_speed_frame_share": 0.253
+        },
+        "world_tick -> camera_update": {
+          "calls": 1447,
+          "mean_cycles": 18009,
+          "mean_double_speed_frame_share": 0.128,
+          "max_double_speed_frame_share": 2.781
+        }
+      }
+    },
+    "7:0": {
+      "physics_ticks": 1223,
+      "video_frames_first_to_last_physics": 1246,
+      "cadence_percent": 98.15,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1223,
+          "mean_cycles": 1309,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.056
+        },
+        "game_tick -> physics": {
+          "calls": 1223,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1223,
+          "mean_cycles": 11126,
+          "mean_double_speed_frame_share": 0.079,
+          "max_double_speed_frame_share": 0.196
+        },
+        "world_tick -> camera_update": {
+          "calls": 1222,
+          "mean_cycles": 23768,
+          "mean_double_speed_frame_share": 0.169,
+          "max_double_speed_frame_share": 2.813
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1222,
+          "mean_cycles": 17483,
+          "mean_double_speed_frame_share": 0.124,
+          "max_double_speed_frame_share": 0.427
+        },
+        "draw_objects -> hud_update": {
+          "calls": 120,
+          "mean_cycles": 23699,
+          "mean_double_speed_frame_share": 0.169,
+          "max_double_speed_frame_share": 0.263
+        }
+      }
+    },
+    "7:1": {
+      "physics_ticks": 1461,
+      "video_frames_first_to_last_physics": 1483,
+      "cadence_percent": 98.52,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1461,
+          "mean_cycles": 20381,
+          "mean_double_speed_frame_share": 0.145,
+          "max_double_speed_frame_share": 0.433
+        },
+        "draw_objects -> hud_update": {
+          "calls": 279,
+          "mean_cycles": 25138,
+          "mean_double_speed_frame_share": 0.179,
+          "max_double_speed_frame_share": 0.26
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1461,
+          "mean_cycles": 1295,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.054
+        },
+        "game_tick -> physics": {
+          "calls": 1461,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1461,
+          "mean_cycles": 15243,
+          "mean_double_speed_frame_share": 0.109,
+          "max_double_speed_frame_share": 0.256
+        },
+        "world_tick -> camera_update": {
+          "calls": 1460,
+          "mean_cycles": 18657,
+          "mean_double_speed_frame_share": 0.133,
+          "max_double_speed_frame_share": 2.759
+        }
+      }
+    },
+    "7:2": {
+      "physics_ticks": 1479,
+      "video_frames_first_to_last_physics": 1507,
+      "cadence_percent": 98.14,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1479,
+          "mean_cycles": 19586,
+          "mean_double_speed_frame_share": 0.139,
+          "max_double_speed_frame_share": 0.437
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1479,
+          "mean_cycles": 1286,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.056
+        },
+        "game_tick -> physics": {
+          "calls": 1479,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1479,
+          "mean_cycles": 14797,
+          "mean_double_speed_frame_share": 0.105,
+          "max_double_speed_frame_share": 0.257
+        },
+        "world_tick -> camera_update": {
+          "calls": 1478,
+          "mean_cycles": 20953,
+          "mean_double_speed_frame_share": 0.149,
+          "max_double_speed_frame_share": 2.765
+        },
+        "draw_objects -> hud_update": {
+          "calls": 257,
+          "mean_cycles": 24920,
+          "mean_double_speed_frame_share": 0.177,
+          "max_double_speed_frame_share": 0.252
+        }
+      }
+    },
+    "8:0": {
+      "physics_ticks": 1205,
+      "video_frames_first_to_last_physics": 1250,
+      "cadence_percent": 96.4,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1205,
+          "mean_cycles": 1333,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.052
+        },
+        "game_tick -> physics": {
+          "calls": 1205,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1205,
+          "mean_cycles": 10154,
+          "mean_double_speed_frame_share": 0.072,
+          "max_double_speed_frame_share": 0.166
+        },
+        "world_tick -> camera_update": {
+          "calls": 1204,
+          "mean_cycles": 31781,
+          "mean_double_speed_frame_share": 0.226,
+          "max_double_speed_frame_share": 4.894
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1204,
+          "mean_cycles": 15897,
+          "mean_double_speed_frame_share": 0.113,
+          "max_double_speed_frame_share": 0.421
+        },
+        "draw_objects -> hud_update": {
+          "calls": 166,
+          "mean_cycles": 29201,
+          "mean_double_speed_frame_share": 0.208,
+          "max_double_speed_frame_share": 0.27
+        }
+      }
+    },
+    "8:1": {
+      "physics_ticks": 1296,
+      "video_frames_first_to_last_physics": 1318,
+      "cadence_percent": 98.33,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1296,
+          "mean_cycles": 20481,
+          "mean_double_speed_frame_share": 0.146,
+          "max_double_speed_frame_share": 0.434
+        },
+        "draw_objects -> hud_update": {
+          "calls": 240,
+          "mean_cycles": 24891,
+          "mean_double_speed_frame_share": 0.177,
+          "max_double_speed_frame_share": 0.274
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1296,
+          "mean_cycles": 1273,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.056
+        },
+        "game_tick -> physics": {
+          "calls": 1296,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1296,
+          "mean_cycles": 14431,
+          "mean_double_speed_frame_share": 0.103,
+          "max_double_speed_frame_share": 0.234
+        },
+        "world_tick -> camera_update": {
+          "calls": 1295,
+          "mean_cycles": 19597,
+          "mean_double_speed_frame_share": 0.14,
+          "max_double_speed_frame_share": 2.746
+        }
+      }
+    },
+    "8:2": {
+      "physics_ticks": 1491,
+      "video_frames_first_to_last_physics": 1510,
+      "cadence_percent": 98.74,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1491,
+          "mean_cycles": 20705,
+          "mean_double_speed_frame_share": 0.147,
+          "max_double_speed_frame_share": 0.44
+        },
+        "draw_objects -> hud_update": {
+          "calls": 296,
+          "mean_cycles": 23881,
+          "mean_double_speed_frame_share": 0.17,
+          "max_double_speed_frame_share": 0.246
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1491,
+          "mean_cycles": 1273,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.056
+        },
+        "game_tick -> physics": {
+          "calls": 1491,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1491,
+          "mean_cycles": 15174,
+          "mean_double_speed_frame_share": 0.108,
+          "max_double_speed_frame_share": 0.263
+        },
+        "world_tick -> camera_update": {
+          "calls": 1490,
+          "mean_cycles": 16631,
+          "mean_double_speed_frame_share": 0.118,
+          "max_double_speed_frame_share": 2.78
+        }
+      }
+    },
+    "9:0": {
+      "physics_ticks": 1212,
+      "video_frames_first_to_last_physics": 1225,
+      "cadence_percent": 98.94,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1212,
+          "mean_cycles": 1079,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.05
+        },
+        "game_tick -> physics": {
+          "calls": 1212,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1212,
+          "mean_cycles": 9447,
+          "mean_double_speed_frame_share": 0.067,
+          "max_double_speed_frame_share": 0.158
+        },
+        "world_tick -> camera_update": {
+          "calls": 1211,
+          "mean_cycles": 19860,
+          "mean_double_speed_frame_share": 0.141,
+          "max_double_speed_frame_share": 2.811
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1211,
+          "mean_cycles": 17302,
+          "mean_double_speed_frame_share": 0.123,
+          "max_double_speed_frame_share": 0.437
+        },
+        "draw_objects -> hud_update": {
+          "calls": 119,
+          "mean_cycles": 24611,
+          "mean_double_speed_frame_share": 0.175,
+          "max_double_speed_frame_share": 0.217
+        }
+      }
+    },
+    "9:1": {
+      "physics_ticks": 1290,
+      "video_frames_first_to_last_physics": 1308,
+      "cadence_percent": 98.62,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1290,
+          "mean_cycles": 20889,
+          "mean_double_speed_frame_share": 0.149,
+          "max_double_speed_frame_share": 0.443
+        },
+        "draw_objects -> hud_update": {
+          "calls": 275,
+          "mean_cycles": 24490,
+          "mean_double_speed_frame_share": 0.174,
+          "max_double_speed_frame_share": 0.223
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1290,
+          "mean_cycles": 1103,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.047
+        },
+        "game_tick -> physics": {
+          "calls": 1290,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1290,
+          "mean_cycles": 13601,
+          "mean_double_speed_frame_share": 0.097,
+          "max_double_speed_frame_share": 0.243
+        },
+        "world_tick -> camera_update": {
+          "calls": 1289,
+          "mean_cycles": 18504,
+          "mean_double_speed_frame_share": 0.132,
+          "max_double_speed_frame_share": 2.747
+        }
+      }
+    },
+    "9:2": {
+      "physics_ticks": 1451,
+      "video_frames_first_to_last_physics": 1473,
+      "cadence_percent": 98.51,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1451,
+          "mean_cycles": 20934,
+          "mean_double_speed_frame_share": 0.149,
+          "max_double_speed_frame_share": 0.443
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1451,
+          "mean_cycles": 1073,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.054
+        },
+        "game_tick -> physics": {
+          "calls": 1451,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1451,
+          "mean_cycles": 15200,
+          "mean_double_speed_frame_share": 0.108,
+          "max_double_speed_frame_share": 0.26
+        },
+        "world_tick -> camera_update": {
+          "calls": 1450,
+          "mean_cycles": 20594,
+          "mean_double_speed_frame_share": 0.147,
+          "max_double_speed_frame_share": 5.366
+        },
+        "draw_objects -> hud_update": {
+          "calls": 260,
+          "mean_cycles": 25141,
+          "mean_double_speed_frame_share": 0.179,
+          "max_double_speed_frame_share": 0.246
+        }
+      }
+    },
+    "10:0": {
+      "physics_ticks": 1328,
+      "video_frames_first_to_last_physics": 1357,
+      "cadence_percent": 97.86,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1328,
+          "mean_cycles": 1114,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.054
+        },
+        "game_tick -> physics": {
+          "calls": 1328,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1328,
+          "mean_cycles": 11068,
+          "mean_double_speed_frame_share": 0.079,
+          "max_double_speed_frame_share": 0.194
+        },
+        "world_tick -> camera_update": {
+          "calls": 1327,
+          "mean_cycles": 28331,
+          "mean_double_speed_frame_share": 0.202,
+          "max_double_speed_frame_share": 2.84
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1327,
+          "mean_cycles": 17727,
+          "mean_double_speed_frame_share": 0.126,
+          "max_double_speed_frame_share": 0.414
+        },
+        "draw_objects -> hud_update": {
+          "calls": 172,
+          "mean_cycles": 32391,
+          "mean_double_speed_frame_share": 0.231,
+          "max_double_speed_frame_share": 0.298
+        }
+      }
+    },
+    "10:1": {
+      "physics_ticks": 1467,
+      "video_frames_first_to_last_physics": 1490,
+      "cadence_percent": 98.46,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1467,
+          "mean_cycles": 20341,
+          "mean_double_speed_frame_share": 0.145,
+          "max_double_speed_frame_share": 0.435
+        },
+        "draw_objects -> hud_update": {
+          "calls": 319,
+          "mean_cycles": 24461,
+          "mean_double_speed_frame_share": 0.174,
+          "max_double_speed_frame_share": 0.228
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1467,
+          "mean_cycles": 1059,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.043
+        },
+        "game_tick -> physics": {
+          "calls": 1467,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1467,
+          "mean_cycles": 14784,
+          "mean_double_speed_frame_share": 0.105,
+          "max_double_speed_frame_share": 0.25
+        },
+        "world_tick -> camera_update": {
+          "calls": 1466,
+          "mean_cycles": 17210,
+          "mean_double_speed_frame_share": 0.123,
+          "max_double_speed_frame_share": 2.77
+        }
+      }
+    },
+    "10:2": {
+      "physics_ticks": 1357,
+      "video_frames_first_to_last_physics": 1375,
+      "cadence_percent": 98.69,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1357,
+          "mean_cycles": 19379,
+          "mean_double_speed_frame_share": 0.138,
+          "max_double_speed_frame_share": 0.453
+        },
+        "draw_objects -> hud_update": {
+          "calls": 271,
+          "mean_cycles": 25358,
+          "mean_double_speed_frame_share": 0.181,
+          "max_double_speed_frame_share": 0.245
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1357,
+          "mean_cycles": 1088,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.05
+        },
+        "game_tick -> physics": {
+          "calls": 1357,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1357,
+          "mean_cycles": 13563,
+          "mean_double_speed_frame_share": 0.097,
+          "max_double_speed_frame_share": 0.229
+        },
+        "world_tick -> camera_update": {
+          "calls": 1356,
+          "mean_cycles": 18730,
+          "mean_double_speed_frame_share": 0.133,
+          "max_double_speed_frame_share": 2.747
+        }
+      }
+    },
+    "11:0": {
+      "physics_ticks": 1170,
+      "video_frames_first_to_last_physics": 1189,
+      "cadence_percent": 98.4,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1170,
+          "mean_cycles": 1064,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.05
+        },
+        "game_tick -> physics": {
+          "calls": 1170,
+          "mean_cycles": 1039,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1170,
+          "mean_cycles": 10518,
+          "mean_double_speed_frame_share": 0.075,
+          "max_double_speed_frame_share": 0.17
+        },
+        "world_tick -> camera_update": {
+          "calls": 1169,
+          "mean_cycles": 20790,
+          "mean_double_speed_frame_share": 0.148,
+          "max_double_speed_frame_share": 2.798
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1169,
+          "mean_cycles": 17606,
+          "mean_double_speed_frame_share": 0.125,
+          "max_double_speed_frame_share": 0.421
+        },
+        "draw_objects -> hud_update": {
+          "calls": 122,
+          "mean_cycles": 26413,
+          "mean_double_speed_frame_share": 0.188,
+          "max_double_speed_frame_share": 0.244
+        }
+      }
+    },
+    "11:1": {
+      "physics_ticks": 1440,
+      "video_frames_first_to_last_physics": 1469,
+      "cadence_percent": 98.03,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1440,
+          "mean_cycles": 20032,
+          "mean_double_speed_frame_share": 0.143,
+          "max_double_speed_frame_share": 0.436
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1440,
+          "mean_cycles": 1076,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.056
+        },
+        "game_tick -> physics": {
+          "calls": 1440,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1440,
+          "mean_cycles": 14372,
+          "mean_double_speed_frame_share": 0.102,
+          "max_double_speed_frame_share": 0.255
+        },
+        "world_tick -> camera_update": {
+          "calls": 1439,
+          "mean_cycles": 20120,
+          "mean_double_speed_frame_share": 0.143,
+          "max_double_speed_frame_share": 2.759
+        },
+        "draw_objects -> hud_update": {
+          "calls": 253,
+          "mean_cycles": 24793,
+          "mean_double_speed_frame_share": 0.177,
+          "max_double_speed_frame_share": 0.255
+        }
+      }
+    },
+    "11:2": {
+      "physics_ticks": 1718,
+      "video_frames_first_to_last_physics": 1769,
+      "cadence_percent": 97.12,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1718,
+          "mean_cycles": 16344,
+          "mean_double_speed_frame_share": 0.116,
+          "max_double_speed_frame_share": 0.439
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1718,
+          "mean_cycles": 1327,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.056
+        },
+        "game_tick -> physics": {
+          "calls": 1718,
+          "mean_cycles": 1041,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1718,
+          "mean_cycles": 13467,
+          "mean_double_speed_frame_share": 0.096,
+          "max_double_speed_frame_share": 0.22
+        },
+        "world_tick -> camera_update": {
+          "calls": 1717,
+          "mean_cycles": 19216,
+          "mean_double_speed_frame_share": 0.137,
+          "max_double_speed_frame_share": 2.798
+        },
+        "draw_objects -> hud_update": {
+          "calls": 314,
+          "mean_cycles": 33635,
+          "mean_double_speed_frame_share": 0.239,
+          "max_double_speed_frame_share": 0.358
+        }
+      }
+    },
+    "12:0": {
+      "physics_ticks": 1511,
+      "video_frames_first_to_last_physics": 1537,
+      "cadence_percent": 98.31,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1511,
+          "mean_cycles": 1162,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.058
+        },
+        "game_tick -> physics": {
+          "calls": 1511,
+          "mean_cycles": 1979,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1511,
+          "mean_cycles": 13906,
+          "mean_double_speed_frame_share": 0.099,
+          "max_double_speed_frame_share": 0.25
+        },
+        "world_tick -> camera_update": {
+          "calls": 1510,
+          "mean_cycles": 18571,
+          "mean_double_speed_frame_share": 0.132,
+          "max_double_speed_frame_share": 2.753
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1510,
+          "mean_cycles": 18244,
+          "mean_double_speed_frame_share": 0.13,
+          "max_double_speed_frame_share": 0.42
+        },
+        "draw_objects -> hud_update": {
+          "calls": 86,
+          "mean_cycles": 26735,
+          "mean_double_speed_frame_share": 0.19,
+          "max_double_speed_frame_share": 0.302
+        }
+      }
+    },
+    "12:1": {
+      "physics_ticks": 1454,
+      "video_frames_first_to_last_physics": 1482,
+      "cadence_percent": 98.11,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1454,
+          "mean_cycles": 20071,
+          "mean_double_speed_frame_share": 0.143,
+          "max_double_speed_frame_share": 0.439
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1454,
+          "mean_cycles": 1219,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.05
+        },
+        "game_tick -> physics": {
+          "calls": 1454,
+          "mean_cycles": 1967,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1454,
+          "mean_cycles": 14987,
+          "mean_double_speed_frame_share": 0.107,
+          "max_double_speed_frame_share": 0.255
+        },
+        "world_tick -> camera_update": {
+          "calls": 1453,
+          "mean_cycles": 21605,
+          "mean_double_speed_frame_share": 0.154,
+          "max_double_speed_frame_share": 2.78
+        },
+        "draw_objects -> hud_update": {
+          "calls": 223,
+          "mean_cycles": 25302,
+          "mean_double_speed_frame_share": 0.18,
+          "max_double_speed_frame_share": 0.308
+        }
+      }
+    },
+    "12:2": {
+      "physics_ticks": 1343,
+      "video_frames_first_to_last_physics": 1366,
+      "cadence_percent": 98.32,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1343,
+          "mean_cycles": 18821,
+          "mean_double_speed_frame_share": 0.134,
+          "max_double_speed_frame_share": 0.441
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1343,
+          "mean_cycles": 1236,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.057
+        },
+        "game_tick -> physics": {
+          "calls": 1343,
+          "mean_cycles": 1987,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1343,
+          "mean_cycles": 13574,
+          "mean_double_speed_frame_share": 0.097,
+          "max_double_speed_frame_share": 0.226
+        },
+        "world_tick -> camera_update": {
+          "calls": 1342,
+          "mean_cycles": 20649,
+          "mean_double_speed_frame_share": 0.147,
+          "max_double_speed_frame_share": 2.761
+        },
+        "draw_objects -> hud_update": {
+          "calls": 257,
+          "mean_cycles": 26606,
+          "mean_double_speed_frame_share": 0.189,
+          "max_double_speed_frame_share": 0.296
+        }
+      }
+    },
+    "13:0": {
+      "physics_ticks": 1580,
+      "video_frames_first_to_last_physics": 1606,
+      "cadence_percent": 98.38,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1580,
+          "mean_cycles": 1178,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.057
+        },
+        "game_tick -> physics": {
+          "calls": 1580,
+          "mean_cycles": 1038,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1580,
+          "mean_cycles": 14730,
+          "mean_double_speed_frame_share": 0.105,
+          "max_double_speed_frame_share": 0.254
+        },
+        "world_tick -> camera_update": {
+          "calls": 1579,
+          "mean_cycles": 21144,
+          "mean_double_speed_frame_share": 0.151,
+          "max_double_speed_frame_share": 2.782
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1579,
+          "mean_cycles": 20232,
+          "mean_double_speed_frame_share": 0.144,
+          "max_double_speed_frame_share": 0.414
+        },
+        "draw_objects -> hud_update": {
+          "calls": 129,
+          "mean_cycles": 28869,
+          "mean_double_speed_frame_share": 0.206,
+          "max_double_speed_frame_share": 0.289
+        }
+      }
+    },
+    "13:1": {
+      "physics_ticks": 1376,
+      "video_frames_first_to_last_physics": 1401,
+      "cadence_percent": 98.22,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1376,
+          "mean_cycles": 20824,
+          "mean_double_speed_frame_share": 0.148,
+          "max_double_speed_frame_share": 0.438
+        },
+        "draw_objects -> hud_update": {
+          "calls": 269,
+          "mean_cycles": 26255,
+          "mean_double_speed_frame_share": 0.187,
+          "max_double_speed_frame_share": 0.268
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1376,
+          "mean_cycles": 1189,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.05
+        },
+        "game_tick -> physics": {
+          "calls": 1376,
+          "mean_cycles": 1964,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1376,
+          "mean_cycles": 14165,
+          "mean_double_speed_frame_share": 0.101,
+          "max_double_speed_frame_share": 0.25
+        },
+        "world_tick -> camera_update": {
+          "calls": 1375,
+          "mean_cycles": 21440,
+          "mean_double_speed_frame_share": 0.153,
+          "max_double_speed_frame_share": 2.799
+        }
+      }
+    },
+    "13:2": {
+      "physics_ticks": 1518,
+      "video_frames_first_to_last_physics": 1541,
+      "cadence_percent": 98.51,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1518,
+          "mean_cycles": 20603,
+          "mean_double_speed_frame_share": 0.147,
+          "max_double_speed_frame_share": 0.436
+        },
+        "draw_objects -> hud_update": {
+          "calls": 275,
+          "mean_cycles": 26823,
+          "mean_double_speed_frame_share": 0.191,
+          "max_double_speed_frame_share": 0.258
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1518,
+          "mean_cycles": 1171,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.056
+        },
+        "game_tick -> physics": {
+          "calls": 1518,
+          "mean_cycles": 1978,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1518,
+          "mean_cycles": 14582,
+          "mean_double_speed_frame_share": 0.104,
+          "max_double_speed_frame_share": 0.259
+        },
+        "world_tick -> camera_update": {
+          "calls": 1517,
+          "mean_cycles": 18204,
+          "mean_double_speed_frame_share": 0.13,
+          "max_double_speed_frame_share": 2.767
+        }
+      }
+    },
+    "14:0": {
+      "physics_ticks": 1557,
+      "video_frames_first_to_last_physics": 1583,
+      "cadence_percent": 98.36,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1557,
+          "mean_cycles": 1186,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.05
+        },
+        "game_tick -> physics": {
+          "calls": 1557,
+          "mean_cycles": 1995,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1557,
+          "mean_cycles": 14184,
+          "mean_double_speed_frame_share": 0.101,
+          "max_double_speed_frame_share": 0.249
+        },
+        "world_tick -> camera_update": {
+          "calls": 1556,
+          "mean_cycles": 19976,
+          "mean_double_speed_frame_share": 0.142,
+          "max_double_speed_frame_share": 2.766
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1556,
+          "mean_cycles": 18716,
+          "mean_double_speed_frame_share": 0.133,
+          "max_double_speed_frame_share": 0.423
+        },
+        "draw_objects -> hud_update": {
+          "calls": 133,
+          "mean_cycles": 30198,
+          "mean_double_speed_frame_share": 0.215,
+          "max_double_speed_frame_share": 0.277
+        }
+      }
+    },
+    "14:1": {
+      "physics_ticks": 1261,
+      "video_frames_first_to_last_physics": 1304,
+      "cadence_percent": 96.7,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1261,
+          "mean_cycles": 19669,
+          "mean_double_speed_frame_share": 0.14,
+          "max_double_speed_frame_share": 0.435
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1261,
+          "mean_cycles": 1208,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.05
+        },
+        "game_tick -> physics": {
+          "calls": 1261,
+          "mean_cycles": 2902,
+          "mean_double_speed_frame_share": 0.021,
+          "max_double_speed_frame_share": 0.025
+        },
+        "physics -> world_tick": {
+          "calls": 1261,
+          "mean_cycles": 14661,
+          "mean_double_speed_frame_share": 0.104,
+          "max_double_speed_frame_share": 0.248
+        },
+        "world_tick -> camera_update": {
+          "calls": 1260,
+          "mean_cycles": 20472,
+          "mean_double_speed_frame_share": 0.146,
+          "max_double_speed_frame_share": 2.748
+        },
+        "draw_objects -> hud_update": {
+          "calls": 207,
+          "mean_cycles": 27269,
+          "mean_double_speed_frame_share": 0.194,
+          "max_double_speed_frame_share": 0.304
+        }
+      }
+    },
+    "14:2": {
+      "physics_ticks": 1461,
+      "video_frames_first_to_last_physics": 1487,
+      "cadence_percent": 98.25,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1461,
+          "mean_cycles": 20507,
+          "mean_double_speed_frame_share": 0.146,
+          "max_double_speed_frame_share": 0.439
+        },
+        "draw_objects -> hud_update": {
+          "calls": 324,
+          "mean_cycles": 25845,
+          "mean_double_speed_frame_share": 0.184,
+          "max_double_speed_frame_share": 0.262
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1461,
+          "mean_cycles": 1221,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.05
+        },
+        "game_tick -> physics": {
+          "calls": 1461,
+          "mean_cycles": 1983,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1461,
+          "mean_cycles": 15079,
+          "mean_double_speed_frame_share": 0.107,
+          "max_double_speed_frame_share": 0.257
+        },
+        "world_tick -> camera_update": {
+          "calls": 1460,
+          "mean_cycles": 20257,
+          "mean_double_speed_frame_share": 0.144,
+          "max_double_speed_frame_share": 2.773
+        }
+      }
+    },
+    "15:0": {
+      "physics_ticks": 1401,
+      "video_frames_first_to_last_physics": 1432,
+      "cadence_percent": 97.84,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1401,
+          "mean_cycles": 1030,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.054
+        },
+        "game_tick -> physics": {
+          "calls": 1401,
+          "mean_cycles": 2000,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1401,
+          "mean_cycles": 14324,
+          "mean_double_speed_frame_share": 0.102,
+          "max_double_speed_frame_share": 0.248
+        },
+        "world_tick -> camera_update": {
+          "calls": 1400,
+          "mean_cycles": 21773,
+          "mean_double_speed_frame_share": 0.155,
+          "max_double_speed_frame_share": 2.762
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1400,
+          "mean_cycles": 18135,
+          "mean_double_speed_frame_share": 0.129,
+          "max_double_speed_frame_share": 0.414
+        },
+        "draw_objects -> hud_update": {
+          "calls": 128,
+          "mean_cycles": 29728,
+          "mean_double_speed_frame_share": 0.212,
+          "max_double_speed_frame_share": 0.292
+        }
+      }
+    },
+    "15:1": {
+      "physics_ticks": 1469,
+      "video_frames_first_to_last_physics": 1494,
+      "cadence_percent": 98.33,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1469,
+          "mean_cycles": 18947,
+          "mean_double_speed_frame_share": 0.135,
+          "max_double_speed_frame_share": 0.439
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1469,
+          "mean_cycles": 1070,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.049
+        },
+        "game_tick -> physics": {
+          "calls": 1469,
+          "mean_cycles": 1979,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1469,
+          "mean_cycles": 14496,
+          "mean_double_speed_frame_share": 0.103,
+          "max_double_speed_frame_share": 0.256
+        },
+        "world_tick -> camera_update": {
+          "calls": 1468,
+          "mean_cycles": 18178,
+          "mean_double_speed_frame_share": 0.129,
+          "max_double_speed_frame_share": 2.806
+        },
+        "draw_objects -> hud_update": {
+          "calls": 302,
+          "mean_cycles": 27102,
+          "mean_double_speed_frame_share": 0.193,
+          "max_double_speed_frame_share": 0.282
+        }
+      }
+    },
+    "15:2": {
+      "physics_ticks": 1426,
+      "video_frames_first_to_last_physics": 1446,
+      "cadence_percent": 98.62,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1426,
+          "mean_cycles": 18848,
+          "mean_double_speed_frame_share": 0.134,
+          "max_double_speed_frame_share": 0.443
+        },
+        "draw_objects -> hud_update": {
+          "calls": 272,
+          "mean_cycles": 25036,
+          "mean_double_speed_frame_share": 0.178,
+          "max_double_speed_frame_share": 0.26
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1426,
+          "mean_cycles": 1025,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.053
+        },
+        "game_tick -> physics": {
+          "calls": 1426,
+          "mean_cycles": 1977,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1426,
+          "mean_cycles": 13799,
+          "mean_double_speed_frame_share": 0.098,
+          "max_double_speed_frame_share": 0.256
+        },
+        "world_tick -> camera_update": {
+          "calls": 1425,
+          "mean_cycles": 19435,
+          "mean_double_speed_frame_share": 0.138,
+          "max_double_speed_frame_share": 2.792
+        }
+      }
+    },
+    "16:0": {
+      "physics_ticks": 1632,
+      "video_frames_first_to_last_physics": 1659,
+      "cadence_percent": 98.37,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1632,
+          "mean_cycles": 1032,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.053
+        },
+        "game_tick -> physics": {
+          "calls": 1632,
+          "mean_cycles": 1039,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1632,
+          "mean_cycles": 14512,
+          "mean_double_speed_frame_share": 0.103,
+          "max_double_speed_frame_share": 0.251
+        },
+        "world_tick -> camera_update": {
+          "calls": 1631,
+          "mean_cycles": 20818,
+          "mean_double_speed_frame_share": 0.148,
+          "max_double_speed_frame_share": 2.767
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1631,
+          "mean_cycles": 16306,
+          "mean_double_speed_frame_share": 0.116,
+          "max_double_speed_frame_share": 0.43
+        },
+        "draw_objects -> hud_update": {
+          "calls": 132,
+          "mean_cycles": 28863,
+          "mean_double_speed_frame_share": 0.206,
+          "max_double_speed_frame_share": 0.288
+        }
+      }
+    },
+    "16:1": {
+      "physics_ticks": 1300,
+      "video_frames_first_to_last_physics": 1320,
+      "cadence_percent": 98.48,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1300,
+          "mean_cycles": 20831,
+          "mean_double_speed_frame_share": 0.148,
+          "max_double_speed_frame_share": 0.436
+        },
+        "draw_objects -> hud_update": {
+          "calls": 314,
+          "mean_cycles": 25503,
+          "mean_double_speed_frame_share": 0.182,
+          "max_double_speed_frame_share": 0.273
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1300,
+          "mean_cycles": 1050,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.046
+        },
+        "game_tick -> physics": {
+          "calls": 1300,
+          "mean_cycles": 1981,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1300,
+          "mean_cycles": 14605,
+          "mean_double_speed_frame_share": 0.104,
+          "max_double_speed_frame_share": 0.243
+        },
+        "world_tick -> camera_update": {
+          "calls": 1299,
+          "mean_cycles": 19862,
+          "mean_double_speed_frame_share": 0.141,
+          "max_double_speed_frame_share": 2.776
+        }
+      }
+    },
+    "16:2": {
+      "physics_ticks": 1490,
+      "video_frames_first_to_last_physics": 1523,
+      "cadence_percent": 97.83,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1490,
+          "mean_cycles": 18154,
+          "mean_double_speed_frame_share": 0.129,
+          "max_double_speed_frame_share": 0.437
+        },
+        "draw_objects -> hud_update": {
+          "calls": 279,
+          "mean_cycles": 27355,
+          "mean_double_speed_frame_share": 0.195,
+          "max_double_speed_frame_share": 0.267
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1490,
+          "mean_cycles": 1053,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.046
+        },
+        "game_tick -> physics": {
+          "calls": 1490,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1490,
+          "mean_cycles": 15872,
+          "mean_double_speed_frame_share": 0.113,
+          "max_double_speed_frame_share": 0.269
+        },
+        "world_tick -> camera_update": {
+          "calls": 1489,
+          "mean_cycles": 21435,
+          "mean_double_speed_frame_share": 0.153,
+          "max_double_speed_frame_share": 2.83
+        }
+      }
+    },
+    "17:0": {
+      "physics_ticks": 1567,
+      "video_frames_first_to_last_physics": 1595,
+      "cadence_percent": 98.24,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1567,
+          "mean_cycles": 1038,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.049
+        },
+        "game_tick -> physics": {
+          "calls": 1567,
+          "mean_cycles": 1973,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1567,
+          "mean_cycles": 13824,
+          "mean_double_speed_frame_share": 0.098,
+          "max_double_speed_frame_share": 0.251
+        },
+        "world_tick -> camera_update": {
+          "calls": 1566,
+          "mean_cycles": 18993,
+          "mean_double_speed_frame_share": 0.135,
+          "max_double_speed_frame_share": 2.793
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1566,
+          "mean_cycles": 19404,
+          "mean_double_speed_frame_share": 0.138,
+          "max_double_speed_frame_share": 0.419
+        },
+        "draw_objects -> hud_update": {
+          "calls": 131,
+          "mean_cycles": 27281,
+          "mean_double_speed_frame_share": 0.194,
+          "max_double_speed_frame_share": 0.298
+        }
+      }
+    },
+    "17:1": {
+      "physics_ticks": 1439,
+      "video_frames_first_to_last_physics": 1460,
+      "cadence_percent": 98.56,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1439,
+          "mean_cycles": 21118,
+          "mean_double_speed_frame_share": 0.15,
+          "max_double_speed_frame_share": 0.437
+        },
+        "draw_objects -> hud_update": {
+          "calls": 275,
+          "mean_cycles": 26324,
+          "mean_double_speed_frame_share": 0.187,
+          "max_double_speed_frame_share": 0.25
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1439,
+          "mean_cycles": 1022,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.047
+        },
+        "game_tick -> physics": {
+          "calls": 1439,
+          "mean_cycles": 1975,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1439,
+          "mean_cycles": 14150,
+          "mean_double_speed_frame_share": 0.101,
+          "max_double_speed_frame_share": 0.252
+        },
+        "world_tick -> camera_update": {
+          "calls": 1438,
+          "mean_cycles": 17007,
+          "mean_double_speed_frame_share": 0.121,
+          "max_double_speed_frame_share": 5.3
+        }
+      }
+    },
+    "17:2": {
+      "physics_ticks": 1755,
+      "video_frames_first_to_last_physics": 1801,
+      "cadence_percent": 97.45,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1755,
+          "mean_cycles": 14713,
+          "mean_double_speed_frame_share": 0.105,
+          "max_double_speed_frame_share": 0.436
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1755,
+          "mean_cycles": 1190,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.059
+        },
+        "game_tick -> physics": {
+          "calls": 1755,
+          "mean_cycles": 1976,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1755,
+          "mean_cycles": 13092,
+          "mean_double_speed_frame_share": 0.093,
+          "max_double_speed_frame_share": 0.22
+        },
+        "world_tick -> camera_update": {
+          "calls": 1754,
+          "mean_cycles": 16416,
+          "mean_double_speed_frame_share": 0.117,
+          "max_double_speed_frame_share": 2.771
+        },
+        "draw_objects -> hud_update": {
+          "calls": 305,
+          "mean_cycles": 35641,
+          "mean_double_speed_frame_share": 0.254,
+          "max_double_speed_frame_share": 0.358
+        }
+      }
+    },
+    "18:0": {
+      "physics_ticks": 1554,
+      "video_frames_first_to_last_physics": 1577,
+      "cadence_percent": 98.54,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1554,
+          "mean_cycles": 1150,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.048
+        },
+        "game_tick -> physics": {
+          "calls": 1554,
+          "mean_cycles": 1039,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1554,
+          "mean_cycles": 13456,
+          "mean_double_speed_frame_share": 0.096,
+          "max_double_speed_frame_share": 0.256
+        },
+        "world_tick -> camera_update": {
+          "calls": 1553,
+          "mean_cycles": 18031,
+          "mean_double_speed_frame_share": 0.128,
+          "max_double_speed_frame_share": 2.748
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1553,
+          "mean_cycles": 19495,
+          "mean_double_speed_frame_share": 0.139,
+          "max_double_speed_frame_share": 0.42
+        },
+        "draw_objects -> hud_update": {
+          "calls": 101,
+          "mean_cycles": 26081,
+          "mean_double_speed_frame_share": 0.186,
+          "max_double_speed_frame_share": 0.263
+        }
+      }
+    },
+    "18:1": {
+      "physics_ticks": 1460,
+      "video_frames_first_to_last_physics": 1490,
+      "cadence_percent": 97.99,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1460,
+          "mean_cycles": 18957,
+          "mean_double_speed_frame_share": 0.135,
+          "max_double_speed_frame_share": 0.44
+        },
+        "draw_objects -> hud_update": {
+          "calls": 322,
+          "mean_cycles": 26081,
+          "mean_double_speed_frame_share": 0.186,
+          "max_double_speed_frame_share": 0.274
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1460,
+          "mean_cycles": 1194,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.054
+        },
+        "game_tick -> physics": {
+          "calls": 1460,
+          "mean_cycles": 1976,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1460,
+          "mean_cycles": 14798,
+          "mean_double_speed_frame_share": 0.105,
+          "max_double_speed_frame_share": 0.263
+        },
+        "world_tick -> camera_update": {
+          "calls": 1459,
+          "mean_cycles": 21034,
+          "mean_double_speed_frame_share": 0.15,
+          "max_double_speed_frame_share": 5.356
+        }
+      }
+    },
+    "18:2": {
+      "physics_ticks": 1531,
+      "video_frames_first_to_last_physics": 1551,
+      "cadence_percent": 98.71,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1531,
+          "mean_cycles": 19867,
+          "mean_double_speed_frame_share": 0.141,
+          "max_double_speed_frame_share": 0.436
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1531,
+          "mean_cycles": 1154,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.048
+        },
+        "game_tick -> physics": {
+          "calls": 1531,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1531,
+          "mean_cycles": 14178,
+          "mean_double_speed_frame_share": 0.101,
+          "max_double_speed_frame_share": 0.246
+        },
+        "world_tick -> camera_update": {
+          "calls": 1530,
+          "mean_cycles": 16649,
+          "mean_double_speed_frame_share": 0.119,
+          "max_double_speed_frame_share": 2.775
+        },
+        "draw_objects -> hud_update": {
+          "calls": 252,
+          "mean_cycles": 23514,
+          "mean_double_speed_frame_share": 0.167,
+          "max_double_speed_frame_share": 0.253
+        }
+      }
+    },
+    "19:0": {
+      "physics_ticks": 1598,
+      "video_frames_first_to_last_physics": 1619,
+      "cadence_percent": 98.7,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1598,
+          "mean_cycles": 1172,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.056
+        },
+        "game_tick -> physics": {
+          "calls": 1598,
+          "mean_cycles": 1966,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1598,
+          "mean_cycles": 14362,
+          "mean_double_speed_frame_share": 0.102,
+          "max_double_speed_frame_share": 0.252
+        },
+        "world_tick -> camera_update": {
+          "calls": 1597,
+          "mean_cycles": 17802,
+          "mean_double_speed_frame_share": 0.127,
+          "max_double_speed_frame_share": 2.753
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1597,
+          "mean_cycles": 19603,
+          "mean_double_speed_frame_share": 0.14,
+          "max_double_speed_frame_share": 0.429
+        },
+        "draw_objects -> hud_update": {
+          "calls": 175,
+          "mean_cycles": 26887,
+          "mean_double_speed_frame_share": 0.191,
+          "max_double_speed_frame_share": 0.29
+        }
+      }
+    },
+    "19:1": {
+      "physics_ticks": 1339,
+      "video_frames_first_to_last_physics": 1363,
+      "cadence_percent": 98.24,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1339,
+          "mean_cycles": 15872,
+          "mean_double_speed_frame_share": 0.113,
+          "max_double_speed_frame_share": 0.436
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1339,
+          "mean_cycles": 1196,
+          "mean_double_speed_frame_share": 0.009,
+          "max_double_speed_frame_share": 0.048
+        },
+        "game_tick -> physics": {
+          "calls": 1339,
+          "mean_cycles": 1988,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1339,
+          "mean_cycles": 14532,
+          "mean_double_speed_frame_share": 0.103,
+          "max_double_speed_frame_share": 0.25
+        },
+        "world_tick -> camera_update": {
+          "calls": 1338,
+          "mean_cycles": 20251,
+          "mean_double_speed_frame_share": 0.144,
+          "max_double_speed_frame_share": 2.75
+        },
+        "draw_objects -> hud_update": {
+          "calls": 300,
+          "mean_cycles": 27705,
+          "mean_double_speed_frame_share": 0.197,
+          "max_double_speed_frame_share": 0.282
+        }
+      }
+    },
+    "19:2": {
+      "physics_ticks": 1452,
+      "video_frames_first_to_last_physics": 1472,
+      "cadence_percent": 98.64,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1452,
+          "mean_cycles": 19984,
+          "mean_double_speed_frame_share": 0.142,
+          "max_double_speed_frame_share": 0.437
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1452,
+          "mean_cycles": 1164,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.047
+        },
+        "game_tick -> physics": {
+          "calls": 1452,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1452,
+          "mean_cycles": 14647,
+          "mean_double_speed_frame_share": 0.104,
+          "max_double_speed_frame_share": 0.248
+        },
+        "world_tick -> camera_update": {
+          "calls": 1451,
+          "mean_cycles": 19331,
+          "mean_double_speed_frame_share": 0.138,
+          "max_double_speed_frame_share": 2.791
+        },
+        "draw_objects -> hud_update": {
+          "calls": 249,
+          "mean_cycles": 25162,
+          "mean_double_speed_frame_share": 0.179,
+          "max_double_speed_frame_share": 0.244
+        }
+      }
+    },
+    "20:0": {
+      "physics_ticks": 1576,
+      "video_frames_first_to_last_physics": 1604,
+      "cadence_percent": 98.25,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1576,
+          "mean_cycles": 1137,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.049
+        },
+        "game_tick -> physics": {
+          "calls": 1576,
+          "mean_cycles": 1039,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1576,
+          "mean_cycles": 13995,
+          "mean_double_speed_frame_share": 0.1,
+          "max_double_speed_frame_share": 0.257
+        },
+        "world_tick -> camera_update": {
+          "calls": 1575,
+          "mean_cycles": 18598,
+          "mean_double_speed_frame_share": 0.132,
+          "max_double_speed_frame_share": 2.742
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1575,
+          "mean_cycles": 19429,
+          "mean_double_speed_frame_share": 0.138,
+          "max_double_speed_frame_share": 0.415
+        },
+        "draw_objects -> hud_update": {
+          "calls": 130,
+          "mean_cycles": 27844,
+          "mean_double_speed_frame_share": 0.198,
+          "max_double_speed_frame_share": 0.261
+        }
+      }
+    },
+    "20:1": {
+      "physics_ticks": 1487,
+      "video_frames_first_to_last_physics": 1517,
+      "cadence_percent": 98.02,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1487,
+          "mean_cycles": 19730,
+          "mean_double_speed_frame_share": 0.14,
+          "max_double_speed_frame_share": 0.44
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1487,
+          "mean_cycles": 1188,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.057
+        },
+        "game_tick -> physics": {
+          "calls": 1487,
+          "mean_cycles": 1977,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1487,
+          "mean_cycles": 15315,
+          "mean_double_speed_frame_share": 0.109,
+          "max_double_speed_frame_share": 0.262
+        },
+        "world_tick -> camera_update": {
+          "calls": 1486,
+          "mean_cycles": 19121,
+          "mean_double_speed_frame_share": 0.136,
+          "max_double_speed_frame_share": 2.754
+        },
+        "draw_objects -> hud_update": {
+          "calls": 173,
+          "mean_cycles": 26366,
+          "mean_double_speed_frame_share": 0.188,
+          "max_double_speed_frame_share": 0.268
+        }
+      }
+    },
+    "20:2": {
+      "physics_ticks": 1295,
+      "video_frames_first_to_last_physics": 1315,
+      "cadence_percent": 98.48,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1295,
+          "mean_cycles": 20915,
+          "mean_double_speed_frame_share": 0.149,
+          "max_double_speed_frame_share": 0.434
+        },
+        "draw_objects -> hud_update": {
+          "calls": 271,
+          "mean_cycles": 27875,
+          "mean_double_speed_frame_share": 0.198,
+          "max_double_speed_frame_share": 0.265
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1295,
+          "mean_cycles": 1161,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.049
+        },
+        "game_tick -> physics": {
+          "calls": 1295,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1295,
+          "mean_cycles": 14235,
+          "mean_double_speed_frame_share": 0.101,
+          "max_double_speed_frame_share": 0.241
+        },
+        "world_tick -> camera_update": {
+          "calls": 1294,
+          "mean_cycles": 19483,
+          "mean_double_speed_frame_share": 0.139,
+          "max_double_speed_frame_share": 2.766
+        }
+      }
+    },
+    "21:0": {
+      "physics_ticks": 1583,
+      "video_frames_first_to_last_physics": 1600,
+      "cadence_percent": 98.94,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1583,
+          "mean_cycles": 1057,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.047
+        },
+        "game_tick -> physics": {
+          "calls": 1583,
+          "mean_cycles": 1038,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1583,
+          "mean_cycles": 14502,
+          "mean_double_speed_frame_share": 0.103,
+          "max_double_speed_frame_share": 0.262
+        },
+        "world_tick -> camera_update": {
+          "calls": 1582,
+          "mean_cycles": 16257,
+          "mean_double_speed_frame_share": 0.116,
+          "max_double_speed_frame_share": 5.282
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1582,
+          "mean_cycles": 19319,
+          "mean_double_speed_frame_share": 0.138,
+          "max_double_speed_frame_share": 0.42
+        },
+        "draw_objects -> hud_update": {
+          "calls": 132,
+          "mean_cycles": 25784,
+          "mean_double_speed_frame_share": 0.184,
+          "max_double_speed_frame_share": 0.231
+        }
+      }
+    },
+    "21:1": {
+      "physics_ticks": 1487,
+      "video_frames_first_to_last_physics": 1513,
+      "cadence_percent": 98.28,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1487,
+          "mean_cycles": 20307,
+          "mean_double_speed_frame_share": 0.145,
+          "max_double_speed_frame_share": 0.442
+        },
+        "draw_objects -> hud_update": {
+          "calls": 325,
+          "mean_cycles": 25544,
+          "mean_double_speed_frame_share": 0.182,
+          "max_double_speed_frame_share": 0.267
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1487,
+          "mean_cycles": 1093,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.049
+        },
+        "game_tick -> physics": {
+          "calls": 1487,
+          "mean_cycles": 1965,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1487,
+          "mean_cycles": 15309,
+          "mean_double_speed_frame_share": 0.109,
+          "max_double_speed_frame_share": 0.268
+        },
+        "world_tick -> camera_update": {
+          "calls": 1486,
+          "mean_cycles": 17742,
+          "mean_double_speed_frame_share": 0.126,
+          "max_double_speed_frame_share": 2.765
+        }
+      }
+    },
+    "21:2": {
+      "physics_ticks": 1567,
+      "video_frames_first_to_last_physics": 1585,
+      "cadence_percent": 98.86,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1567,
+          "mean_cycles": 19293,
+          "mean_double_speed_frame_share": 0.137,
+          "max_double_speed_frame_share": 0.44
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1567,
+          "mean_cycles": 1087,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.051
+        },
+        "game_tick -> physics": {
+          "calls": 1567,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1567,
+          "mean_cycles": 14324,
+          "mean_double_speed_frame_share": 0.102,
+          "max_double_speed_frame_share": 0.25
+        },
+        "world_tick -> camera_update": {
+          "calls": 1566,
+          "mean_cycles": 17524,
+          "mean_double_speed_frame_share": 0.125,
+          "max_double_speed_frame_share": 2.758
+        },
+        "draw_objects -> hud_update": {
+          "calls": 244,
+          "mean_cycles": 24117,
+          "mean_double_speed_frame_share": 0.172,
+          "max_double_speed_frame_share": 0.228
+        }
+      }
+    },
+    "22:0": {
+      "physics_ticks": 1454,
+      "video_frames_first_to_last_physics": 1469,
+      "cadence_percent": 98.98,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1454,
+          "mean_cycles": 1061,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.046
+        },
+        "game_tick -> physics": {
+          "calls": 1454,
+          "mean_cycles": 1990,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1454,
+          "mean_cycles": 13673,
+          "mean_double_speed_frame_share": 0.097,
+          "max_double_speed_frame_share": 0.237
+        },
+        "world_tick -> camera_update": {
+          "calls": 1453,
+          "mean_cycles": 19323,
+          "mean_double_speed_frame_share": 0.138,
+          "max_double_speed_frame_share": 2.775
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1453,
+          "mean_cycles": 16142,
+          "mean_double_speed_frame_share": 0.115,
+          "max_double_speed_frame_share": 0.427
+        },
+        "draw_objects -> hud_update": {
+          "calls": 132,
+          "mean_cycles": 29467,
+          "mean_double_speed_frame_share": 0.21,
+          "max_double_speed_frame_share": 0.263
+        }
+      }
+    },
+    "22:1": {
+      "physics_ticks": 1438,
+      "video_frames_first_to_last_physics": 1463,
+      "cadence_percent": 98.29,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1438,
+          "mean_cycles": 19614,
+          "mean_double_speed_frame_share": 0.14,
+          "max_double_speed_frame_share": 0.436
+        },
+        "draw_objects -> hud_update": {
+          "calls": 264,
+          "mean_cycles": 25301,
+          "mean_double_speed_frame_share": 0.18,
+          "max_double_speed_frame_share": 0.277
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1438,
+          "mean_cycles": 1031,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.049
+        },
+        "game_tick -> physics": {
+          "calls": 1438,
+          "mean_cycles": 1981,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1438,
+          "mean_cycles": 13878,
+          "mean_double_speed_frame_share": 0.099,
+          "max_double_speed_frame_share": 0.253
+        },
+        "world_tick -> camera_update": {
+          "calls": 1437,
+          "mean_cycles": 18444,
+          "mean_double_speed_frame_share": 0.131,
+          "max_double_speed_frame_share": 2.772
+        }
+      }
+    },
+    "22:2": {
+      "physics_ticks": 1453,
+      "video_frames_first_to_last_physics": 1479,
+      "cadence_percent": 98.24,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1453,
+          "mean_cycles": 20575,
+          "mean_double_speed_frame_share": 0.146,
+          "max_double_speed_frame_share": 0.441
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1453,
+          "mean_cycles": 1076,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.05
+        },
+        "game_tick -> physics": {
+          "calls": 1453,
+          "mean_cycles": 1039,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1453,
+          "mean_cycles": 15491,
+          "mean_double_speed_frame_share": 0.11,
+          "max_double_speed_frame_share": 0.271
+        },
+        "world_tick -> camera_update": {
+          "calls": 1452,
+          "mean_cycles": 21471,
+          "mean_double_speed_frame_share": 0.153,
+          "max_double_speed_frame_share": 2.777
+        },
+        "draw_objects -> hud_update": {
+          "calls": 168,
+          "mean_cycles": 26571,
+          "mean_double_speed_frame_share": 0.189,
+          "max_double_speed_frame_share": 0.281
+        }
+      }
+    },
+    "23:0": {
+      "physics_ticks": 1343,
+      "video_frames_first_to_last_physics": 1372,
+      "cadence_percent": 97.89,
+      "phase_costs": {
+        "audio_tick -> game_tick": {
+          "calls": 1343,
+          "mean_cycles": 1077,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.043
+        },
+        "game_tick -> physics": {
+          "calls": 1343,
+          "mean_cycles": 1969,
+          "mean_double_speed_frame_share": 0.014,
+          "max_double_speed_frame_share": 0.018
+        },
+        "physics -> world_tick": {
+          "calls": 1343,
+          "mean_cycles": 13219,
+          "mean_double_speed_frame_share": 0.094,
+          "max_double_speed_frame_share": 0.248
+        },
+        "world_tick -> camera_update": {
+          "calls": 1342,
+          "mean_cycles": 20371,
+          "mean_double_speed_frame_share": 0.145,
+          "max_double_speed_frame_share": 2.739
+        },
+        "camera_update -> draw_objects": {
+          "calls": 1342,
+          "mean_cycles": 18733,
+          "mean_double_speed_frame_share": 0.133,
+          "max_double_speed_frame_share": 0.421
+        },
+        "draw_objects -> hud_update": {
+          "calls": 125,
+          "mean_cycles": 29523,
+          "mean_double_speed_frame_share": 0.21,
+          "max_double_speed_frame_share": 0.326
+        }
+      }
+    },
+    "23:1": {
+      "physics_ticks": 1498,
+      "video_frames_first_to_last_physics": 1524,
+      "cadence_percent": 98.29,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1498,
+          "mean_cycles": 21023,
+          "mean_double_speed_frame_share": 0.15,
+          "max_double_speed_frame_share": 0.442
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1498,
+          "mean_cycles": 1078,
+          "mean_double_speed_frame_share": 0.008,
+          "max_double_speed_frame_share": 0.053
+        },
+        "game_tick -> physics": {
+          "calls": 1498,
+          "mean_cycles": 1040,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1498,
+          "mean_cycles": 15012,
+          "mean_double_speed_frame_share": 0.107,
+          "max_double_speed_frame_share": 0.265
+        },
+        "world_tick -> camera_update": {
+          "calls": 1497,
+          "mean_cycles": 19637,
+          "mean_double_speed_frame_share": 0.14,
+          "max_double_speed_frame_share": 2.765
+        },
+        "draw_objects -> hud_update": {
+          "calls": 254,
+          "mean_cycles": 25272,
+          "mean_double_speed_frame_share": 0.18,
+          "max_double_speed_frame_share": 0.263
+        }
+      }
+    },
+    "23:2": {
+      "physics_ticks": 1650,
+      "video_frames_first_to_last_physics": 1758,
+      "cadence_percent": 93.86,
+      "phase_costs": {
+        "camera_update -> draw_objects": {
+          "calls": 1650,
+          "mean_cycles": 15830,
+          "mean_double_speed_frame_share": 0.113,
+          "max_double_speed_frame_share": 0.435
+        },
+        "draw_objects -> hud_update": {
+          "calls": 267,
+          "mean_cycles": 38050,
+          "mean_double_speed_frame_share": 0.271,
+          "max_double_speed_frame_share": 0.365
+        },
+        "audio_tick -> game_tick": {
+          "calls": 1650,
+          "mean_cycles": 1341,
+          "mean_double_speed_frame_share": 0.01,
+          "max_double_speed_frame_share": 0.056
+        },
+        "game_tick -> physics": {
+          "calls": 1650,
+          "mean_cycles": 1041,
+          "mean_double_speed_frame_share": 0.007,
+          "max_double_speed_frame_share": 0.008
+        },
+        "physics -> world_tick": {
+          "calls": 1650,
+          "mean_cycles": 13816,
+          "mean_double_speed_frame_share": 0.098,
+          "max_double_speed_frame_share": 0.229
+        },
+        "world_tick -> camera_update": {
+          "calls": 1649,
+          "mean_cycles": 22214,
+          "mean_double_speed_frame_share": 0.158,
+          "max_double_speed_frame_share": 2.794
+        }
+      }
+    }
+  },
+  "active_boss_arena_segments": {
+    "1": {
+      "post_physics_draw_ticks": 759,
+      "video_frames": 763,
+      "cadence_percent": 99.48,
+      "dash_ticks": 48,
+      "phase2_ticks": 222
+    },
+    "2": {
+      "post_physics_draw_ticks": 773,
+      "video_frames": 779,
+      "cadence_percent": 99.23,
+      "dash_ticks": 76,
+      "phase2_ticks": 244
+    },
+    "3": {
+      "post_physics_draw_ticks": 797,
+      "video_frames": 802,
+      "cadence_percent": 99.38,
+      "dash_ticks": 26,
+      "phase2_ticks": 257
+    },
+    "4": {
+      "post_physics_draw_ticks": 712,
+      "video_frames": 730,
+      "cadence_percent": 97.53,
+      "dash_ticks": 54,
+      "phase2_ticks": 238
+    }
+  },
+  "independent_full_campaign_passed": true,
+  "permanent_seal_words": [
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511,
+    511
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "evidence": "Joypad-only menu probes using a controller-earned first-stage save; reset is isolated in emulator SRAM.",
+  "reset_navigation_cancellation": true,
+  "first_B_only_arms_reset": true,
+  "two_B_confirms_reset_and_reboot": true,
+  "help_drop_instruction_and_back": true,
+  "help_lines": [
+    "  CHASE THE MOON.",
+    "",
+    " D-PAD  RUN",
+    " A      JUMP",
+    " HOLD A FOR HEIGHT",
+    " B      COMET DASH",
+    " DOWN+A DROP LEDGES",
+    "LAND / TOUCH LANTERN",
+    " TO REFILL YOUR DASH",
+    " STOMP OR DASH FOES",
+    "SEALS HIDE OFF ROAD",
+    " START PAUSE / ATLAS",
+    " SELECT CHECKPOINT",
+    " A BEGIN   B BACK"
+  ]
+}

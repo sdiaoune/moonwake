@@ -1,0 +1,106 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "trace": "dist/critic-expansion-campaign-inputs.json",
+  "evidence": "Recorded controller path earns every entry; native snapshot jump search discards failed branches; accepted bridge route replays from blank SRAM; no game-memory writes.",
+  "checks": {
+    "18:1": {
+      "actual_bridge_contacts": [
+        24
+      ],
+      "continued_scenic_fork": true,
+      "target_seal_earned": true,
+      "fresh_blank_linear_replay": true,
+      "end": {
+        "game_mode": 1,
+        "stage_id": 18,
+        "room_id": 1,
+        "health": 3,
+        "grounded": 1,
+        "dash_charge": 1,
+        "dash_timer": 0,
+        "seal_count": 5,
+        "stars": 45,
+        "checkpoint_on": 1,
+        "boss_hp": 0,
+        "deaths": 0,
+        "stage_frames": 2313,
+        "camera_x": 853,
+        "run_seal_bits": 31,
+        "journey_frames": 77925,
+        "x": 949.1875,
+        "y": 32.0,
+        "vx": -2.625,
+        "vy": 0.0,
+        "video_frame": 82563
+      }
+    },
+    "21:1": {
+      "actual_bridge_contacts": [
+        24,
+        25
+      ],
+      "continued_scenic_fork": true,
+      "target_seal_earned": true,
+      "fresh_blank_linear_replay": true,
+      "end": {
+        "game_mode": 1,
+        "stage_id": 21,
+        "room_id": 1,
+        "health": 3,
+        "grounded": 1,
+        "dash_charge": 1,
+        "dash_timer": 0,
+        "seal_count": 5,
+        "stars": 48,
+        "checkpoint_on": 1,
+        "boss_hp": 0,
+        "deaths": 0,
+        "stage_frames": 2485,
+        "camera_x": 977,
+        "run_seal_bits": 31,
+        "journey_frames": 91389,
+        "x": 1067.8125,
+        "y": 56.0,
+        "vx": 0.25,
+        "vy": 0.0,
+        "video_frame": 96739
+      }
+    },
+    "23:1": {
+      "actual_bridge_contacts": [
+        24
+      ],
+      "continued_scenic_fork": true,
+      "target_seal_earned": true,
+      "fresh_blank_linear_replay": true,
+      "end": {
+        "game_mode": 1,
+        "stage_id": 23,
+        "room_id": 1,
+        "health": 3,
+        "grounded": 1,
+        "dash_charge": 1,
+        "dash_timer": 0,
+        "seal_count": 6,
+        "stars": 46,
+        "checkpoint_on": 1,
+        "boss_hp": 0,
+        "deaths": 0,
+        "stage_frames": 2515,
+        "camera_x": 1419,
+        "run_seal_bits": 63,
+        "journey_frames": 100401,
+        "x": 1515.5625,
+        "y": 56.0,
+        "vx": -0.3125,
+        "vy": 0.0,
+        "video_frame": 106227
+      }
+    }
+  },
+  "accepted_input_traces": [
+    "dist/critic-expansion-network-18-1-inputs.json",
+    "dist/critic-expansion-network-21-1-inputs.json",
+    "dist/critic-expansion-network-23-1-inputs.json"
+  ]
+}

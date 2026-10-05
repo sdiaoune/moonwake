@@ -1,0 +1,2632 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "input_only": true,
+  "linear_replay_passed": true,
+  "all_72_main_routes_verified": true,
+  "all_four_boss_types_verified": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "deaths": 0,
+  "frames": 80248,
+  "rooms": [
+    {
+      "stage": 0,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 847
+    },
+    {
+      "stage": 0,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1884
+    },
+    {
+      "stage": 0,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2909
+    },
+    {
+      "stage": 1,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 912
+    },
+    {
+      "stage": 1,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1843
+    },
+    {
+      "stage": 1,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2841
+    },
+    {
+      "stage": 2,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 922
+    },
+    {
+      "stage": 2,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1933
+    },
+    {
+      "stage": 2,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2945
+    },
+    {
+      "stage": 3,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1008
+    },
+    {
+      "stage": 3,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1999
+    },
+    {
+      "stage": 3,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2975
+    },
+    {
+      "stage": 4,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1060
+    },
+    {
+      "stage": 4,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2073
+    },
+    {
+      "stage": 4,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 3095
+    },
+    {
+      "stage": 5,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 910
+    },
+    {
+      "stage": 5,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1872
+    },
+    {
+      "stage": 5,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 1,
+      "deaths": 0,
+      "stage_frames": 3312
+    },
+    {
+      "stage": 6,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 968
+    },
+    {
+      "stage": 6,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1942
+    },
+    {
+      "stage": 6,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2938
+    },
+    {
+      "stage": 7,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1089
+    },
+    {
+      "stage": 7,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2049
+    },
+    {
+      "stage": 7,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2997
+    },
+    {
+      "stage": 8,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1019
+    },
+    {
+      "stage": 8,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1989
+    },
+    {
+      "stage": 8,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2996
+    },
+    {
+      "stage": 9,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 907
+    },
+    {
+      "stage": 9,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1904
+    },
+    {
+      "stage": 9,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2892
+    },
+    {
+      "stage": 10,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1057
+    },
+    {
+      "stage": 10,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2078
+    },
+    {
+      "stage": 10,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 3104
+    },
+    {
+      "stage": 11,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1026
+    },
+    {
+      "stage": 11,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2020
+    },
+    {
+      "stage": 11,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "boss_type": 2,
+      "deaths": 0,
+      "stage_frames": 3397
+    },
+    {
+      "stage": 12,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1078
+    },
+    {
+      "stage": 12,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2096
+    },
+    {
+      "stage": 12,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 3067
+    },
+    {
+      "stage": 13,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1079
+    },
+    {
+      "stage": 13,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2078
+    },
+    {
+      "stage": 13,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 3087
+    },
+    {
+      "stage": 14,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1087
+    },
+    {
+      "stage": 14,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2052
+    },
+    {
+      "stage": 14,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 3086
+    },
+    {
+      "stage": 15,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1127
+    },
+    {
+      "stage": 15,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2110
+    },
+    {
+      "stage": 15,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 3100
+    },
+    {
+      "stage": 16,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1124
+    },
+    {
+      "stage": 16,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2107
+    },
+    {
+      "stage": 16,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 3153
+    },
+    {
+      "stage": 17,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1082
+    },
+    {
+      "stage": 17,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2124
+    },
+    {
+      "stage": 17,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "boss_type": 3,
+      "deaths": 0,
+      "stage_frames": 3583
+    },
+    {
+      "stage": 18,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1083
+    },
+    {
+      "stage": 18,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2058
+    },
+    {
+      "stage": 18,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 3069
+    },
+    {
+      "stage": 19,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1089
+    },
+    {
+      "stage": 19,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2063
+    },
+    {
+      "stage": 19,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 3024
+    },
+    {
+      "stage": 20,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1081
+    },
+    {
+      "stage": 20,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2072
+    },
+    {
+      "stage": 20,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2998
+    },
+    {
+      "stage": 21,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1061
+    },
+    {
+      "stage": 21,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2054
+    },
+    {
+      "stage": 21,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 3016
+    },
+    {
+      "stage": 22,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1099
+    },
+    {
+      "stage": 22,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2094
+    },
+    {
+      "stage": 22,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 3095
+    },
+    {
+      "stage": 23,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 1086
+    },
+    {
+      "stage": 23,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "boss_type": 0,
+      "deaths": 0,
+      "stage_frames": 2101
+    },
+    {
+      "stage": 23,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "boss_type": 4,
+      "deaths": 0,
+      "stage_frames": 3410
+    }
+  ],
+  "fresh_native_main_surface_contacts": [
+    {
+      "stage": 0,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "stage": 0,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 0,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 1,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "stage": 1,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 1,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 2,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "stage": 2,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 2,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 3,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "stage": 3,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 3,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 4,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "stage": 4,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 4,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 5,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "stage": 5,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 5,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 6,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "stage": 6,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 6,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 7,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 7,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 7,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 8,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "stage": 8,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 8,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 9,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "stage": 9,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 9,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 10,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "stage": 10,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 10,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 11,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "stage": 11,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 11,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "stage": 12,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 12,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 12,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 13,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 13,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 13,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 14,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 14,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 14,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 15,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 15,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 15,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 16,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 16,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 16,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 17,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 17,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 17,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "stage": 18,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 18,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 18,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 19,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 19,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 19,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 20,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 20,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 20,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 21,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 21,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 21,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 22,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 22,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 22,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 23,
+      "room": 0,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 23,
+      "room": 1,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "stage": 23,
+      "room": 2,
+      "platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+}

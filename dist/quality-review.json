@@ -1,62 +1,112 @@
 {
-  "game": "Moonwake",
-  "rom_sha256": "9310fa3d598b72b41c56b46f1a99b373b7176dcb38d1fc5de795f1520ab38bc7",
+  "game": "Moonwake: The Long Dawn",
+  "version": "2.0.0",
   "target_score": 9.0,
   "all_categories_certified_at_target": false,
   "ratings": {
-    "movement_fun": {
-      "score": 9.0,
-      "review": "docs/reviews/play-round2.md"
-    },
-    "level_design": {
-      "score": 8.8,
-      "review": "docs/reviews/play-round2.md"
-    },
-    "progression_replay": {
-      "score": 9.0,
-      "review": "docs/reviews/play-round2.md"
-    },
-    "emulator_technical_reliability": {
+    "movement_and_controls": {
       "score": 9.1,
-      "review": "docs/reviews/play-round2.md"
+      "review": "docs/expansion-play-review.md"
     },
-    "visual_art_readability": {
+    "exploration": {
       "score": 9.0,
-      "review": "docs/reviews/visual-final.md"
+      "review": "docs/expansion-play-review.md"
     },
-    "originality_world_identity": {
-      "score": 9.0,
-      "review": "docs/reviews/visual-final.md"
+    "level_pacing_and_variety": {
+      "score": 8.6,
+      "review": "docs/expansion-play-review.md"
     },
-    "audio_implementation_composition": {
+    "boss_encounters": {
       "score": 8.8,
-      "provisional": true,
-      "review": "docs/reviews/visual-final.md"
+      "review": "docs/expansion-play-review.md"
     },
-    "subjective_sound_quality": {
+    "progression_and_ui": {
+      "score": 9.1,
+      "review": "docs/expansion-play-review.md"
+    },
+    "replay_incentives": {
+      "score": 9.0,
+      "review": "docs/expansion-play-review.md"
+    },
+    "save_reliability": {
+      "score": 9.3,
+      "review": "docs/expansion-play-review.md"
+    },
+    "runtime_reliability": {
+      "score": 9.0,
+      "review": "docs/expansion-play-review.md"
+    },
+    "overall_fun_judgment": {
+      "score": 8.9,
+      "review": "docs/expansion-play-review.md",
+      "provisional": true,
+      "scope": "Agent design judgment informed by controller playtests; unfamiliar-human enjoyment is unmeasured."
+    },
+    "visual_art_and_readability": {
+      "score": 9.0,
+      "review": "docs/expansion-visual-review.md"
+    },
+    "exploration_ui_presentation": {
+      "score": 9.0,
+      "review": "docs/expansion-visual-review.md"
+    },
+    "world_identity_presentation": {
+      "score": 9.0,
+      "review": "docs/expansion-visual-review.md"
+    },
+    "written_composition_structure_originality": {
+      "score": 9.0,
+      "review": "docs/expansion-visual-review.md"
+    },
+    "native_audio_implementation": {
+      "score": 9.0,
+      "review": "docs/expansion-visual-review.md"
+    },
+    "subjective_listening": {
       "score": null,
-      "reason": "Direct listening was not performed."
+      "reason": "Direct listening and physical speaker evaluation were not performed."
     }
   },
   "verification": {
     "native_cgb_rom": true,
-    "all_12_stages_and_36_seals_controller_verified": true,
-    "independent_fresh_replay_passed": true,
-    "all_12_s_ranks_earned": true,
+    "all_24_stages_and_216_seals_controller_verified": true,
+    "all_72_rooms_fresh_linear_replay": true,
+    "all_four_bosses_verified": true,
     "zero_death_verified_trace": true,
-    "saved_completion_reboot": true,
-    "crc_transaction_fallback": true,
-    "actual_boss_fight_ticks": 402,
-    "actual_boss_fight_video_frames": 403,
-    "flashgbx_install_and_independent_rom_readback": true,
-    "original_progress_and_backups_preserved": true,
+    "all_24_s_medals_reboot_restored": true,
+    "all_767_main_surfaces_native_contact_verified": true,
+    "all_four_new_bridges_bidirectional_verified": true,
+    "all_seven_added_clues_activated": true,
+    "native_save_harness_checks": 20,
+    "original_save_slots_preserved": true,
+    "fifteen_native_32_bar_themes_verified": true,
+    "standalone_rebuild_byte_identical": true,
+    "flashgbx_install_and_rom_readback": false,
     "physical_controls_display_speaker_observation": false
   },
+  "performance": {
+    "physics_ticks": 102377,
+    "active_room_video_frames": 104179,
+    "aggregate_cadence_percent": 98.27,
+    "worst_whole_room_cadence_percent": 93.86
+  },
+  "duration": {
+    "first_player_target_minutes": [
+      60,
+      90
+    ],
+    "human_completion_time_measured": false,
+    "preplanned_controller_recording_video_frames": 108466,
+    "nominal_controller_recording_minutes": 30.13
+  },
   "limits": [
-    "Several stages repeat broad ground routes with three upper seal excursions.",
-    "Crossing to the boss right side largely neutralizes its left-moving projectiles.",
-    "Audio composition review is provisional; subjective listening and physical speaker testing remain unscored.",
-    "Emulator completion and cartridge byte readback do not substitute for broad human playtesting or visual physical boot observation."
+    "Level pacing/variety (8.6), boss encounters (8.8), and provisional fun judgment (8.9) remain below the requested 9.0 target; ratings were not forced.",
+    "Later main paths and fork families repeat some platform phrases, and each biome repeats a 256-pixel panorama.",
+    "The four bosses vary movement, guard and shot patterns but retain a shared six-hit dash/stomp core.",
+    "Occasional missed refreshes and brief save-on-seal hitches remain; perfectly uninterrupted 60Hz is not claimed.",
+    "Human first-playthrough duration, unfamiliar-player enjoyment, direct musical listening and physical Chromatic behavior remain unmeasured.",
+    "FlashGBX found no connected device; this expansion was not installed on the cartridge."
   ],
-  "generated_at_utc": "2026-10-05T01:11:08.240726+00:00"
+  "generated_at_utc": "2026-10-05T18:55:42.105856+00:00",
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721"
 }

@@ -14,6 +14,8 @@ import sys
 import statistics
 
 ROOT = Path(__file__).resolve().parents[1]
+if (ROOT / "dist/moonwake.gbc").stat().st_size != 262144:
+    raise SystemExit("This historical critic targets v1.0.0. Use check_expansion_runtime.py and check_expansion_save.py for The Long Dawn.")
 OUT = ROOT / ("build/critic-play-round2" if any(x in sys.argv for x in ("--ui", "--rank", "--lantern", "--arena", "--replay")) else "build/critic-play")
 OUT.mkdir(parents=True, exist_ok=True)
 for ext in ("gbc", "sym"):

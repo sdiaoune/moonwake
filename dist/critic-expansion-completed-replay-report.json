@@ -1,0 +1,42 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "campaign_input_trace": "dist/critic-expansion-campaign-inputs.json",
+  "completion_SRAM_regenerated_from_blank_linear_trace": true,
+  "evidence": "Matched final controller-earned campaign SRAM; all replay/menu actions use joypad; snapshots only search ordinary main-route jumps.",
+  "final_clear_continue_ending": true,
+  "earned_atlas_pages": [
+    4,
+    3,
+    2,
+    1
+  ],
+  "completed_active_replay_continue_resumes_room": true,
+  "current_B_preserves_best_S": true,
+  "clear_atlas_back_preserves_current_B": true,
+  "replay_clear": {
+    "game_mode": 3,
+    "stage_id": 0,
+    "room_id": 2,
+    "health": 1,
+    "grounded": 1,
+    "dash_charge": 1,
+    "dash_timer": 0,
+    "seal_count": 3,
+    "stars": 53,
+    "checkpoint_on": 1,
+    "boss_hp": 0,
+    "deaths": 0,
+    "stage_frames": 2787,
+    "camera_x": 1664,
+    "run_seal_bits": 138,
+    "journey_frames": 105164,
+    "x": 1762.0625,
+    "y": 112.0,
+    "vx": 2.625,
+    "vy": 0.0,
+    "video_frame": 3010
+  },
+  "fresh_linear_earned_SRAM_B_replay": true,
+  "earned_save_provenance": "Save bytes omitted; regenerate from the published blank-SRAM campaign controller trace, then power cycle.",
+  "accepted_input_trace": "dist/critic-expansion-B-replay-inputs.json"
+}

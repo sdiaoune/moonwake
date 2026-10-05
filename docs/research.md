@@ -6,7 +6,7 @@ Research date: October 4, 2026. Sources below are official manufacturer, publish
 
 ModRetro describes Chromatic's display as a 160×144, 2.56-inch panel built around the original pixel size and coloration. That supports designing at native resolution with readable silhouettes and carefully chosen palette relationships, rather than drawing a larger image and shrinking it afterward. [ModRetro: Display — The Hard Way](https://modretro.com/blogs/blog/display-the-hard-way).
 
-**Applied:** the playfield remains 160×144, backgrounds use native 8×8 tiles, and Kip has a cream silhouette and persimmon scarf against cooler scenery. Four deliberately different color stories replace the conventional grass/desert/ice sequence: saffron harbor, jade rain, violet celestial workshops, and a pearl dream whale. These are our creative choices, not ModRetro requirements.
+**Applied:** the playfield remains 160×144, backgrounds use native 8×8 tiles, and Kip has a cream silhouette and persimmon scarf against cooler scenery. Eight deliberately different color stories replace the conventional grass/desert/ice sequence: saffron harbor, jade rain, violet celestial workshops, a pearl dream whale, ember lantern festival, shell observatory, aurora orchard, and dawn archive. These are our creative choices, not ModRetro requirements.
 
 ModRetro publishes cartridge compatibility guidance that distinguishes Game Boy, Game Boy Color, and Chromatic releases. The production target is a native CGB ROM, with emulator verification and a separate physical-cartridge verification step. [ModRetro: Chromatic Games — Color Coding and Compatibility](https://support.modretro.com/en_us/chromatic-games-color-coding-and-compatibility-SygymlOAWx).
 
@@ -32,7 +32,7 @@ SEGA also provides the original Game Gear Sonic the Hedgehog instruction manual 
 
 GBDK's documentation recommends MBC5 for most projects, describes each ROM bank as 16 KiB, and explains that `BANKED` calls select the destination bank automatically. Constant data in a switchable bank is accessible only while that bank is active. [GBDK-2020: ROM/SRAM Banking and MBCs](https://gbdk.org/docs/api/docs_rombanking_mbcs.html).
 
-**Applied:** level definitions, platforms, pickups, enemies, story lines, and par times reside together in bank 3. The banked loader copies the active level's data into caller-owned RAM. No ROM pointers escape the loader. Twelve stages use only 14–19 platforms, 25–37 pickups, and 3–8 enemies each, leaving space below the production caps. This is an implementation design; successful linking and runtime playtests are still necessary.
+**Applied:** level definitions, platforms, pickups, enemies, story lines, and par times live in per-world banks 16–23; bank 3 dispatches banked calls. The banked loader copies the active level's data into caller-owned RAM. No ROM pointers escape the loader. The expanded campaign holds 72 sections across 24 stages, within caps of 48 platforms, 64 pickups, and 12 enemies per section. This is an implementation design; successful linking and runtime playtests are still necessary.
 
 ## What research cannot establish
 

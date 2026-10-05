@@ -1,8 +1,8 @@
-# Moonwake
+# Moonwake: The Long Dawn
 
 **A little hare. A sleeping sky sea. One scarf to bring the morning home.**
 
-An original side-scrolling platformer for **Game Boy Color and ModRetro Chromatic**. Dash across peach pagoda roofs, giant lotus gardens, violet clockworks, and the back of a dreamwhale. Made for a real 160 × 144 screen, with native pixel art and a four-channel chiptune score.
+An original side-scrolling platformer for **Game Boy Color and ModRetro Chromatic**. Explore peach pagoda roofs, giant lotus gardens, violet clockworks, a dreamwhale horizon, ember festivals, pearl observatories, aurora orchards, and the dawn archive. Made for a real 160 × 144 screen, with native pixel art and a four-channel chiptune score.
 
 ![Moonwake running on the actual Game Boy Color ROM](docs/screenshots/moonwake-teaser.gif)
 
@@ -10,26 +10,29 @@ An original side-scrolling platformer for **Game Boy Color and ModRetro Chromati
 
 ## A scarf worth following
 
-Kip's comet dash carries you through lanterns and enemies. Land, touch a lantern, or defeat a foe to refill it; chain three interactions to recover a heart. Take a gentle first journey, then find the upper routes and chase a cleaner line.
+Kip's comet dash carries you through lanterns and enemies. Land, touch a lantern, or defeat a foe to refill it; chain three interactions to recover a heart. Follow the main path or wander through roof galleries, sheltered grottos, returning loops, and tucked-away lantern rooms.
 
-- Twelve scrolling stages across four illustrated worlds.
-- Thirty-six optional moon seals, upper routes, springs, and crumbling ledges.
-- Variable-height jumps, air dashes, enemy bounces, and a two-phase dreamwhale finale.
-- Checkpoints, unlimited retries, story postcards, and an ending.
-- Saved collection, best times, and S/A/B medals. S requires three seals on the current run and a finish within par.
-- Eight original native music themes and eight sound effects.
+- Twenty-four long stages across eight illustrated worlds; each stage chains three continuous sections.
+- 216 optional moon seals across 72 sections, with substantial side routes, lower passages, and scenic loops.
+- Variable-height jumps, air dashes, drop-through ledges, moving balconies, gentle air currents, and drifting jelly foes.
+- Four distinct guardians: Rainbell Warden, Comet Manta, Prism Sentinel, and Dreamwhale.
+- A checkpoint in every section, unlimited retries, continuous transitions, story postcards, and an ending.
+- Saved collection, best times, and S/A/B medals. S requires nine seals on the current run and a finish within par.
+- Fifteen original 32-bar native music themes and eight sound effects.
+- A 60–90 minute first-playthrough design target. Player pace varies; human completion timing has not been measured.
 
-![Four sky-sea worlds decoded from native cartridge tile data](assets/native/contact-sheet.png)
+![Eight sky-sea worlds decoded from native cartridge tile data](assets/native/contact-sheet.png)
 
 ## Play
 
-Download `moonwake.gbc` and load it in a Game Boy Color emulator or a compatible MBC5 flash cartridge. On Chromatic, write a compatible cartridge using **FlashGBX**. This release is the exact ROM written to and independently read back from the development Chromatic cartridge.
+Download `moonwake.gbc` and load it in a Game Boy Color emulator or a compatible MBC5 flash cartridge. On Chromatic, write a compatible cartridge using **FlashGBX**. The original release remains available as [v1.0.0](https://github.com/sdiaoune/moonwake/releases/tag/v1.0.0). See the [validation notes](docs/validation.md) for the current build’s verification.
 
 | Button | Action |
 |---|---|
 | D-pad | Move; navigate menus |
 | A | Jump; hold for a higher leap; confirm |
 | B | Comet dash |
+| Down + A | Drop through a one-way ledge |
 | Start | Pause, atlas, sound, and title options |
 | Select | Retry the checkpoint |
 
@@ -53,11 +56,7 @@ cd moonwake
 make -B GBDK=/path/to/gbdk
 ```
 
-The output is `dist/moonwake.gbc`: **256 KiB**, **CGB-only**, **MBC5 + battery-backed 8 KiB SRAM**. The v1.0.0 ROM SHA-256 is:
-
-```text
-9310fa3d598b72b41c56b46f1a99b373b7176dcb38d1fc5de795f1520ab38bc7
-```
+The output is `dist/moonwake.gbc`: **512 KiB**, **CGB-only**, **MBC5 + battery-backed 8 KiB SRAM**. Download checksums accompany each release as `SHA256SUMS.txt`. The original ROM and its source remain available under the v1.0.0 tag.
 
 Optional art, emulator, and music tooling:
 
@@ -69,7 +68,7 @@ make check GBDK=/path/to/gbdk PYTHON=.venv/bin/python
 GBDK=/path/to/gbdk .venv/bin/python tools/render_music.py
 ```
 
-The campaign check earns all 36 seals through controller input, then independently replays it from a fresh save and checks completion after reboot. See [development notes](docs/development.md) for optional probes and regeneration.
+The campaign check traverses all 72 sections and earns all 216 seals through controller input, then independently replays it from a fresh save and checks completion after reboot. See [development notes](docs/development.md) for optional probes and regeneration.
 
 ## Inside the cartridge
 

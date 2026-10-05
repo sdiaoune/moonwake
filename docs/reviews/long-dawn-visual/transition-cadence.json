@@ -1,0 +1,1540 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "method": "Linear joypad replay of same-build critic inputs; no running RAM writes",
+  "access": "fresh RAM; two earned seals before first-room boundary",
+  "summary": {
+    "room_id_change_frame": 1135,
+    "all_black_frames": 8,
+    "longest_all_black_run": 8,
+    "all_white_frames": 0,
+    "longest_all_white_run": 0,
+    "lcd_disabled_frames": 0,
+    "blackout_seconds_at_60hz": 0.13333333333333333,
+    "black_frame_indices": [
+      1136,
+      1137,
+      1138,
+      1139,
+      1140,
+      1141,
+      1142,
+      1143
+    ],
+    "white_frame_indices": []
+  },
+  "frames": [
+    {
+      "frame": 1111,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 859,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 32,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.28142361111111114,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1112,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 860,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 32,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.27977430555555555,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1113,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 861,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 33,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.2775607638888889,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1114,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 862,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 33,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.2755208333333333,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1115,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 863,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.27447916666666666,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1116,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 864,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.2703993055555556,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1117,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 865,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.2670138888888889,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1118,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 866,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26688368055555556,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1119,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 867,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1120,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 868,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1121,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 869,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1122,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 870,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1123,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 871,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1124,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 872,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1125,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 873,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1126,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 874,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1127,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 875,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1128,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 876,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1129,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 877,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1130,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 878,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1131,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 879,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1132,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 880,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1133,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 881,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1134,
+      "room_id": 0,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 31,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.26588541666666665,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1135,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 197,
+      "lcd_enabled": true,
+      "unique_colors": 7,
+      "dominant_rgb": [
+        0,
+        0,
+        0
+      ],
+      "dominant_fraction": 0.8795138888888889,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1136,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 197,
+      "lcd_enabled": true,
+      "unique_colors": 1,
+      "dominant_rgb": [
+        0,
+        0,
+        0
+      ],
+      "dominant_fraction": 1.0,
+      "all_black": true,
+      "all_white": false
+    },
+    {
+      "frame": 1137,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 197,
+      "lcd_enabled": true,
+      "unique_colors": 1,
+      "dominant_rgb": [
+        0,
+        0,
+        0
+      ],
+      "dominant_fraction": 1.0,
+      "all_black": true,
+      "all_white": false
+    },
+    {
+      "frame": 1138,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 197,
+      "lcd_enabled": true,
+      "unique_colors": 1,
+      "dominant_rgb": [
+        0,
+        0,
+        0
+      ],
+      "dominant_fraction": 1.0,
+      "all_black": true,
+      "all_white": false
+    },
+    {
+      "frame": 1139,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 197,
+      "lcd_enabled": true,
+      "unique_colors": 1,
+      "dominant_rgb": [
+        0,
+        0,
+        0
+      ],
+      "dominant_fraction": 1.0,
+      "all_black": true,
+      "all_white": false
+    },
+    {
+      "frame": 1140,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 197,
+      "lcd_enabled": true,
+      "unique_colors": 1,
+      "dominant_rgb": [
+        0,
+        0,
+        0
+      ],
+      "dominant_fraction": 1.0,
+      "all_black": true,
+      "all_white": false
+    },
+    {
+      "frame": 1141,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 197,
+      "lcd_enabled": true,
+      "unique_colors": 1,
+      "dominant_rgb": [
+        0,
+        0,
+        0
+      ],
+      "dominant_fraction": 1.0,
+      "all_black": true,
+      "all_white": false
+    },
+    {
+      "frame": 1142,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 197,
+      "lcd_enabled": true,
+      "unique_colors": 1,
+      "dominant_rgb": [
+        0,
+        0,
+        0
+      ],
+      "dominant_fraction": 1.0,
+      "all_black": true,
+      "all_white": false
+    },
+    {
+      "frame": 1143,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 197,
+      "lcd_enabled": true,
+      "unique_colors": 1,
+      "dominant_rgb": [
+        0,
+        0,
+        0
+      ],
+      "dominant_fraction": 1.0,
+      "all_black": true,
+      "all_white": false
+    },
+    {
+      "frame": 1144,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 32,
+      "dominant_rgb": [
+        0,
+        0,
+        0
+      ],
+      "dominant_fraction": 0.5888888888888889,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1145,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1146,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 882,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1147,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 883,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1148,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 884,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1149,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 885,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1150,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 886,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1151,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 887,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1152,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 888,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1153,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 889,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1154,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 890,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1155,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 891,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1156,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 892,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1157,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 893,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1158,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 894,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1159,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 895,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1160,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 896,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1161,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 897,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1162,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 898,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1163,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 899,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1164,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 900,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1165,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 901,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1166,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 902,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1167,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 903,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1168,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 904,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1169,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 905,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1170,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 906,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1171,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 907,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 29,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1172,
+      "room_id": 1,
+      "game_mode": 1,
+      "stage_frames": 908,
+      "lcdc": 231,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1173,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 27,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1174,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 23,
+      "dominant_rgb": [
+        240,
+        152,
+        120
+      ],
+      "dominant_fraction": 0.24709201388888888,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1175,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.6085503472222222,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1176,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1177,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1178,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1179,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1180,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1181,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1182,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1183,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1184,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1185,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1186,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1187,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1188,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1189,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1190,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1191,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1192,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1193,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1194,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1195,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1196,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1197,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1198,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    },
+    {
+      "frame": 1199,
+      "room_id": 1,
+      "game_mode": 2,
+      "stage_frames": 908,
+      "lcdc": 229,
+      "lcd_enabled": true,
+      "unique_colors": 22,
+      "dominant_rgb": [
+        24,
+        32,
+        64
+      ],
+      "dominant_fraction": 0.599609375,
+      "all_black": false,
+      "all_white": false
+    }
+  ]
+}

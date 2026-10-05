@@ -1,0 +1,22 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "native_captures_hash_and_dimensions_verified": 232,
+  "fresh_linear_rooms_verified": 72,
+  "full_room_identity_coverage": true,
+  "gallery_method": "Exact validated source pixels enlarged 3x by nearest; labels outside screenshots",
+  "source_manifest": "dist/capture-manifest.json",
+  "gallery_files": [
+    "boss-4.png",
+    "boss-1.png",
+    "boss-3.png",
+    "boss-2.png",
+    "world-08.png",
+    "world-02.png",
+    "world-03.png",
+    "world-01.png",
+    "world-04.png",
+    "world-05.png",
+    "world-07.png",
+    "world-06.png"
+  ]
+}

@@ -12,18 +12,16 @@ make check GBDK=/path/to/gbdk PYTHON=.venv/bin/python
 
 The campaign planner branches controller-earned emulator states to find routes, then performs a second linear replay from blank SRAM without loading states or writing running-game RAM. Local earned saves and snapshots stay in ignored `build/`; do not commit them.
 
-Optional critic probes, in dependency order:
+Independent expansion checks:
 
 ```sh
-.venv/bin/python tools/critic_play.py
-.venv/bin/python tools/critic_play.py --ui
-.venv/bin/python tools/critic_play.py --rank
-.venv/bin/python tools/critic_play.py --lantern
-.venv/bin/python tools/critic_play.py --arena
-.venv/bin/python tools/critic_play.py --replay
+GBDK=/path/to/gbdk .venv/bin/python tools/check_expansion_save.py
+.venv/bin/python tools/check_expansion_runtime.py
+.venv/bin/python tools/build_campaign.py --check
+.venv/bin/python tools/check_campaign.py
 ```
 
-Run the base critic before `--ui`, `--rank` before `--lantern`, and the campaign check before `--arena`. `--replay` checks the distributed controller recording and save recovery. These are technical checks; aesthetics and player enjoyment require human assessment.
+The save harness compiles the exact production save source and injects explicitly labeled cartridge fixtures before boot. It checks migration, resume fields, CRC recovery, sequence wrap, reset, and legacy-byte preservation; it does not claim fixtures were earned by gameplay. Runtime probes and the campaign planner use controller inputs. The original `critic_play.py` and v1 reports are historical tools tied to the original release, and should be consulted under the v1.0.0 tag. Subjective enjoyment and first-player timing still need human assessment.
 
 ## Assets and media
 
@@ -35,6 +33,6 @@ Run the base critic before `--ui`, `--rank` before `--lantern`, and the campaign
 
 ## Runtime organization
 
-Bank 0 hosts startup, the main loop, and shared primitives; 1–2 graphics/title; 3 levels; 4 gameplay; 5 menus; 6 saves; 7 APU; 8–11 panoramas. See [design.md](design.md), [routes.json](routes.json), and [art.md](art.md) before changing data contracts.
+Bank 0 hosts startup, the main loop, and shared primitives; 1–2 graphics/title; 3 levels; 4 gameplay; 5 menus; 6 saves; 7 APU; 8–15 panoramas; 16–23 per-world campaign data. See [design.md](design.md), [routes.json](routes.json), and [art.md](art.md) before changing data contracts.
 
-Moonwake uses two CRC-protected 64-byte SRAM slots at `A100` and `A180`, with a dedicated signature. The release was rebuilt on macOS ARM64 with GBDK 4.5.0 and matched the installed ROM byte-for-byte. Compiler changes can change bytes even without gameplay changes.
+The Long Dawn uses CRC-protected 192-byte SRAM slots at `A200` and `A300`, plus a committed generation marker at `A3F0`–`A3F3`. Original Moonwake v1 slots at `A100`/`A180` and Signal Bloom slots remain untouched. Migration carries forward old unlocks and first-section discoveries but clears times/ranks for the longer courses. Each stage stores nine seal bits and the active section/checkpoint; a 32-bit counter tracks active journey time. Compiler changes can change bytes even without gameplay changes.

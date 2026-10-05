@@ -1,0 +1,296 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "input_only": true,
+  "all_three_junctions_verified": true,
+  "all_four_bridges_bidirectional": true,
+  "all_seven_clues_activated": true,
+  "probes": [
+    {
+      "stage": 18,
+      "room": 1,
+      "name": "Jellydew Hollows",
+      "bridge_visits": [
+        {
+          "platform": 24,
+          "direction": "forward",
+          "video_frame": 82144,
+          "position": [
+            649.75,
+            48.0
+          ],
+          "actual_platform_x": 640
+        },
+        {
+          "platform": 24,
+          "direction": "reverse",
+          "video_frame": 82892,
+          "position": [
+            653.0,
+            48.0
+          ],
+          "actual_platform_x": 640
+        }
+      ],
+      "clue_pickup_indices": [
+        40,
+        41
+      ],
+      "fresh_lantern_events": [
+        {
+          "stage": 18,
+          "room": 1,
+          "pickup": 41,
+          "video_frame": 82179,
+          "combo_before": 0,
+          "combo_after": 1,
+          "position": [
+            699.3125,
+            52.0
+          ]
+        }
+      ],
+      "following_seal": 32,
+      "linear_replay_passed": true,
+      "deaths": 0,
+      "captures": [
+        {
+          "name": "junction-19-2-verified",
+          "stage": 18,
+          "room": 1,
+          "frames": 82931,
+          "native": "images/junction-19-2-verified-native.png",
+          "native_sha256": "0f9c934986fae664993b8ebe3839a5c1cdae5867aba49e6005b9d7c48b061a43",
+          "enlarged": "images/junction-19-2-verified.png",
+          "provenance": "fresh blank-SRAM linear junction/clue replay; no snapshots or gameplay-memory writes",
+          "original_native": "docs/screenshots/junction-19-2-verified-native.png",
+          "original_enlarged": "docs/screenshots/junction-19-2-verified.png"
+        }
+      ]
+    },
+    {
+      "stage": 21,
+      "room": 1,
+      "name": "Memory Margins",
+      "bridge_visits": [
+        {
+          "platform": 24,
+          "direction": "forward",
+          "video_frame": 96393,
+          "position": [
+            618.4375,
+            56.0
+          ],
+          "actual_platform_x": 608
+        },
+        {
+          "platform": 24,
+          "direction": "lantern",
+          "video_frame": 96454,
+          "position": [
+            635.9375,
+            56.0
+          ],
+          "actual_platform_x": 608
+        },
+        {
+          "platform": 25,
+          "direction": "forward",
+          "video_frame": 96498,
+          "position": [
+            702.6875,
+            72.0
+          ],
+          "actual_platform_x": 680
+        },
+        {
+          "platform": 25,
+          "direction": "reverse",
+          "video_frame": 97119,
+          "position": [
+            698.25,
+            72.0
+          ],
+          "actual_platform_x": 680
+        },
+        {
+          "platform": 24,
+          "direction": "reverse",
+          "video_frame": 97195,
+          "position": [
+            623.9375,
+            56.0
+          ],
+          "actual_platform_x": 608
+        }
+      ],
+      "clue_pickup_indices": [
+        42,
+        43,
+        44
+      ],
+      "fresh_lantern_events": [
+        {
+          "stage": 18,
+          "room": 1,
+          "pickup": 41,
+          "video_frame": 82273,
+          "combo_before": 0,
+          "combo_after": 1,
+          "position": [
+            697.8125,
+            68.0
+          ]
+        },
+        {
+          "stage": 21,
+          "room": 1,
+          "pickup": 44,
+          "video_frame": 96431,
+          "combo_before": 0,
+          "combo_after": 1,
+          "position": [
+            637.3125,
+            40.8125
+          ]
+        },
+        {
+          "stage": 21,
+          "room": 1,
+          "pickup": 44,
+          "video_frame": 96462,
+          "combo_before": 1,
+          "combo_after": 2,
+          "position": [
+            636.25,
+            67.125
+          ]
+        },
+        {
+          "stage": 21,
+          "room": 1,
+          "pickup": 44,
+          "video_frame": 97174,
+          "combo_before": 0,
+          "combo_after": 1,
+          "position": [
+            624.0,
+            45.4375
+          ]
+        }
+      ],
+      "following_seal": 34,
+      "linear_replay_passed": true,
+      "deaths": 0,
+      "captures": [
+        {
+          "name": "junction-22-2-verified",
+          "stage": 21,
+          "room": 1,
+          "frames": 97243,
+          "native": "images/junction-22-2-verified-native.png",
+          "native_sha256": "acd2682af7c5978118e1630a1d0ad58cd5bc24d9907d0c5cf56a29c8b92c64db",
+          "enlarged": "images/junction-22-2-verified.png",
+          "provenance": "fresh blank-SRAM linear junction/clue replay; no snapshots or gameplay-memory writes",
+          "original_native": "docs/screenshots/junction-22-2-verified-native.png",
+          "original_enlarged": "docs/screenshots/junction-22-2-verified.png"
+        }
+      ]
+    },
+    {
+      "stage": 23,
+      "room": 1,
+      "name": "Last Lantern Walk",
+      "bridge_visits": [
+        {
+          "platform": 24,
+          "direction": "forward",
+          "video_frame": 105781,
+          "position": [
+            1142.8125,
+            40.0
+          ],
+          "actual_platform_x": 1128
+        },
+        {
+          "platform": 24,
+          "direction": "star",
+          "video_frame": 105823,
+          "position": [
+            1140.1875,
+            40.0
+          ],
+          "actual_platform_x": 1128
+        },
+        {
+          "platform": 24,
+          "direction": "reverse",
+          "video_frame": 105937,
+          "position": [
+            1140.125,
+            40.0
+          ],
+          "actual_platform_x": 1128
+        }
+      ],
+      "clue_pickup_indices": [
+        38,
+        39
+      ],
+      "fresh_lantern_events": [
+        {
+          "stage": 18,
+          "room": 1,
+          "pickup": 41,
+          "video_frame": 82273,
+          "combo_before": 0,
+          "combo_after": 1,
+          "position": [
+            697.8125,
+            68.0
+          ]
+        },
+        {
+          "stage": 23,
+          "room": 1,
+          "pickup": 39,
+          "video_frame": 105760,
+          "combo_before": 1,
+          "combo_after": 2,
+          "position": [
+            1108.3125,
+            39.5
+          ]
+        },
+        {
+          "stage": 23,
+          "room": 1,
+          "pickup": 39,
+          "video_frame": 105968,
+          "combo_before": 0,
+          "combo_after": 1,
+          "position": [
+            1115.75,
+            44.0
+          ]
+        }
+      ],
+      "following_seal": 32,
+      "linear_replay_passed": true,
+      "deaths": 0,
+      "captures": [
+        {
+          "name": "junction-24-2-verified",
+          "stage": 23,
+          "room": 1,
+          "frames": 106013,
+          "native": "images/junction-24-2-verified-native.png",
+          "native_sha256": "7479a8bd66f0eac35f9224df8c81e39e63e18d261e6e9d358767fdab24e76ce5",
+          "enlarged": "images/junction-24-2-verified.png",
+          "provenance": "fresh blank-SRAM linear junction/clue replay; no snapshots or gameplay-memory writes",
+          "original_native": "docs/screenshots/junction-24-2-verified-native.png",
+          "original_enlarged": "docs/screenshots/junction-24-2-verified.png"
+        }
+      ]
+    }
+  ]
+}

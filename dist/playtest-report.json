@@ -1,107 +1,862 @@
 {
-  "rom_sha256": "9310fa3d598b72b41c56b46f1a99b373b7176dcb38d1fc5de795f1520ab38bc7",
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
   "input_only": true,
   "linear_replay_passed": true,
-  "all_12_stages_completed": true,
-  "all_36_seals_collected": true,
+  "all_24_stages_completed": true,
+  "all_72_rooms_completed": true,
+  "all_216_seals_collected": true,
   "saved_completion_restored": true,
-  "frames": 16969,
+  "frames": 108466,
+  "rooms": [
+    {
+      "stage": 0,
+      "room": 0,
+      "name": "Lantern Quay",
+      "stage_seals": 3,
+      "stage_frames": 983,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 0,
+      "room": 1,
+      "name": "Paperboat Reach",
+      "stage_seals": 6,
+      "stage_frames": 2457,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 0,
+      "room": 2,
+      "name": "Firefly Tide",
+      "stage_seals": 9,
+      "stage_frames": 3819,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 1,
+      "room": 0,
+      "name": "Apricot Rooftops",
+      "stage_seals": 3,
+      "stage_frames": 1113,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 1,
+      "room": 1,
+      "name": "Tea House Attic",
+      "stage_seals": 6,
+      "stage_frames": 2523,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 1,
+      "room": 2,
+      "name": "Cloudpost Row",
+      "stage_seals": 9,
+      "stage_frames": 3993,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 2,
+      "room": 0,
+      "name": "Kitewake Causeway",
+      "stage_seals": 3,
+      "stage_frames": 1168,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 2,
+      "room": 1,
+      "name": "Windchime Pier",
+      "stage_seals": 6,
+      "stage_frames": 2632,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 2,
+      "room": 2,
+      "name": "Wishkite Crossing",
+      "stage_seals": 9,
+      "stage_frames": 3985,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 3,
+      "room": 0,
+      "name": "Lotus After Rain",
+      "stage_seals": 3,
+      "stage_frames": 1258,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 3,
+      "room": 1,
+      "name": "Lotus Library",
+      "stage_seals": 6,
+      "stage_frames": 2721,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 3,
+      "room": 2,
+      "name": "Rainglass Grotto",
+      "stage_seals": 9,
+      "stage_frames": 4037,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 4,
+      "room": 0,
+      "name": "Rainbell Canopy",
+      "stage_seals": 3,
+      "stage_frames": 1213,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 4,
+      "room": 1,
+      "name": "Bellflower Loops",
+      "stage_seals": 6,
+      "stage_frames": 2591,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 4,
+      "room": 2,
+      "name": "Mothwing Boughs",
+      "stage_seals": 9,
+      "stage_frames": 4028,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 5,
+      "room": 0,
+      "name": "Glasswater Run",
+      "stage_seals": 3,
+      "stage_frames": 1227,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 5,
+      "room": 1,
+      "name": "Moss Lantern Road",
+      "stage_seals": 6,
+      "stage_frames": 2649,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 5,
+      "room": 2,
+      "name": "Rainbell Crown",
+      "stage_seals": 9,
+      "stage_frames": 4454,
+      "deaths": 0,
+      "boss_type": 1
+    },
+    {
+      "stage": 6,
+      "room": 0,
+      "name": "Brass Moonworks",
+      "stage_seals": 3,
+      "stage_frames": 1124,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 6,
+      "room": 1,
+      "name": "Pocket Sunworks",
+      "stage_seals": 6,
+      "stage_frames": 2573,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 6,
+      "room": 2,
+      "name": "Pendulum Loft",
+      "stage_seals": 9,
+      "stage_frames": 4021,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 7,
+      "room": 0,
+      "name": "Pendulum Steps",
+      "stage_seals": 3,
+      "stage_frames": 1205,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 7,
+      "room": 1,
+      "name": "Clockmoth Passage",
+      "stage_seals": 6,
+      "stage_frames": 2664,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 7,
+      "room": 2,
+      "name": "Orrery Stair",
+      "stage_seals": 9,
+      "stage_frames": 4143,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 8,
+      "room": 0,
+      "name": "Sleepwheel Express",
+      "stage_seals": 3,
+      "stage_frames": 1197,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 8,
+      "room": 1,
+      "name": "Copper Nightline",
+      "stage_seals": 6,
+      "stage_frames": 2481,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 8,
+      "room": 2,
+      "name": "Starlace Junction",
+      "stage_seals": 9,
+      "stage_frames": 3972,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 9,
+      "room": 0,
+      "name": "Whale in the Sky",
+      "stage_seals": 3,
+      "stage_frames": 1204,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 9,
+      "room": 1,
+      "name": "Pearlspine Garden",
+      "stage_seals": 6,
+      "stage_frames": 2482,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 9,
+      "room": 2,
+      "name": "Moonfoam Hollows",
+      "stage_seals": 9,
+      "stage_frames": 3933,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 10,
+      "room": 0,
+      "name": "Stardrift Current",
+      "stage_seals": 3,
+      "stage_frames": 1323,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 10,
+      "room": 1,
+      "name": "Manta Slipstream",
+      "stage_seals": 6,
+      "stage_frames": 2776,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 10,
+      "room": 2,
+      "name": "Starwake Lagoon",
+      "stage_seals": 9,
+      "stage_frames": 4132,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 11,
+      "room": 0,
+      "name": "Heart of Moonwake",
+      "stage_seals": 3,
+      "stage_frames": 1152,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 11,
+      "room": 1,
+      "name": "Dreamcurrent Reef",
+      "stage_seals": 6,
+      "stage_frames": 2590,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 11,
+      "room": 2,
+      "name": "Comet Manta Roost",
+      "stage_seals": 9,
+      "stage_frames": 4301,
+      "deaths": 0,
+      "boss_type": 2
+    },
+    {
+      "stage": 12,
+      "room": 0,
+      "name": "Cinderpetal Fair",
+      "stage_seals": 3,
+      "stage_frames": 1491,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 12,
+      "room": 1,
+      "name": "Lantern Carousel",
+      "stage_seals": 6,
+      "stage_frames": 2945,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 12,
+      "room": 2,
+      "name": "Embercake Alleys",
+      "stage_seals": 9,
+      "stage_frames": 4288,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 13,
+      "room": 0,
+      "name": "Foxfire Promenade",
+      "stage_seals": 3,
+      "stage_frames": 1561,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 13,
+      "room": 1,
+      "name": "Festival Rooftops",
+      "stage_seals": 6,
+      "stage_frames": 2936,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 13,
+      "room": 2,
+      "name": "Afterglow Arcade",
+      "stage_seals": 9,
+      "stage_frames": 4455,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 14,
+      "room": 0,
+      "name": "Ribbon Skybridge",
+      "stage_seals": 3,
+      "stage_frames": 1537,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 14,
+      "room": 1,
+      "name": "Drifting Floats",
+      "stage_seals": 6,
+      "stage_frames": 2799,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 14,
+      "room": 2,
+      "name": "Firework Terraces",
+      "stage_seals": 9,
+      "stage_frames": 4259,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 15,
+      "room": 0,
+      "name": "Pearl Meridian",
+      "stage_seals": 3,
+      "stage_frames": 1381,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 15,
+      "room": 1,
+      "name": "Telescope Isles",
+      "stage_seals": 6,
+      "stage_frames": 2850,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 15,
+      "room": 2,
+      "name": "Starjar Pockets",
+      "stage_seals": 9,
+      "stage_frames": 4276,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 16,
+      "room": 0,
+      "name": "Comet Almanac",
+      "stage_seals": 3,
+      "stage_frames": 1612,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 16,
+      "room": 1,
+      "name": "Prism Atrium",
+      "stage_seals": 6,
+      "stage_frames": 2912,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 16,
+      "room": 2,
+      "name": "Lunar Lenswalk",
+      "stage_seals": 9,
+      "stage_frames": 4402,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 17,
+      "room": 0,
+      "name": "Glass Constellary",
+      "stage_seals": 3,
+      "stage_frames": 1547,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 17,
+      "room": 1,
+      "name": "Orbitglass Annex",
+      "stage_seals": 6,
+      "stage_frames": 2987,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 17,
+      "room": 2,
+      "name": "Sentinel Balcony",
+      "stage_seals": 9,
+      "stage_frames": 4735,
+      "deaths": 0,
+      "boss_type": 3
+    },
+    {
+      "stage": 18,
+      "room": 0,
+      "name": "Aurora Orchard",
+      "stage_seals": 3,
+      "stage_frames": 1534,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 18,
+      "room": 1,
+      "name": "Jellydew Hollows",
+      "stage_seals": 6,
+      "stage_frames": 2994,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 18,
+      "room": 2,
+      "name": "Rainbow Rootways",
+      "stage_seals": 9,
+      "stage_frames": 4525,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 19,
+      "room": 0,
+      "name": "Cloudfruit Groves",
+      "stage_seals": 3,
+      "stage_frames": 1578,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 19,
+      "room": 1,
+      "name": "Windfall Lanes",
+      "stage_seals": 6,
+      "stage_frames": 2917,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 19,
+      "room": 2,
+      "name": "Opal Nectar Path",
+      "stage_seals": 9,
+      "stage_frames": 4369,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 20,
+      "room": 0,
+      "name": "Ribbonroot Maze",
+      "stage_seals": 3,
+      "stage_frames": 1557,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 20,
+      "room": 1,
+      "name": "Skyberry Attics",
+      "stage_seals": 6,
+      "stage_frames": 3043,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 20,
+      "room": 2,
+      "name": "Aurora Heartwood",
+      "stage_seals": 9,
+      "stage_frames": 4339,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 21,
+      "room": 0,
+      "name": "Dawn Archive",
+      "stage_seals": 3,
+      "stage_frames": 1563,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 21,
+      "room": 1,
+      "name": "Memory Margins",
+      "stage_seals": 6,
+      "stage_frames": 3050,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 21,
+      "room": 2,
+      "name": "Booklight Bays",
+      "stage_seals": 9,
+      "stage_frames": 4617,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 22,
+      "room": 0,
+      "name": "Sunrise Index",
+      "stage_seals": 3,
+      "stage_frames": 1434,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 22,
+      "room": 1,
+      "name": "Hidden Folio Rooms",
+      "stage_seals": 6,
+      "stage_frames": 2872,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 22,
+      "room": 2,
+      "name": "Skysea Anthology",
+      "stage_seals": 9,
+      "stage_frames": 4326,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 23,
+      "room": 0,
+      "name": "The Long Dawn",
+      "stage_seals": 3,
+      "stage_frames": 1324,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 23,
+      "room": 1,
+      "name": "Last Lantern Walk",
+      "stage_seals": 6,
+      "stage_frames": 2822,
+      "deaths": 0,
+      "boss_type": 0
+    },
+    {
+      "stage": 23,
+      "room": 2,
+      "name": "Dreamwhale Dawn",
+      "stage_seals": 9,
+      "stage_frames": 4464,
+      "deaths": 0,
+      "boss_type": 4
+    }
+  ],
   "stages": [
     {
       "id": 0,
       "name": "Lantern Quay",
-      "seals": 3,
-      "frames": 1076,
-      "par_seconds": 26,
+      "seals": 9,
+      "frames": 3839,
+      "par_seconds": 95,
       "deaths": 0
     },
     {
       "id": 1,
       "name": "Apricot Rooftops",
-      "seals": 3,
-      "frames": 1218,
-      "par_seconds": 29,
+      "seals": 9,
+      "frames": 4013,
+      "par_seconds": 100,
       "deaths": 0
     },
     {
       "id": 2,
       "name": "Kitewake Causeway",
-      "seals": 3,
-      "frames": 1172,
-      "par_seconds": 27,
+      "seals": 9,
+      "frames": 4005,
+      "par_seconds": 100,
       "deaths": 0
     },
     {
       "id": 3,
       "name": "Lotus After Rain",
-      "seals": 3,
-      "frames": 1370,
-      "par_seconds": 33,
+      "seals": 9,
+      "frames": 4057,
+      "par_seconds": 100,
       "deaths": 0
     },
     {
       "id": 4,
       "name": "Rainbell Canopy",
-      "seals": 3,
-      "frames": 1202,
-      "par_seconds": 28,
+      "seals": 9,
+      "frames": 4048,
+      "par_seconds": 100,
       "deaths": 0
     },
     {
       "id": 5,
       "name": "Glasswater Run",
-      "seals": 3,
-      "frames": 1229,
-      "par_seconds": 28,
+      "seals": 9,
+      "frames": 4481,
+      "par_seconds": 110,
       "deaths": 0
     },
     {
       "id": 6,
       "name": "Brass Moonworks",
-      "seals": 3,
-      "frames": 1128,
-      "par_seconds": 28,
+      "seals": 9,
+      "frames": 4041,
+      "par_seconds": 100,
       "deaths": 0
     },
     {
       "id": 7,
       "name": "Pendulum Steps",
-      "seals": 3,
-      "frames": 1217,
-      "par_seconds": 30,
+      "seals": 9,
+      "frames": 4163,
+      "par_seconds": 100,
       "deaths": 0
     },
     {
       "id": 8,
       "name": "Sleepwheel Express",
-      "seals": 3,
-      "frames": 1142,
-      "par_seconds": 27,
+      "seals": 9,
+      "frames": 3992,
+      "par_seconds": 95,
       "deaths": 0
     },
     {
       "id": 9,
       "name": "Whale in the Sky",
-      "seals": 3,
-      "frames": 1121,
-      "par_seconds": 27,
+      "seals": 9,
+      "frames": 3953,
+      "par_seconds": 95,
       "deaths": 0
     },
     {
       "id": 10,
       "name": "Stardrift Current",
-      "seals": 3,
-      "frames": 1300,
-      "par_seconds": 30,
+      "seals": 9,
+      "frames": 4152,
+      "par_seconds": 105,
       "deaths": 0
     },
     {
       "id": 11,
       "name": "Heart of Moonwake",
-      "seals": 3,
-      "frames": 1659,
-      "par_seconds": 42,
+      "seals": 9,
+      "frames": 4328,
+      "par_seconds": 110,
+      "deaths": 0
+    },
+    {
+      "id": 12,
+      "name": "Cinderpetal Fair",
+      "seals": 9,
+      "frames": 4308,
+      "par_seconds": 105,
+      "deaths": 0
+    },
+    {
+      "id": 13,
+      "name": "Foxfire Promenade",
+      "seals": 9,
+      "frames": 4474,
+      "par_seconds": 110,
+      "deaths": 0
+    },
+    {
+      "id": 14,
+      "name": "Ribbon Skybridge",
+      "seals": 9,
+      "frames": 4279,
+      "par_seconds": 115,
+      "deaths": 0
+    },
+    {
+      "id": 15,
+      "name": "Pearl Meridian",
+      "seals": 9,
+      "frames": 4296,
+      "par_seconds": 105,
+      "deaths": 0
+    },
+    {
+      "id": 16,
+      "name": "Comet Almanac",
+      "seals": 9,
+      "frames": 4422,
+      "par_seconds": 110,
+      "deaths": 0
+    },
+    {
+      "id": 17,
+      "name": "Glass Constellary",
+      "seals": 9,
+      "frames": 4761,
+      "par_seconds": 120,
+      "deaths": 0
+    },
+    {
+      "id": 18,
+      "name": "Aurora Orchard",
+      "seals": 9,
+      "frames": 4545,
+      "par_seconds": 110,
+      "deaths": 0
+    },
+    {
+      "id": 19,
+      "name": "Cloudfruit Groves",
+      "seals": 9,
+      "frames": 4389,
+      "par_seconds": 110,
+      "deaths": 0
+    },
+    {
+      "id": 20,
+      "name": "Ribbonroot Maze",
+      "seals": 9,
+      "frames": 4358,
+      "par_seconds": 105,
+      "deaths": 0
+    },
+    {
+      "id": 21,
+      "name": "Dawn Archive",
+      "seals": 9,
+      "frames": 4637,
+      "par_seconds": 110,
+      "deaths": 0
+    },
+    {
+      "id": 22,
+      "name": "Sunrise Index",
+      "seals": 9,
+      "frames": 4345,
+      "par_seconds": 105,
+      "deaths": 0
+    },
+    {
+      "id": 23,
+      "name": "The Long Dawn",
+      "seals": 9,
+      "frames": 4491,
+      "par_seconds": 115,
       "deaths": 0
     }
-  ]
+  ],
+  "all_four_boss_types_verified": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "capture_manifest": "dist/capture-manifest.json",
+  "duration_is_first_player_measurement": false
 }

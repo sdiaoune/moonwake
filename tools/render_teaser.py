@@ -23,12 +23,16 @@ TRACE_PATH = ROOT / "dist/verified-inputs.json"
 OUTPUT_DIRECTORY = ROOT / "docs/screenshots"
 GIF_PATH = OUTPUT_DIRECTORY / "moonwake-teaser.gif"
 MANIFEST_PATH = OUTPUT_DIRECTORY / "teaser-manifest.json"
-TARGET_STAGES = (0, 3, 6, 9)
+TARGET_STAGES = (0, 3, 6, 9, 12, 15, 18, 21)
 STAGE_LABELS = {
     0: "Lantern Quay",
     3: "Lotus After Rain",
     6: "Brass Moonworks",
     9: "Whale in the Sky",
+    12: "Cinderpetal Fair",
+    15: "Pearl Meridian",
+    18: "Aurora Orchard",
+    21: "Dawn Archive",
 }
 NATIVE_SIZE = (160, 144)
 DISPLAY_SIZE = (480, 432)
@@ -119,7 +123,7 @@ def capture(recording: dict, tester_class, symbols: dict) -> tuple[list[Image.Im
     clips = []
     current_clip = None
     seen_stages = set()
-    captured_boss = False
+    captured_bosses = set()
     try:
         for count, buttons in recording["inputs"]:
             for _ in range(count):
@@ -144,9 +148,9 @@ def capture(recording: dict, tester_class, symbols: dict) -> tuple[list[Image.Im
                         if stage_id in TARGET_STAGES and stage_id not in seen_stages and state["x"] >= 160:
                             current_clip = clip(STAGE_LABELS[stage_id], frame_number, GAMEPLAY_FRAMES, state)
                             seen_stages.add(stage_id)
-                        elif stage_id == 11 and not captured_boss and state["x"] >= 1620 and tester.read("boss_hp"):
-                            current_clip = clip("Heart of Moonwake: dream knot", frame_number, GAMEPLAY_FRAMES, state)
-                            captured_boss = True
+                        elif stage_id in (5, 11, 17, 23) and state["room_id"] == 2 and stage_id not in captured_bosses and tester.read("boss_hp") and state["x"] >= tester.read("boss_x", 2) - 130:
+                            current_clip = clip({5: "Rainbell Warden", 11: "Comet Manta", 17: "Prism Sentinel", 23: "Dreamwhale"}[stage_id], frame_number, GAMEPLAY_FRAMES, state)
+                            captured_bosses.add(stage_id)
 
                 if current_clip is not None and frame_number <= current_clip["source_end_frame"]:
                     current_clip["end_state"] = state
@@ -159,15 +163,15 @@ def capture(recording: dict, tester_class, symbols: dict) -> tuple[list[Image.Im
 
         if current_clip is not None:
             raise AssertionError(f"The recording ended before the {current_clip['label']} excerpt finished.")
-        if seen_stages != set(TARGET_STAGES) or not captured_boss or len(clips) != 6:
-            raise AssertionError("The fresh recording did not provide all six required excerpts.")
+        if seen_stages != set(TARGET_STAGES) or captured_bosses != {5, 11, 17, 23} or len(clips) != 13:
+            raise AssertionError("The fresh recording did not provide all thirteen required excerpts.")
         final_state = tester.state()
         if not tester.read("completed") or final_state["game_mode"] != 6:
             raise AssertionError(f"The fresh controller replay did not reach the ending: {final_state!r}")
         seal_address = tester.p.memory
         # Read-only verification of the completion earned by this replay.
-        if any(seal_address[symbols["_seal_bits"][1] + stage_id] != 7 for stage_id in range(12)):
-            raise AssertionError("The fresh controller replay did not earn all 36 moon seals.")
+        if any(seal_address[symbols["_seal_bits"][1] + stage_id * 2] != 255 or seal_address[symbols["_seal_bits"][1] + stage_id * 2 + 1] != 1 for stage_id in range(24)):
+            raise AssertionError("The fresh controller replay did not earn all 216 moon seals.")
         images = []
         metadata = []
         for excerpt in clips:
@@ -229,7 +233,7 @@ def render() -> None:
             "gif_duration_ms": encoded_duration_ms,
             "gif_sha256": sha256(gif_bytes),
             "all_stages_completed_by_fresh_replay": True,
-            "all_36_seals_earned_by_fresh_replay": True,
+            "all_216_seals_earned_by_fresh_replay": True,
             "final_replay_state": final_state,
             "excerpts": excerpts,
         }

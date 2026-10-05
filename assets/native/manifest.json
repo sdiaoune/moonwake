@@ -1594,6 +1594,1610 @@
     "pattern_flips": true
   },
   {
+    "name": "world_4",
+    "bank": 12,
+    "n0": 144,
+    "n1": 160,
+    "unique_tiles": 304,
+    "original_unique": 387,
+    "merges": [
+      {
+        "drop": 17,
+        "keep": 4,
+        "cost": 1
+      },
+      {
+        "drop": 24,
+        "keep": 4,
+        "cost": 1
+      },
+      {
+        "drop": 58,
+        "keep": 4,
+        "cost": 1
+      },
+      {
+        "drop": 249,
+        "keep": 4,
+        "cost": 1
+      },
+      {
+        "drop": 24,
+        "keep": 12,
+        "cost": 1
+      },
+      {
+        "drop": 35,
+        "keep": 4,
+        "cost": 2
+      },
+      {
+        "drop": 306,
+        "keep": 10,
+        "cost": 2
+      },
+      {
+        "drop": 25,
+        "keep": 4,
+        "cost": 3
+      },
+      {
+        "drop": 272,
+        "keep": 4,
+        "cost": 3
+      },
+      {
+        "drop": 12,
+        "keep": 10,
+        "cost": 3
+      },
+      {
+        "drop": 348,
+        "keep": 11,
+        "cost": 3
+      },
+      {
+        "drop": 238,
+        "keep": 75,
+        "cost": 3
+      },
+      {
+        "drop": 90,
+        "keep": 4,
+        "cost": 4
+      },
+      {
+        "drop": 107,
+        "keep": 4,
+        "cost": 4
+      },
+      {
+        "drop": 55,
+        "keep": 10,
+        "cost": 4
+      },
+      {
+        "drop": 219,
+        "keep": 45,
+        "cost": 4
+      },
+      {
+        "drop": 10,
+        "keep": 4,
+        "cost": 5
+      },
+      {
+        "drop": 143,
+        "keep": 10,
+        "cost": 5
+      },
+      {
+        "drop": 214,
+        "keep": 10,
+        "cost": 5
+      },
+      {
+        "drop": 197,
+        "keep": 26,
+        "cost": 5
+      },
+      {
+        "drop": 189,
+        "keep": 30,
+        "cost": 5
+      },
+      {
+        "drop": 193,
+        "keep": 30,
+        "cost": 5
+      },
+      {
+        "drop": 56,
+        "keep": 40,
+        "cost": 5
+      },
+      {
+        "drop": 233,
+        "keep": 110,
+        "cost": 5
+      },
+      {
+        "drop": 296,
+        "keep": 232,
+        "cost": 5
+      },
+      {
+        "drop": 30,
+        "keep": 4,
+        "cost": 6
+      },
+      {
+        "drop": 208,
+        "keep": 4,
+        "cost": 6
+      },
+      {
+        "drop": 229,
+        "keep": 4,
+        "cost": 6
+      },
+      {
+        "drop": 277,
+        "keep": 4,
+        "cost": 6
+      },
+      {
+        "drop": 110,
+        "keep": 4,
+        "cost": 7
+      },
+      {
+        "drop": 197,
+        "keep": 4,
+        "cost": 7
+      },
+      {
+        "drop": 225,
+        "keep": 4,
+        "cost": 7
+      },
+      {
+        "drop": 226,
+        "keep": 4,
+        "cost": 7
+      },
+      {
+        "drop": 297,
+        "keep": 4,
+        "cost": 7
+      },
+      {
+        "drop": 14,
+        "keep": 10,
+        "cost": 7
+      },
+      {
+        "drop": 317,
+        "keep": 25,
+        "cost": 7
+      },
+      {
+        "drop": 289,
+        "keep": 191,
+        "cost": 7
+      },
+      {
+        "drop": 250,
+        "keep": 0,
+        "cost": 8
+      },
+      {
+        "drop": 108,
+        "keep": 4,
+        "cost": 8
+      },
+      {
+        "drop": 98,
+        "keep": 10,
+        "cost": 8
+      },
+      {
+        "drop": 162,
+        "keep": 31,
+        "cost": 8
+      },
+      {
+        "drop": 220,
+        "keep": 65,
+        "cost": 8
+      },
+      {
+        "drop": 131,
+        "keep": 99,
+        "cost": 8
+      },
+      {
+        "drop": 236,
+        "keep": 209,
+        "cost": 8
+      },
+      {
+        "drop": 55,
+        "keep": 31,
+        "cost": 9
+      },
+      {
+        "drop": 186,
+        "keep": 42,
+        "cost": 9
+      },
+      {
+        "drop": 142,
+        "keep": 52,
+        "cost": 9
+      },
+      {
+        "drop": 77,
+        "keep": 63,
+        "cost": 9
+      },
+      {
+        "drop": 222,
+        "keep": 97,
+        "cost": 9
+      },
+      {
+        "drop": 25,
+        "keep": 10,
+        "cost": 10
+      },
+      {
+        "drop": 41,
+        "keep": 10,
+        "cost": 10
+      },
+      {
+        "drop": 100,
+        "keep": 43,
+        "cost": 10
+      },
+      {
+        "drop": 212,
+        "keep": 90,
+        "cost": 10
+      },
+      {
+        "drop": 232,
+        "keep": 210,
+        "cost": 10
+      },
+      {
+        "drop": 80,
+        "keep": 4,
+        "cost": 11
+      },
+      {
+        "drop": 147,
+        "keep": 22,
+        "cost": 11
+      },
+      {
+        "drop": 180,
+        "keep": 28,
+        "cost": 11
+      },
+      {
+        "drop": 44,
+        "keep": 43,
+        "cost": 11
+      },
+      {
+        "drop": 302,
+        "keep": 173,
+        "cost": 11
+      },
+      {
+        "drop": 67,
+        "keep": 3,
+        "cost": 12
+      },
+      {
+        "drop": 202,
+        "keep": 4,
+        "cost": 12
+      },
+      {
+        "drop": 37,
+        "keep": 10,
+        "cost": 12
+      },
+      {
+        "drop": 187,
+        "keep": 10,
+        "cost": 12
+      },
+      {
+        "drop": 204,
+        "keep": 13,
+        "cost": 12
+      },
+      {
+        "drop": 123,
+        "keep": 42,
+        "cost": 12
+      },
+      {
+        "drop": 149,
+        "keep": 42,
+        "cost": 12
+      },
+      {
+        "drop": 287,
+        "keep": 169,
+        "cost": 12
+      },
+      {
+        "drop": 163,
+        "keep": 0,
+        "cost": 13
+      },
+      {
+        "drop": 89,
+        "keep": 3,
+        "cost": 13
+      },
+      {
+        "drop": 192,
+        "keep": 26,
+        "cost": 13
+      },
+      {
+        "drop": 90,
+        "keep": 30,
+        "cost": 13
+      },
+      {
+        "drop": 62,
+        "keep": 42,
+        "cost": 13
+      },
+      {
+        "drop": 62,
+        "keep": 42,
+        "cost": 13
+      },
+      {
+        "drop": 139,
+        "keep": 42,
+        "cost": 13
+      },
+      {
+        "drop": 207,
+        "keep": 42,
+        "cost": 13
+      },
+      {
+        "drop": 163,
+        "keep": 47,
+        "cost": 13
+      },
+      {
+        "drop": 145,
+        "keep": 59,
+        "cost": 13
+      },
+      {
+        "drop": 183,
+        "keep": 60,
+        "cost": 13
+      },
+      {
+        "drop": 216,
+        "keep": 184,
+        "cost": 13
+      },
+      {
+        "drop": 246,
+        "keep": 188,
+        "cost": 13
+      },
+      {
+        "drop": 27,
+        "keep": 4,
+        "cost": 14
+      },
+      {
+        "drop": 83,
+        "keep": 10,
+        "cost": 14
+      },
+      {
+        "drop": 29,
+        "keep": 13,
+        "cost": 14
+      }
+    ],
+    "palettes": 8,
+    "size": [
+      256,
+      144
+    ],
+    "pattern_flips": true
+  },
+  {
+    "name": "world_5",
+    "bank": 13,
+    "n0": 144,
+    "n1": 160,
+    "unique_tiles": 304,
+    "original_unique": 331,
+    "merges": [
+      {
+        "drop": 6,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 18,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 18,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 18,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 19,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 19,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 22,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 52,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 71,
+        "keep": 7,
+        "cost": 1
+      },
+      {
+        "drop": 70,
+        "keep": 10,
+        "cost": 1
+      },
+      {
+        "drop": 21,
+        "keep": 16,
+        "cost": 1
+      },
+      {
+        "drop": 83,
+        "keep": 17,
+        "cost": 1
+      },
+      {
+        "drop": 34,
+        "keep": 32,
+        "cost": 1
+      },
+      {
+        "drop": 148,
+        "keep": 94,
+        "cost": 1
+      },
+      {
+        "drop": 100,
+        "keep": 99,
+        "cost": 1
+      },
+      {
+        "drop": 100,
+        "keep": 99,
+        "cost": 1
+      },
+      {
+        "drop": 102,
+        "keep": 99,
+        "cost": 1
+      },
+      {
+        "drop": 127,
+        "keep": 99,
+        "cost": 1
+      },
+      {
+        "drop": 127,
+        "keep": 99,
+        "cost": 1
+      },
+      {
+        "drop": 146,
+        "keep": 99,
+        "cost": 1
+      },
+      {
+        "drop": 222,
+        "keep": 99,
+        "cost": 1
+      },
+      {
+        "drop": 127,
+        "keep": 102,
+        "cost": 1
+      },
+      {
+        "drop": 190,
+        "keep": 102,
+        "cost": 1
+      },
+      {
+        "drop": 189,
+        "keep": 126,
+        "cost": 1
+      },
+      {
+        "drop": 2,
+        "keep": 1,
+        "cost": 2
+      },
+      {
+        "drop": 3,
+        "keep": 1,
+        "cost": 2
+      },
+      {
+        "drop": 7,
+        "keep": 1,
+        "cost": 2
+      }
+    ],
+    "palettes": 8,
+    "size": [
+      256,
+      144
+    ],
+    "pattern_flips": true
+  },
+  {
+    "name": "world_6",
+    "bank": 14,
+    "n0": 144,
+    "n1": 160,
+    "unique_tiles": 304,
+    "original_unique": 399,
+    "merges": [
+      {
+        "drop": 12,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 53,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 109,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 132,
+        "keep": 1,
+        "cost": 1
+      },
+      {
+        "drop": 80,
+        "keep": 10,
+        "cost": 1
+      },
+      {
+        "drop": 51,
+        "keep": 25,
+        "cost": 1
+      },
+      {
+        "drop": 103,
+        "keep": 78,
+        "cost": 1
+      },
+      {
+        "drop": 26,
+        "keep": 1,
+        "cost": 2
+      },
+      {
+        "drop": 75,
+        "keep": 1,
+        "cost": 2
+      },
+      {
+        "drop": 156,
+        "keep": 1,
+        "cost": 2
+      },
+      {
+        "drop": 184,
+        "keep": 1,
+        "cost": 2
+      },
+      {
+        "drop": 77,
+        "keep": 25,
+        "cost": 2
+      },
+      {
+        "drop": 50,
+        "keep": 26,
+        "cost": 2
+      },
+      {
+        "drop": 237,
+        "keep": 215,
+        "cost": 2
+      },
+      {
+        "drop": 243,
+        "keep": 215,
+        "cost": 2
+      },
+      {
+        "drop": 257,
+        "keep": 215,
+        "cost": 2
+      },
+      {
+        "drop": 281,
+        "keep": 215,
+        "cost": 2
+      },
+      {
+        "drop": 154,
+        "keep": 16,
+        "cost": 3
+      },
+      {
+        "drop": 154,
+        "keep": 36,
+        "cost": 3
+      },
+      {
+        "drop": 251,
+        "keep": 213,
+        "cost": 3
+      },
+      {
+        "drop": 255,
+        "keep": 213,
+        "cost": 3
+      },
+      {
+        "drop": 75,
+        "keep": 1,
+        "cost": 4
+      },
+      {
+        "drop": 127,
+        "keep": 16,
+        "cost": 4
+      },
+      {
+        "drop": 30,
+        "keep": 24,
+        "cost": 4
+      },
+      {
+        "drop": 95,
+        "keep": 25,
+        "cost": 4
+      },
+      {
+        "drop": 281,
+        "keep": 209,
+        "cost": 4
+      },
+      {
+        "drop": 282,
+        "keep": 209,
+        "cost": 4
+      },
+      {
+        "drop": 284,
+        "keep": 253,
+        "cost": 4
+      },
+      {
+        "drop": 25,
+        "keep": 1,
+        "cost": 5
+      },
+      {
+        "drop": 125,
+        "keep": 1,
+        "cost": 5
+      },
+      {
+        "drop": 28,
+        "keep": 9,
+        "cost": 5
+      },
+      {
+        "drop": 206,
+        "keep": 179,
+        "cost": 5
+      },
+      {
+        "drop": 231,
+        "keep": 211,
+        "cost": 5
+      },
+      {
+        "drop": 342,
+        "keep": 338,
+        "cost": 5
+      },
+      {
+        "drop": 17,
+        "keep": 1,
+        "cost": 6
+      },
+      {
+        "drop": 74,
+        "keep": 1,
+        "cost": 6
+      },
+      {
+        "drop": 93,
+        "keep": 49,
+        "cost": 6
+      },
+      {
+        "drop": 94,
+        "keep": 51,
+        "cost": 6
+      },
+      {
+        "drop": 226,
+        "keep": 199,
+        "cost": 6
+      },
+      {
+        "drop": 273,
+        "keep": 207,
+        "cost": 6
+      },
+      {
+        "drop": 249,
+        "keep": 246,
+        "cost": 7
+      },
+      {
+        "drop": 21,
+        "keep": 5,
+        "cost": 8
+      },
+      {
+        "drop": 48,
+        "keep": 9,
+        "cost": 8
+      },
+      {
+        "drop": 118,
+        "keep": 13,
+        "cost": 8
+      },
+      {
+        "drop": 243,
+        "keep": 204,
+        "cost": 8
+      },
+      {
+        "drop": 114,
+        "keep": 1,
+        "cost": 9
+      },
+      {
+        "drop": 49,
+        "keep": 23,
+        "cost": 9
+      },
+      {
+        "drop": 264,
+        "keep": 202,
+        "cost": 9
+      },
+      {
+        "drop": 281,
+        "keep": 256,
+        "cost": 9
+      },
+      {
+        "drop": 324,
+        "keep": 298,
+        "cost": 9
+      },
+      {
+        "drop": 11,
+        "keep": 0,
+        "cost": 10
+      },
+      {
+        "drop": 28,
+        "keep": 0,
+        "cost": 10
+      },
+      {
+        "drop": 188,
+        "keep": 0,
+        "cost": 10
+      },
+      {
+        "drop": 6,
+        "keep": 1,
+        "cost": 10
+      },
+      {
+        "drop": 28,
+        "keep": 1,
+        "cost": 10
+      },
+      {
+        "drop": 251,
+        "keep": 192,
+        "cost": 10
+      },
+      {
+        "drop": 85,
+        "keep": 1,
+        "cost": 11
+      },
+      {
+        "drop": 8,
+        "keep": 5,
+        "cost": 11
+      },
+      {
+        "drop": 19,
+        "keep": 8,
+        "cost": 11
+      },
+      {
+        "drop": 289,
+        "keep": 206,
+        "cost": 11
+      },
+      {
+        "drop": 211,
+        "keep": 210,
+        "cost": 11
+      },
+      {
+        "drop": 41,
+        "keep": 2,
+        "cost": 12
+      },
+      {
+        "drop": 102,
+        "keep": 16,
+        "cost": 12
+      },
+      {
+        "drop": 152,
+        "keep": 18,
+        "cost": 12
+      },
+      {
+        "drop": 126,
+        "keep": 19,
+        "cost": 12
+      },
+      {
+        "drop": 229,
+        "keep": 159,
+        "cost": 12
+      },
+      {
+        "drop": 271,
+        "keep": 190,
+        "cost": 12
+      },
+      {
+        "drop": 306,
+        "keep": 202,
+        "cost": 12
+      },
+      {
+        "drop": 307,
+        "keep": 305,
+        "cost": 12
+      },
+      {
+        "drop": 25,
+        "keep": 1,
+        "cost": 13
+      },
+      {
+        "drop": 19,
+        "keep": 11,
+        "cost": 13
+      },
+      {
+        "drop": 40,
+        "keep": 14,
+        "cost": 13
+      },
+      {
+        "drop": 187,
+        "keep": 23,
+        "cost": 13
+      },
+      {
+        "drop": 264,
+        "keep": 156,
+        "cost": 13
+      },
+      {
+        "drop": 184,
+        "keep": 183,
+        "cost": 13
+      },
+      {
+        "drop": 245,
+        "keep": 220,
+        "cost": 13
+      },
+      {
+        "drop": 13,
+        "keep": 1,
+        "cost": 14
+      },
+      {
+        "drop": 5,
+        "keep": 2,
+        "cost": 14
+      },
+      {
+        "drop": 100,
+        "keep": 10,
+        "cost": 14
+      },
+      {
+        "drop": 265,
+        "keep": 176,
+        "cost": 14
+      },
+      {
+        "drop": 8,
+        "keep": 1,
+        "cost": 15
+      },
+      {
+        "drop": 15,
+        "keep": 1,
+        "cost": 15
+      },
+      {
+        "drop": 143,
+        "keep": 119,
+        "cost": 15
+      },
+      {
+        "drop": 195,
+        "keep": 150,
+        "cost": 15
+      },
+      {
+        "drop": 195,
+        "keep": 150,
+        "cost": 15
+      },
+      {
+        "drop": 179,
+        "keep": 173,
+        "cost": 15
+      },
+      {
+        "drop": 214,
+        "keep": 176,
+        "cost": 15
+      },
+      {
+        "drop": 264,
+        "keep": 263,
+        "cost": 15
+      },
+      {
+        "drop": 77,
+        "keep": 14,
+        "cost": 16
+      },
+      {
+        "drop": 34,
+        "keep": 19,
+        "cost": 16
+      },
+      {
+        "drop": 174,
+        "keep": 148,
+        "cost": 17
+      },
+      {
+        "drop": 175,
+        "keep": 171,
+        "cost": 17
+      },
+      {
+        "drop": 245,
+        "keep": 194,
+        "cost": 17
+      },
+      {
+        "drop": 53,
+        "keep": 11,
+        "cost": 18
+      },
+      {
+        "drop": 147,
+        "keep": 102,
+        "cost": 18
+      }
+    ],
+    "palettes": 8,
+    "size": [
+      256,
+      144
+    ],
+    "pattern_flips": true
+  },
+  {
+    "name": "world_7",
+    "bank": 15,
+    "n0": 144,
+    "n1": 160,
+    "unique_tiles": 304,
+    "original_unique": 407,
+    "merges": [
+      {
+        "drop": 19,
+        "keep": 14,
+        "cost": 1
+      },
+      {
+        "drop": 22,
+        "keep": 18,
+        "cost": 1
+      },
+      {
+        "drop": 228,
+        "keep": 18,
+        "cost": 1
+      },
+      {
+        "drop": 264,
+        "keep": 18,
+        "cost": 1
+      },
+      {
+        "drop": 130,
+        "keep": 28,
+        "cost": 1
+      },
+      {
+        "drop": 128,
+        "keep": 49,
+        "cost": 1
+      },
+      {
+        "drop": 97,
+        "keep": 77,
+        "cost": 1
+      },
+      {
+        "drop": 161,
+        "keep": 82,
+        "cost": 1
+      },
+      {
+        "drop": 333,
+        "keep": 2,
+        "cost": 2
+      },
+      {
+        "drop": 49,
+        "keep": 28,
+        "cost": 2
+      },
+      {
+        "drop": 75,
+        "keep": 28,
+        "cost": 2
+      },
+      {
+        "drop": 75,
+        "keep": 28,
+        "cost": 2
+      },
+      {
+        "drop": 48,
+        "keep": 29,
+        "cost": 2
+      },
+      {
+        "drop": 331,
+        "keep": 329,
+        "cost": 2
+      },
+      {
+        "drop": 78,
+        "keep": 2,
+        "cost": 3
+      },
+      {
+        "drop": 274,
+        "keep": 2,
+        "cost": 3
+      },
+      {
+        "drop": 61,
+        "keep": 14,
+        "cost": 3
+      },
+      {
+        "drop": 119,
+        "keep": 72,
+        "cost": 3
+      },
+      {
+        "drop": 226,
+        "keep": 225,
+        "cost": 3
+      },
+      {
+        "drop": 348,
+        "keep": 347,
+        "cost": 3
+      },
+      {
+        "drop": 311,
+        "keep": 2,
+        "cost": 4
+      },
+      {
+        "drop": 9,
+        "keep": 5,
+        "cost": 4
+      },
+      {
+        "drop": 14,
+        "keep": 13,
+        "cost": 4
+      },
+      {
+        "drop": 27,
+        "keep": 16,
+        "cost": 4
+      },
+      {
+        "drop": 88,
+        "keep": 68,
+        "cost": 4
+      },
+      {
+        "drop": 88,
+        "keep": 68,
+        "cost": 4
+      },
+      {
+        "drop": 294,
+        "keep": 2,
+        "cost": 5
+      },
+      {
+        "drop": 90,
+        "keep": 26,
+        "cost": 5
+      },
+      {
+        "drop": 234,
+        "keep": 26,
+        "cost": 5
+      },
+      {
+        "drop": 253,
+        "keep": 26,
+        "cost": 5
+      },
+      {
+        "drop": 344,
+        "keep": 68,
+        "cost": 5
+      },
+      {
+        "drop": 113,
+        "keep": 69,
+        "cost": 5
+      },
+      {
+        "drop": 112,
+        "keep": 26,
+        "cost": 6
+      },
+      {
+        "drop": 312,
+        "keep": 61,
+        "cost": 6
+      },
+      {
+        "drop": 255,
+        "keep": 111,
+        "cost": 6
+      },
+      {
+        "drop": 5,
+        "keep": 2,
+        "cost": 7
+      },
+      {
+        "drop": 12,
+        "keep": 8,
+        "cost": 7
+      },
+      {
+        "drop": 67,
+        "keep": 24,
+        "cost": 7
+      },
+      {
+        "drop": 110,
+        "keep": 24,
+        "cost": 7
+      },
+      {
+        "drop": 279,
+        "keep": 85,
+        "cost": 7
+      },
+      {
+        "drop": 334,
+        "keep": 332,
+        "cost": 7
+      },
+      {
+        "drop": 336,
+        "keep": 2,
+        "cost": 8
+      },
+      {
+        "drop": 129,
+        "keep": 14,
+        "cost": 8
+      },
+      {
+        "drop": 66,
+        "keep": 24,
+        "cost": 8
+      },
+      {
+        "drop": 304,
+        "keep": 61,
+        "cost": 8
+      },
+      {
+        "drop": 84,
+        "keep": 83,
+        "cost": 8
+      },
+      {
+        "drop": 107,
+        "keep": 106,
+        "cost": 8
+      },
+      {
+        "drop": 129,
+        "keep": 106,
+        "cost": 8
+      },
+      {
+        "drop": 327,
+        "keep": 2,
+        "cost": 9
+      },
+      {
+        "drop": 294,
+        "keep": 17,
+        "cost": 9
+      },
+      {
+        "drop": 87,
+        "keep": 23,
+        "cost": 9
+      },
+      {
+        "drop": 65,
+        "keep": 24,
+        "cost": 9
+      },
+      {
+        "drop": 272,
+        "keep": 61,
+        "cost": 9
+      },
+      {
+        "drop": 163,
+        "keep": 120,
+        "cost": 9
+      },
+      {
+        "drop": 315,
+        "keep": 314,
+        "cost": 9
+      },
+      {
+        "drop": 72,
+        "keep": 7,
+        "cost": 10
+      },
+      {
+        "drop": 60,
+        "keep": 24,
+        "cost": 10
+      },
+      {
+        "drop": 248,
+        "keep": 24,
+        "cost": 10
+      },
+      {
+        "drop": 160,
+        "keep": 33,
+        "cost": 10
+      },
+      {
+        "drop": 234,
+        "keep": 102,
+        "cost": 10
+      },
+      {
+        "drop": 269,
+        "keep": 132,
+        "cost": 10
+      },
+      {
+        "drop": 24,
+        "keep": 6,
+        "cost": 11
+      },
+      {
+        "drop": 159,
+        "keep": 7,
+        "cost": 11
+      },
+      {
+        "drop": 104,
+        "keep": 83,
+        "cost": 11
+      },
+      {
+        "drop": 307,
+        "keep": 177,
+        "cost": 11
+      },
+      {
+        "drop": 207,
+        "keep": 178,
+        "cost": 11
+      },
+      {
+        "drop": 8,
+        "keep": 3,
+        "cost": 12
+      },
+      {
+        "drop": 14,
+        "keep": 13,
+        "cost": 12
+      },
+      {
+        "drop": 54,
+        "keep": 13,
+        "cost": 12
+      },
+      {
+        "drop": 277,
+        "keep": 15,
+        "cost": 12
+      },
+      {
+        "drop": 78,
+        "keep": 20,
+        "cost": 12
+      },
+      {
+        "drop": 82,
+        "keep": 51,
+        "cost": 12
+      },
+      {
+        "drop": 311,
+        "keep": 310,
+        "cost": 12
+      },
+      {
+        "drop": 62,
+        "keep": 2,
+        "cost": 13
+      },
+      {
+        "drop": 19,
+        "keep": 13,
+        "cost": 13
+      },
+      {
+        "drop": 258,
+        "keep": 29,
+        "cost": 13
+      },
+      {
+        "drop": 254,
+        "keep": 54,
+        "cost": 13
+      },
+      {
+        "drop": 298,
+        "keep": 74,
+        "cost": 13
+      },
+      {
+        "drop": 216,
+        "keep": 94,
+        "cost": 13
+      },
+      {
+        "drop": 185,
+        "keep": 156,
+        "cost": 13
+      },
+      {
+        "drop": 254,
+        "keep": 198,
+        "cost": 13
+      },
+      {
+        "drop": 293,
+        "keep": 290,
+        "cost": 13
+      },
+      {
+        "drop": 273,
+        "keep": 2,
+        "cost": 14
+      },
+      {
+        "drop": 215,
+        "keep": 3,
+        "cost": 14
+      },
+      {
+        "drop": 234,
+        "keep": 13,
+        "cost": 14
+      },
+      {
+        "drop": 37,
+        "keep": 15,
+        "cost": 14
+      },
+      {
+        "drop": 50,
+        "keep": 20,
+        "cost": 14
+      },
+      {
+        "drop": 284,
+        "keep": 38,
+        "cost": 14
+      },
+      {
+        "drop": 170,
+        "keep": 54,
+        "cost": 14
+      },
+      {
+        "drop": 119,
+        "keep": 90,
+        "cost": 14
+      },
+      {
+        "drop": 113,
+        "keep": 92,
+        "cost": 14
+      },
+      {
+        "drop": 149,
+        "keep": 93,
+        "cost": 14
+      },
+      {
+        "drop": 11,
+        "keep": 3,
+        "cost": 15
+      },
+      {
+        "drop": 165,
+        "keep": 7,
+        "cost": 15
+      },
+      {
+        "drop": 36,
+        "keep": 14,
+        "cost": 15
+      },
+      {
+        "drop": 105,
+        "keep": 88,
+        "cost": 15
+      },
+      {
+        "drop": 184,
+        "keep": 183,
+        "cost": 15
+      },
+      {
+        "drop": 279,
+        "keep": 187,
+        "cost": 15
+      },
+      {
+        "drop": 285,
+        "keep": 284,
+        "cost": 15
+      },
+      {
+        "drop": 14,
+        "keep": 3,
+        "cost": 16
+      },
+      {
+        "drop": 130,
+        "keep": 18,
+        "cost": 16
+      },
+      {
+        "drop": 174,
+        "keep": 24,
+        "cost": 16
+      },
+      {
+        "drop": 217,
+        "keep": 49,
+        "cost": 16
+      }
+    ],
+    "palettes": 8,
+    "size": [
+      256,
+      144
+    ],
+    "pattern_flips": true
+  },
+  {
     "name": "title",
     "bank": 2,
     "n0": 144,

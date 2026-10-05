@@ -40,15 +40,14 @@ def main():
         elif parts[0] == 'dist' or parts[:2] == ('assets', 'native'):
             play.append(p)
         elif parts[0] == 'docs' and parts[1] != 'audio':
-            if parts[1] != 'screenshots' or p.name in ('title-native.png', 'moonwake-teaser.gif', 'teaser-manifest.json'):
-                play.append(p)
+            play.append(p)
     archive(OUT / 'Moonwake-Play.zip', play, {'START-HERE.md': (
         '# Welcome to Moonwake\n\n'
         'Load `dist/moonwake.gbc` in a Game Boy Color emulator or a compatible cartridge. '
         'Use FlashGBX for a compatible Chromatic cartridge.\n\n'
         'For the browser preview, run `python3 -m http.server 8000` inside this Moonwake folder, '
         'then open http://localhost:8000/docs/play.html.\n\n'
-        'Arrows move; Z jumps; X dashes; Enter pauses; Shift retries. '
+        'Arrows move; Z jumps; X dashes; Down + Z drops through ledges; Enter pauses; Shift retries. '
         'See `docs/player-guide.md` and the included license notices.\n\n'
         'Source and releases: https://github.com/sdiaoune/moonwake\n'
     ).encode()})

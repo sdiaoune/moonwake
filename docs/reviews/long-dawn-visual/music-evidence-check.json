@@ -1,0 +1,92 @@
+{
+  "music_sha256": "fce56dc75f34e09f9d859dd22d27d27d19b6a12b5fbe7c5d5210eea31b5da4f6",
+  "phrases": 15,
+  "steps_per_phrase": 256,
+  "bars_per_phrase": 32,
+  "new_interval_and_rest_tie_signatures_distinct": true,
+  "first_128_steps_of_original_eight_themes_preserved": true,
+  "all_16_pcm_files_match_report_hash_format_peak_and_clipping": true,
+  "metric_scope": "Independent file/data check; not a listening test, SFX rerender or physical hardware measurement",
+  "pcm": [
+    {
+      "name": "01-a-scarf-for-the-sleeping-sea",
+      "pcm_peak": 12557,
+      "clipped_samples": 0
+    },
+    {
+      "name": "02-persimmon-postcard",
+      "pcm_peak": 13717,
+      "clipped_samples": 0
+    },
+    {
+      "name": "03-rain-on-a-giant-lotus",
+      "pcm_peak": 12118,
+      "clipped_samples": 0
+    },
+    {
+      "name": "04-brass-clock-violet-sky",
+      "pcm_peak": 13905,
+      "clipped_samples": 0
+    },
+    {
+      "name": "05-the-whale-that-carried-tomorrow",
+      "pcm_peak": 11776,
+      "clipped_samples": 0
+    },
+    {
+      "name": "06-wake-up-sleepstorm",
+      "pcm_peak": 13572,
+      "clipped_samples": 0
+    },
+    {
+      "name": "07-a-little-more-sky",
+      "pcm_peak": 13518,
+      "clipped_samples": 0
+    },
+    {
+      "name": "08-home-in-the-open-sky",
+      "pcm_peak": 12884,
+      "clipped_samples": 0
+    },
+    {
+      "name": "10-paper-lanterns-amber-sparks",
+      "pcm_peak": 12911,
+      "clipped_samples": 0
+    },
+    {
+      "name": "11-constellations-in-a-teacup",
+      "pcm_peak": 11549,
+      "clipped_samples": 0
+    },
+    {
+      "name": "12-apples-of-the-northern-lights",
+      "pcm_peak": 11964,
+      "clipped_samples": 0
+    },
+    {
+      "name": "13-margins-full-of-morning",
+      "pcm_peak": 12411,
+      "clipped_samples": 0
+    },
+    {
+      "name": "14-ring-the-rainbell",
+      "pcm_peak": 14005,
+      "clipped_samples": 0
+    },
+    {
+      "name": "15-the-manta-writes-a-meteor",
+      "pcm_peak": 13862,
+      "clipped_samples": 0
+    },
+    {
+      "name": "16-a-prism-with-no-shadow",
+      "pcm_peak": 13061,
+      "clipped_samples": 0
+    },
+    {
+      "name": "09-sfx-and-mute",
+      "pcm_peak": 12223,
+      "clipped_samples": 0
+    }
+  ]
+}

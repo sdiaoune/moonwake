@@ -1,0 +1,745 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "review_scope": "Independent final visual/UI/world, written composition and native audio implementation review; direct listening and physical/human fun observations unscored",
+  "files": [
+    {
+      "path": "audio-render-report.json",
+      "sha256": "3dd0c35152a7bf2ddc75c57384aff37dc69e661f8d30dedba1442340b8099df7",
+      "bytes": 27447
+    },
+    {
+      "path": "capture-validation.json",
+      "sha256": "6464dfa08dcdf695998b99bcdc566908ae35ea9bb1662b3147f410490064f705",
+      "bytes": 630
+    },
+    {
+      "path": "final-boss-capture-report.json",
+      "sha256": "a2c7c3fc41f4da6a3c6b43d6b35380e0e834205cfa15f7028730ed4bf9958f14",
+      "bytes": 30918
+    },
+    {
+      "path": "full-review.md",
+      "sha256": "8158d13c0b6f33d64e7c1e434f373ac17fdbb1f5b9018268cd35e00a049856a9",
+      "bytes": 29937
+    },
+    {
+      "path": "images/earned-junction-gallery.png",
+      "sha256": "428180fa8f1a171233b7d9cb758e6df68981463917c8beff438dae154a96087a",
+      "bytes": 33267,
+      "dimensions": [
+        1440,
+        454
+      ]
+    },
+    {
+      "path": "images/final-sentinel-defeated-native.png",
+      "sha256": "8843fb93efe0a8d891346c6dab3896947a6b8e3777e91bd53d79132b20c60842",
+      "bytes": 7859,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/final-sentinel-gallery.png",
+      "sha256": "6cde127b3cb19fc3d811cb683f31596deb3903ea8b3dc4ab9b527d5d2048f672",
+      "bytes": 21528,
+      "dimensions": [
+        1440,
+        454
+      ]
+    },
+    {
+      "path": "images/final-sentinel-guarded-warning-native.png",
+      "sha256": "6ee35d0a084b4ea398022e6955c374da023c54db2895735b03c38e3290f164f1",
+      "bytes": 7644,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/final-sentinel-unguarded-warning-native.png",
+      "sha256": "371607994d5771faf4eff1c9aa60813cf6eb9a4c6b13074f1c27c0641de08928",
+      "bytes": 7670,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/final-ui-gallery.png",
+      "sha256": "783c6619ea57c84934c170662afb23837608cc77a6ab3ed8b18b62156d20ca3f",
+      "bytes": 48244,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "images/junction-19-2-verified-native.png",
+      "sha256": "0f9c934986fae664993b8ebe3839a5c1cdae5867aba49e6005b9d7c48b061a43",
+      "bytes": 8011,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/junction-19-2-verified.png",
+      "sha256": "b5dd54ecff5e79ad2096bfca31883273def73354500ea17a230b5991353c955b",
+      "bytes": 16072,
+      "dimensions": [
+        800,
+        720
+      ]
+    },
+    {
+      "path": "images/junction-22-2-verified-native.png",
+      "sha256": "acd2682af7c5978118e1630a1d0ad58cd5bc24d9907d0c5cf56a29c8b92c64db",
+      "bytes": 6719,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/junction-22-2-verified.png",
+      "sha256": "2586b5ba0842e4d382793bab53a99c1a93b15a151a5d6479e363e94e8328d8ed",
+      "bytes": 13517,
+      "dimensions": [
+        800,
+        720
+      ]
+    },
+    {
+      "path": "images/junction-24-2-verified-native.png",
+      "sha256": "7479a8bd66f0eac35f9224df8c81e39e63e18d261e6e9d358767fdab24e76ce5",
+      "bytes": 7384,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/junction-24-2-verified.png",
+      "sha256": "34b53b718b71781bb7b68faaa7571e5ad1608dbe6d456a3e15f59ef1475df3fc",
+      "bytes": 14461,
+      "dimensions": [
+        800,
+        720
+      ]
+    },
+    {
+      "path": "images/linear-boss-1-approach-native.png",
+      "sha256": "dc0a673ad5ac80838b395d5b71bd9b8c914411fe114cb44d88bc80a2d9cc72d9",
+      "bytes": 8308,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-1-gallery.png",
+      "sha256": "5dfd6a857d2a8a809090db946b7b72c3438395146a6bc512cd7aaba6f734af1f",
+      "bytes": 64177,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "images/linear-boss-1-hit-1-native.png",
+      "sha256": "63785e3a33705b26733375bc46ee8a623987945190f2d928726784bb3cc8894c",
+      "bytes": 8443,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-1-hit-2-native.png",
+      "sha256": "67d6e66d8e5e813834fe9903b33c349b2d42c9b99788cf2984a07251e040aa0c",
+      "bytes": 8397,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-1-hit-3-native.png",
+      "sha256": "7333f3bdfebf2e086e47c0879dce2c8d3e18df7615c63acd320deb0b9eb9e8d3",
+      "bytes": 8473,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-1-hit-4-native.png",
+      "sha256": "41bf04ddd03d3506720984500b70003209c0d721616eee6dc02d91b38447bd8d",
+      "bytes": 8288,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-1-hit-5-native.png",
+      "sha256": "61834be2bf4b00c1a6b827ebd2337568e9d87b0e9b08096a4acbb00c4393f5c0",
+      "bytes": 8419,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-1-hit-6-native.png",
+      "sha256": "cdbce4c465ea6f78af6e92c6ebc834924204dc44dc51d35197d26a0a1cc00692",
+      "bytes": 8439,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-1-tell-native.png",
+      "sha256": "466923591077fd5f8ceeff634a91ea269eb47f1c3cd4cfb6d5ba811c17a01f46",
+      "bytes": 8355,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-2-approach-native.png",
+      "sha256": "c4ac1a05d149fceaa7683ca04e7a620c8f72bb2992e39381aff6e4e365012f5d",
+      "bytes": 6878,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-2-gallery.png",
+      "sha256": "1aa07d0e99f9b89737b3b6bc9cb3c035ba509bf08bb23967860e6af83735c5bd",
+      "bytes": 59270,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "images/linear-boss-2-hit-1-native.png",
+      "sha256": "6ec0576a0b0cedb68ad6a1d2d210db5c9142edf32bb64e44a91946b1a46d7d7a",
+      "bytes": 7137,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-2-hit-2-native.png",
+      "sha256": "2d917e9fa6871a27b4a9af9e85865e2020e437747a597ec06efcbd821036ee2f",
+      "bytes": 7128,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-2-hit-3-native.png",
+      "sha256": "f8c09a3c698a9b38b642ac6b46643be7fd18627738ed243ee679a3dcded7e761",
+      "bytes": 7215,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-2-hit-4-native.png",
+      "sha256": "0796a009bf66c5023340209a372dd328b50aa77cc9be85f56e36da84069da413",
+      "bytes": 7186,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-2-hit-5-native.png",
+      "sha256": "4c69fe71c433b66c399391796de2871d5947d9ebe9e809cec471291bac2438f7",
+      "bytes": 7140,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-2-hit-6-native.png",
+      "sha256": "23be740634270051217daad673266d8bc450a17c354d1d0654e51eaaec5da7f5",
+      "bytes": 6973,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-2-tell-native.png",
+      "sha256": "18b7a14891c80d8e91df6ff8fec0a755487c312b23fa27a16233c0070acf7ef6",
+      "bytes": 7150,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-3-approach-native.png",
+      "sha256": "d2adbe62373e9be67ddc5ffadc0d4ec223cd01ed5172c7cf057d57431fe77992",
+      "bytes": 6401,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-3-gallery.png",
+      "sha256": "1f996fca39af458d001dd113b8a44a2bf44f46f36de372ba77ed18a77685c000",
+      "bytes": 77646,
+      "dimensions": [
+        1440,
+        1816
+      ]
+    },
+    {
+      "path": "images/linear-boss-3-guard-native.png",
+      "sha256": "50b741970b35dec1ad4d9d2d88b9c7183127e836306c0e815f088437780bf79f",
+      "bytes": 7455,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-3-hit-1-native.png",
+      "sha256": "cf49e06b36a62afd77ec901978f79bfdeb6f99a153812c6eb92de63b4fee4861",
+      "bytes": 7877,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-3-hit-2-native.png",
+      "sha256": "cc4de10492b22ebb5a3b88778fe446436faf5496c791c1b8f84b2d3f3d0dd5f0",
+      "bytes": 7704,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-3-hit-3-native.png",
+      "sha256": "5c5f424ba37009293639afd832eede59de1b979770fd3dc01118787cb4ba78da",
+      "bytes": 8013,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-3-hit-4-native.png",
+      "sha256": "7e684a896d34861be9bfb457f6788c15df98308cb118ac0791d7c14abb11ac3e",
+      "bytes": 7774,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-3-hit-5-native.png",
+      "sha256": "6ff4af30870f37f4600ca5bc6208301ea412a8950f073690d1897813f65d4a7b",
+      "bytes": 7904,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-3-hit-6-native.png",
+      "sha256": "4c64ea72252858dc153bf6fc84ca23656e5cc4e76cd2808974ec5d5b4273a272",
+      "bytes": 7833,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-3-open-native.png",
+      "sha256": "d3b18607717300b710bbb17d451c62eccdea3bc669e95c100d79af2c0e2696d7",
+      "bytes": 6147,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-3-tell-native.png",
+      "sha256": "40b7953117a04427b2e964e5c85e21c532080d7e57271cbfea019d14541d28fb",
+      "bytes": 7646,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-4-approach-native.png",
+      "sha256": "674e507d6423e7a9f5fee1e7af35dedf98526bcf4a171b15259c953e4b303423",
+      "bytes": 7475,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-4-gallery.png",
+      "sha256": "bb045af1f0345e006095a3f00986c60ba34d03a0cedf57d165ac19823db99c70",
+      "bytes": 62333,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "images/linear-boss-4-hit-1-native.png",
+      "sha256": "455d1f42af35b3feba88c069c78241f0a1b765f561c8306f9d668b56cd59e6b4",
+      "bytes": 8158,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-4-hit-2-native.png",
+      "sha256": "a7b9eaa7bf9db79ab9a8bef208409814269d5af203f8c8264e6064e654fb418b",
+      "bytes": 8053,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-4-hit-3-native.png",
+      "sha256": "cc24dcb7a2a716662004bd915e57ee1fbb2309decf29f699f44dc3f44306c17d",
+      "bytes": 8033,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-4-hit-4-native.png",
+      "sha256": "237df791e832f2c262e0dbdf71a539571f93de69e3de08df18c840e14924d010",
+      "bytes": 8207,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-4-hit-5-native.png",
+      "sha256": "2e74d10ad69e8da5911d49869af6dba119b4c1e6f4e5809121c1c749f64fe76d",
+      "bytes": 8090,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-4-hit-6-native.png",
+      "sha256": "16f6b0ffa7f2516d9d5cd853a2e52a5faa3471a6c383b32b105155ef68b40af6",
+      "bytes": 7771,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-4-tell-native.png",
+      "sha256": "ac8e9871c145c2d3392de5363798b83fa820ce66d621829244ef3ace5269c827",
+      "bytes": 7966,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-ending-native.png",
+      "sha256": "4388c819a11065bc3d02876b28ce20dbf7deccc7856d26af7ccf193b0210838a",
+      "bytes": 4207,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/linear-boss-ending.png",
+      "sha256": "3bb9f103bc8b967c4a554f47d897e4147e2c0abdcf9448f434029c088bc2adbc",
+      "bytes": 9603,
+      "dimensions": [
+        800,
+        720
+      ]
+    },
+    {
+      "path": "images/qa-junction-19-bridge-24-native.png",
+      "sha256": "1b58494dc9fa8e742714a37599b3a30e2542c24a28950a4894ecbdd94e225674",
+      "bytes": 10410,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-19-destination-native.png",
+      "sha256": "412de45b33b33314f46393ae624d924a852345fee93e0ba47b31f9e5a724dbdc",
+      "bytes": 8077,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-19-gallery.png",
+      "sha256": "d980785b3ebcd5f89d53846bb722beccc27ba525a562deaf2eade88932e99aa5",
+      "bytes": 33459,
+      "dimensions": [
+        1920,
+        454
+      ]
+    },
+    {
+      "path": "images/qa-junction-19-named-pause-native.png",
+      "sha256": "e7b0b31bf13d77bb0145efba283704cebec6949a4fefc3d3f142770489b23b86",
+      "bytes": 4434,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-19-source-and-clues-native.png",
+      "sha256": "0ccd16b0b5c80f9726623038c23f3c2222b87983c721b096142cbf8f3d237dda",
+      "bytes": 7650,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-22-bridge-24-native.png",
+      "sha256": "145302def9939c00df755a15a2c46dd9f783245eae5a2eae35d728213e8e1ce7",
+      "bytes": 7350,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-22-bridge-25-native.png",
+      "sha256": "8d05d4ffae11985391911e9fc099df74c65d34a4f98b3a46ee31afef566c21ea",
+      "bytes": 8066,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-22-destination-native.png",
+      "sha256": "b9f9b32007dd7aff54e5d56a2927ac6f7b8e527a31b63c5c9790e4d3489c6248",
+      "bytes": 7615,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-22-gallery.png",
+      "sha256": "ae31cfea87bbe3c60702a1bb7c215b9c51a907422d05edcf4a468b61f2d5b7d9",
+      "bytes": 32792,
+      "dimensions": [
+        2400,
+        454
+      ]
+    },
+    {
+      "path": "images/qa-junction-22-named-pause-native.png",
+      "sha256": "49675b33689657e227fb156915c5c6e7e07fc2d243768e78112202f2b42326fa",
+      "bytes": 3804,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-22-source-and-clues-native.png",
+      "sha256": "fa633437cc472255a1f681aacdeed2862ecb77486a223f937c997b40c26137a8",
+      "bytes": 6831,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-24-bridge-24-native.png",
+      "sha256": "38da2ca0744da1d68e54470305903a8e9d58c2592a0543a3795023d3469308f1",
+      "bytes": 7917,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-24-destination-native.png",
+      "sha256": "b6a5e5e9dcadd2d30935482a29e753a885631c93dae69a60b0f59df96459b099",
+      "bytes": 7080,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-24-gallery.png",
+      "sha256": "34ee222c54ce4b38ba5b3c86280cd83de13ee1be26a4eb526d16739267e7ab79",
+      "bytes": 28247,
+      "dimensions": [
+        1920,
+        454
+      ]
+    },
+    {
+      "path": "images/qa-junction-24-named-pause-native.png",
+      "sha256": "a3c6b2ebc85dfc845e6932f336754cc8acca94b2cb1db26f61b662ede831030a",
+      "bytes": 3862,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/qa-junction-24-source-and-clues-native.png",
+      "sha256": "2638ff65612ee8e396575934e7e75b2fe3db6a9dc036314211e9d224d11bfa27",
+      "bytes": 7391,
+      "dimensions": [
+        160,
+        144
+      ]
+    },
+    {
+      "path": "images/world-01.png",
+      "sha256": "5028289b0377337de8e6799b378ad3ac4c3367b51fe0f0cf10f19c30cf29ce29",
+      "bytes": 56779,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "images/world-02.png",
+      "sha256": "c3a76f1b5e9e8c6d38afea2429220b0a56e9ae3e4aae7eee6f16060ffc0e0b93",
+      "bytes": 75172,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "images/world-03.png",
+      "sha256": "60af561edc025df8cdba8b301a54632533366db5ed5df944724300befc29766c",
+      "bytes": 82119,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "images/world-04.png",
+      "sha256": "0e3f4ad56bc9d6b163c1801da1a7915394a954a47e4c0766e57a8c441590bfb0",
+      "bytes": 67940,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "images/world-05.png",
+      "sha256": "0117b512d15a97c3637ba5ac388c1246853efd0bd6d34e419475764b176c333b",
+      "bytes": 68258,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "images/world-06.png",
+      "sha256": "7df236657e2461ee38edb24226ea6b2b399b5f25ea72c394c01f4a2c5ad8f659",
+      "bytes": 63545,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "images/world-07.png",
+      "sha256": "677c1895b13b01497c08a0b5b02a018f8363dfeed4131126a9916ba3218556b1",
+      "bytes": 84719,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "images/world-08.png",
+      "sha256": "cb38f0d3f66ff7cc0aa0f784b28295fcdf77ab27825eee9f6f41e31aab82566f",
+      "bytes": 71394,
+      "dimensions": [
+        1440,
+        1362
+      ]
+    },
+    {
+      "path": "index.html",
+      "sha256": "390b88b53052c6f35cdad33d8560f90b6c6440a5f131d7c8c5d5c56332532c2b",
+      "bytes": 12417
+    },
+    {
+      "path": "junction-report.json",
+      "sha256": "1b7cd5f2db1b423b670e0a47db7e286a9d7382744718ee6e459ffae822335f50",
+      "bytes": 7390
+    },
+    {
+      "path": "music-evidence-check.json",
+      "sha256": "ab3416691f582a9e3cbb9860e6250a985d3d0583a91eb6b8fd873425651de189",
+      "bytes": 2213
+    },
+    {
+      "path": "network-report.json",
+      "sha256": "71bc44dc9313fb7995be50a126d968e6621d657741143ed91c2b4339f960c544",
+      "bytes": 339350
+    },
+    {
+      "path": "sentinel-cue-report.json",
+      "sha256": "039b79bd4b5755602923235ab9aa70645aee76153fc1d9ca81357b1bf2fbd723",
+      "bytes": 528158
+    },
+    {
+      "path": "transition-cadence.json",
+      "sha256": "d0af438ceff0ab42d09134f603e7b4b0549ccf444da5d951ee9bf109d6db9930",
+      "bytes": 30993
+    },
+    {
+      "path": "ui-report.json",
+      "sha256": "a4e9cd7ccf517678142bb45f5bc441fc173aad6abfe0e976d6e72da967b85378",
+      "bytes": 10222
+    }
+  ]
+}

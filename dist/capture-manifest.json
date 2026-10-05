@@ -1,0 +1,2331 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "fresh_linear_rooms_captured": 72,
+  "native_resolution": [
+    160,
+    144
+  ],
+  "scale_filter": "nearest",
+  "captures": [
+    {
+      "name": "room-06-3-opening",
+      "stage": 5,
+      "room": 2,
+      "frames": 24109,
+      "native": "docs/screenshots/room-06-3-opening-native.png",
+      "native_sha256": "eb64b852b23677f1d335ad71a4edfeb6b9ee09e3a55ea99427149633af0d8a6a",
+      "enlarged": "docs/screenshots/room-06-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-1",
+      "stage": 5,
+      "room": 2,
+      "frames": 25492,
+      "native": "docs/screenshots/boss-1-native.png",
+      "native_sha256": "a67cba7a7238af56ae49b3c491feef39f4aeaf50568b0c171f97618a2d9bcbd3",
+      "enlarged": "docs/screenshots/boss-1.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-1-hit-1",
+      "stage": 5,
+      "room": 2,
+      "frames": 25561,
+      "native": "docs/screenshots/boss-1-hit-1-native.png",
+      "native_sha256": "459a63ebf9788490d4e61b77816b002212a221b33315b2d63367dac29fcf0936",
+      "enlarged": "docs/screenshots/boss-1-hit-1.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-1-hit-2",
+      "stage": 5,
+      "room": 2,
+      "frames": 25685,
+      "native": "docs/screenshots/boss-1-hit-2-native.png",
+      "native_sha256": "6eed7405fa87011317e0f32afe51851bae35fa592e7959328a7375e49b1b4f74",
+      "enlarged": "docs/screenshots/boss-1-hit-2.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-1-hit-3",
+      "stage": 5,
+      "room": 2,
+      "frames": 25754,
+      "native": "docs/screenshots/boss-1-hit-3-native.png",
+      "native_sha256": "241c9ddc1751bdd74982f68d1c59fd97a2c0ea961d3b132e778c440ac62b9513",
+      "enlarged": "docs/screenshots/boss-1-hit-3.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-1-hit-4",
+      "stage": 5,
+      "room": 2,
+      "frames": 25823,
+      "native": "docs/screenshots/boss-1-hit-4-native.png",
+      "native_sha256": "29da34d4103756ece04e7929b2db8408bcef97d5594282c58fe9308e291f710e",
+      "enlarged": "docs/screenshots/boss-1-hit-4.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-1-hit-5",
+      "stage": 5,
+      "room": 2,
+      "frames": 25907,
+      "native": "docs/screenshots/boss-1-hit-5-native.png",
+      "native_sha256": "b03052f398b78c164b826865481e6b228eead31b1c4cff154d9295a1081bbf98",
+      "enlarged": "docs/screenshots/boss-1-hit-5.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-1-hit-6",
+      "stage": 5,
+      "room": 2,
+      "frames": 25930,
+      "native": "docs/screenshots/boss-1-hit-6-native.png",
+      "native_sha256": "2df173bd2e0b5858c236f074431da203471bf7801820ab0b5c4ddd8239365fad",
+      "enlarged": "docs/screenshots/boss-1-hit-6.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-06-3-verified",
+      "stage": 5,
+      "room": 2,
+      "frames": 25930,
+      "native": "docs/screenshots/room-06-3-verified-native.png",
+      "native_sha256": "2df173bd2e0b5858c236f074431da203471bf7801820ab0b5c4ddd8239365fad",
+      "enlarged": "docs/screenshots/room-06-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-6-clear",
+      "stage": 5,
+      "room": 2,
+      "frames": 25975,
+      "native": "docs/screenshots/stage-6-clear-native.png",
+      "native_sha256": "a4cca7e8e249fe618728bb06d68d4cfb4e5a686aba8480d0983d1cc8d4f66400",
+      "enlarged": "docs/screenshots/stage-6-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "world-3",
+      "stage": 6,
+      "room": 0,
+      "frames": 26191,
+      "native": "docs/screenshots/world-3-native.png",
+      "native_sha256": "a6c90f632f036fa6fbb3648100348a7da6d36190e5b419f727fbe4010b9d9a02",
+      "enlarged": "docs/screenshots/world-3.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-07-1-verified",
+      "stage": 6,
+      "room": 0,
+      "frames": 27241,
+      "native": "docs/screenshots/room-07-1-verified-native.png",
+      "native_sha256": "31602f6bd4e32dc53c7de4320328cadda4c43133f4c75a4095752f6fcbfb7254",
+      "enlarged": "docs/screenshots/room-07-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-07-2-opening",
+      "stage": 6,
+      "room": 1,
+      "frames": 27283,
+      "native": "docs/screenshots/room-07-2-opening-native.png",
+      "native_sha256": "fd71bfe28364fce8e2fdbe013d78615887f298c16b9fa5f9a73912abf1e4a4a9",
+      "enlarged": "docs/screenshots/room-07-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-07-2-verified",
+      "stage": 6,
+      "room": 1,
+      "frames": 28724,
+      "native": "docs/screenshots/room-07-2-verified-native.png",
+      "native_sha256": "52951d50a9747775424d0157edb9b296feb7a73f0d57c993b7f9998b53742ff3",
+      "enlarged": "docs/screenshots/room-07-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-07-3-opening",
+      "stage": 6,
+      "room": 2,
+      "frames": 28760,
+      "native": "docs/screenshots/room-07-3-opening-native.png",
+      "native_sha256": "b3d5f01f94fb402a10bf862a78f30c4c1164c523cadd9bf4475869eaa56b45a8",
+      "enlarged": "docs/screenshots/room-07-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-07-3-verified",
+      "stage": 6,
+      "room": 2,
+      "frames": 30206,
+      "native": "docs/screenshots/room-07-3-verified-native.png",
+      "native_sha256": "491dbc32ced16049dc58446a4f5d999c219993b5203eeff5d99b1f03e68f772e",
+      "enlarged": "docs/screenshots/room-07-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-7-clear",
+      "stage": 6,
+      "room": 2,
+      "frames": 30244,
+      "native": "docs/screenshots/stage-7-clear-native.png",
+      "native_sha256": "1107e51e481e6db3862177bfc89ea1e660766f849a35df4972ce75bbde2b16ab",
+      "enlarged": "docs/screenshots/stage-7-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-08-1-verified",
+      "stage": 7,
+      "room": 0,
+      "frames": 31596,
+      "native": "docs/screenshots/room-08-1-verified-native.png",
+      "native_sha256": "cc6dbb581c7299df23be42ab2193222ce1d21028c252eebbf26b95c0658628c6",
+      "enlarged": "docs/screenshots/room-08-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-08-2-opening",
+      "stage": 7,
+      "room": 1,
+      "frames": 31630,
+      "native": "docs/screenshots/room-08-2-opening-native.png",
+      "native_sha256": "7c45c91ae82b52215b65238993d4a567cdd193be562a50afde7e783f47ac8c8e",
+      "enlarged": "docs/screenshots/room-08-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-08-2-verified",
+      "stage": 7,
+      "room": 1,
+      "frames": 33089,
+      "native": "docs/screenshots/room-08-2-verified-native.png",
+      "native_sha256": "284db1e35b2bc1a73c60e8a55937354ce1f070f8c5afdf937cf7989340030a03",
+      "enlarged": "docs/screenshots/room-08-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-08-3-opening",
+      "stage": 7,
+      "room": 2,
+      "frames": 33125,
+      "native": "docs/screenshots/room-08-3-opening-native.png",
+      "native_sha256": "b9e8c12ce7a72b1ced3a4fb625954628b6182093479975c319bd6da6d01f9124",
+      "enlarged": "docs/screenshots/room-08-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-08-3-verified",
+      "stage": 7,
+      "room": 2,
+      "frames": 34608,
+      "native": "docs/screenshots/room-08-3-verified-native.png",
+      "native_sha256": "4cb3aba93a0cc52efa1483d584ff2e5ec248220ee34f451e6c4e9dfe5e197404",
+      "enlarged": "docs/screenshots/room-08-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-8-clear",
+      "stage": 7,
+      "room": 2,
+      "frames": 34646,
+      "native": "docs/screenshots/stage-8-clear-native.png",
+      "native_sha256": "a7b11952f749b43643932422d5c790bf0d838c7a043ae48f46f1b797091a6ead",
+      "enlarged": "docs/screenshots/stage-8-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-09-1-verified",
+      "stage": 8,
+      "room": 0,
+      "frames": 36012,
+      "native": "docs/screenshots/room-09-1-verified-native.png",
+      "native_sha256": "a10f504308fb267971803a5a2c20d110d1e23ab293f334fbcf99338ecad3bb71",
+      "enlarged": "docs/screenshots/room-09-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-09-2-opening",
+      "stage": 8,
+      "room": 1,
+      "frames": 36036,
+      "native": "docs/screenshots/room-09-2-opening-native.png",
+      "native_sha256": "18f5e23686d3c3b12c8ab5f54bb3709247a70c5f4b3196fb84c38c9feaa1fbad",
+      "enlarged": "docs/screenshots/room-09-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-09-2-verified",
+      "stage": 8,
+      "room": 1,
+      "frames": 37329,
+      "native": "docs/screenshots/room-09-2-verified-native.png",
+      "native_sha256": "11300aa8d872e145530ecd8ece68d5d2e528df56a02c0a0448630e2b41b84e2b",
+      "enlarged": "docs/screenshots/room-09-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-09-3-opening",
+      "stage": 8,
+      "room": 2,
+      "frames": 37365,
+      "native": "docs/screenshots/room-09-3-opening-native.png",
+      "native_sha256": "a3a5f77d8c609a8c6b624ad9008ea35babd54a8abd4d915fc5e4d1361ce2be47",
+      "enlarged": "docs/screenshots/room-09-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-09-3-verified",
+      "stage": 8,
+      "room": 2,
+      "frames": 38851,
+      "native": "docs/screenshots/room-09-3-verified-native.png",
+      "native_sha256": "b4dbdba702c16df55f613a1af56028b55aaa452ca7bebdfaa42b9fb3260abc40",
+      "enlarged": "docs/screenshots/room-09-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-9-clear",
+      "stage": 8,
+      "room": 2,
+      "frames": 38889,
+      "native": "docs/screenshots/stage-9-clear-native.png",
+      "native_sha256": "ebb2516797ef69ef42040edc3a90779185e0bb6fbe1e644472e16d74b6d1f1c5",
+      "enlarged": "docs/screenshots/stage-9-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "world-4",
+      "stage": 9,
+      "room": 0,
+      "frames": 39105,
+      "native": "docs/screenshots/world-4-native.png",
+      "native_sha256": "ec506743587018c72c8312e1e650a35f08c220d2c2b3e08df93a6c1c73f1d2d0",
+      "enlarged": "docs/screenshots/world-4.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-10-1-verified",
+      "stage": 9,
+      "room": 0,
+      "frames": 40230,
+      "native": "docs/screenshots/room-10-1-verified-native.png",
+      "native_sha256": "d1e0a79fb6fd49fb99a92e2665ca3b0bc911aad2a50c65fbb52d5cbd614e6f87",
+      "enlarged": "docs/screenshots/room-10-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-10-2-opening",
+      "stage": 9,
+      "room": 1,
+      "frames": 40254,
+      "native": "docs/screenshots/room-10-2-opening-native.png",
+      "native_sha256": "e07d7b2fb906e8efdabcb7ef61200a9fca3eb0bd424c17b9fa809e92d5e35b85",
+      "enlarged": "docs/screenshots/room-10-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-10-2-verified",
+      "stage": 9,
+      "room": 1,
+      "frames": 41538,
+      "native": "docs/screenshots/room-10-2-verified-native.png",
+      "native_sha256": "d009101975458bb257df36815df2106725f11962d71a4a503f4a31a352bda461",
+      "enlarged": "docs/screenshots/room-10-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-10-3-opening",
+      "stage": 9,
+      "room": 2,
+      "frames": 41574,
+      "native": "docs/screenshots/room-10-3-opening-native.png",
+      "native_sha256": "8a00944fcc4660843058ffbf773b9cbaf64dc9d2d3382aef6cf081287d40a3fa",
+      "enlarged": "docs/screenshots/room-10-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-10-3-verified",
+      "stage": 9,
+      "room": 2,
+      "frames": 43023,
+      "native": "docs/screenshots/room-10-3-verified-native.png",
+      "native_sha256": "18eaf8b9b834b18577a5250fc26aac1fd5f4940e071b6a346a84f00694e986f8",
+      "enlarged": "docs/screenshots/room-10-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-10-clear",
+      "stage": 9,
+      "room": 2,
+      "frames": 43061,
+      "native": "docs/screenshots/stage-10-clear-native.png",
+      "native_sha256": "7521673282020fea8888286d69d7fa4450ffb0e2889b1fc387ff3fd40a463eb8",
+      "enlarged": "docs/screenshots/stage-10-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-11-1-verified",
+      "stage": 10,
+      "room": 0,
+      "frames": 44537,
+      "native": "docs/screenshots/room-11-1-verified-native.png",
+      "native_sha256": "7a19d68b4f43fff43e6684a879dde83ba2deb38de5e35f864ee17226cdea7462",
+      "enlarged": "docs/screenshots/room-11-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-11-2-opening",
+      "stage": 10,
+      "room": 1,
+      "frames": 44558,
+      "native": "docs/screenshots/room-11-2-opening-native.png",
+      "native_sha256": "b44b533b9c3643926a03929a428d1b7a0c17a480c7623d2d8ebe21f0f7933b53",
+      "enlarged": "docs/screenshots/room-11-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-11-2-verified",
+      "stage": 10,
+      "room": 1,
+      "frames": 46025,
+      "native": "docs/screenshots/room-11-2-verified-native.png",
+      "native_sha256": "f8950bd39a8ebe817c83b0a96c5bf8f466d8480c6921813997446f69c1f6214e",
+      "enlarged": "docs/screenshots/room-11-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-11-3-opening",
+      "stage": 10,
+      "room": 2,
+      "frames": 46060,
+      "native": "docs/screenshots/room-11-3-opening-native.png",
+      "native_sha256": "d21e458cecc827e02360149026b058751ac698fadc6cdb4ba0542cce32839705",
+      "enlarged": "docs/screenshots/room-11-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-11-3-verified",
+      "stage": 10,
+      "room": 2,
+      "frames": 47411,
+      "native": "docs/screenshots/room-11-3-verified-native.png",
+      "native_sha256": "80809613787317277e05c6b08e41ac1b7fc5d9a29f4fefa1ce229ffb0d341e5f",
+      "enlarged": "docs/screenshots/room-11-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-11-clear",
+      "stage": 10,
+      "room": 2,
+      "frames": 47449,
+      "native": "docs/screenshots/stage-11-clear-native.png",
+      "native_sha256": "7d0bcd34c66a795f3b2d06c1d770d556ae3c0a2c6e673c077bf03be898ccddce",
+      "enlarged": "docs/screenshots/stage-11-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-12-1-verified",
+      "stage": 11,
+      "room": 0,
+      "frames": 48744,
+      "native": "docs/screenshots/room-12-1-verified-native.png",
+      "native_sha256": "d931bf91f577a24b465d3cafcaec6b891b7e1505b0e33792fee2ac7aca61fe45",
+      "enlarged": "docs/screenshots/room-12-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-12-2-opening",
+      "stage": 11,
+      "room": 1,
+      "frames": 48778,
+      "native": "docs/screenshots/room-12-2-opening-native.png",
+      "native_sha256": "bce57c96a8590c322a6f6b9d0ea2dd7b5839e109cc1dff5535a7ad9262077f8c",
+      "enlarged": "docs/screenshots/room-12-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-12-2-verified",
+      "stage": 11,
+      "room": 1,
+      "frames": 50223,
+      "native": "docs/screenshots/room-12-2-verified-native.png",
+      "native_sha256": "0d1e78b85385ec1036e496e18c5543b6b231906c0e58f9275329fe5c0408ab2f",
+      "enlarged": "docs/screenshots/room-12-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-12-3-opening",
+      "stage": 11,
+      "room": 2,
+      "frames": 50259,
+      "native": "docs/screenshots/room-12-3-opening-native.png",
+      "native_sha256": "e65c03a30dddf95c0f19e08d6ebf0de01e568696a37f18c8b104d20648831998",
+      "enlarged": "docs/screenshots/room-12-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-2",
+      "stage": 11,
+      "room": 2,
+      "frames": 51548,
+      "native": "docs/screenshots/boss-2-native.png",
+      "native_sha256": "b44f986a7a278edf1600309fc3b8ce9d251b24d5c7d057126af083555532d0b8",
+      "enlarged": "docs/screenshots/boss-2.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-2-hit-1",
+      "stage": 11,
+      "room": 2,
+      "frames": 51643,
+      "native": "docs/screenshots/boss-2-hit-1-native.png",
+      "native_sha256": "9928e1466216bdad0b58472e52c3fbdfdb241897bfd63e54e04b07d56f778535",
+      "enlarged": "docs/screenshots/boss-2-hit-1.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-2-hit-2",
+      "stage": 11,
+      "room": 2,
+      "frames": 51722,
+      "native": "docs/screenshots/boss-2-hit-2-native.png",
+      "native_sha256": "713002c9175e41b69b4c7fc578f86e8f69930598d9c41ea71babc8112b1d0bd1",
+      "enlarged": "docs/screenshots/boss-2-hit-2.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-2-hit-3",
+      "stage": 11,
+      "room": 2,
+      "frames": 51799,
+      "native": "docs/screenshots/boss-2-hit-3-native.png",
+      "native_sha256": "964d03b9b7fa768faee4256f62c2e3fa0b2a8d2c5c82f9435091cda95a920075",
+      "enlarged": "docs/screenshots/boss-2-hit-3.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-2-hit-4",
+      "stage": 11,
+      "room": 2,
+      "frames": 51892,
+      "native": "docs/screenshots/boss-2-hit-4-native.png",
+      "native_sha256": "55ba8e3ecaec2bf08355391d128c2eeda48f811f043b388d29b454673d482a7c",
+      "enlarged": "docs/screenshots/boss-2-hit-4.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-2-hit-5",
+      "stage": 11,
+      "room": 2,
+      "frames": 51972,
+      "native": "docs/screenshots/boss-2-hit-5-native.png",
+      "native_sha256": "83ec04eba490d5c926aabf8bc3d801f722304d28b1a6d63639990c201be52e0b",
+      "enlarged": "docs/screenshots/boss-2-hit-5.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-2-hit-6",
+      "stage": 11,
+      "room": 2,
+      "frames": 51997,
+      "native": "docs/screenshots/boss-2-hit-6-native.png",
+      "native_sha256": "fbb9dc112597ed6c2883d53bbab49b6d69b4a7717fcbea60a9445057e6b3416d",
+      "enlarged": "docs/screenshots/boss-2-hit-6.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-12-3-verified",
+      "stage": 11,
+      "room": 2,
+      "frames": 51997,
+      "native": "docs/screenshots/room-12-3-verified-native.png",
+      "native_sha256": "fbb9dc112597ed6c2883d53bbab49b6d69b4a7717fcbea60a9445057e6b3416d",
+      "enlarged": "docs/screenshots/room-12-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-12-clear",
+      "stage": 11,
+      "room": 2,
+      "frames": 52042,
+      "native": "docs/screenshots/stage-12-clear-native.png",
+      "native_sha256": "dc769b9c09da9b42e5b929b1414f011bd7b1f7ecf65c5749adb7cfffb5899022",
+      "enlarged": "docs/screenshots/stage-12-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "world-5",
+      "stage": 12,
+      "room": 0,
+      "frames": 52258,
+      "native": "docs/screenshots/world-5-native.png",
+      "native_sha256": "819d677c53285e4662cfaa1bb43a011da0b0905abc7ce33a58dd43853458e563",
+      "enlarged": "docs/screenshots/world-5.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-13-1-opening",
+      "stage": 12,
+      "room": 0,
+      "frames": 52258,
+      "native": "docs/screenshots/room-13-1-opening-native.png",
+      "native_sha256": "819d677c53285e4662cfaa1bb43a011da0b0905abc7ce33a58dd43853458e563",
+      "enlarged": "docs/screenshots/room-13-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-13-1-verified",
+      "stage": 12,
+      "room": 0,
+      "frames": 53683,
+      "native": "docs/screenshots/room-13-1-verified-native.png",
+      "native_sha256": "249e186c2efa774bb97ff4a533aa97d347fe40e89c6b829ec5ec6631b75025c8",
+      "enlarged": "docs/screenshots/room-13-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-13-2-opening",
+      "stage": 12,
+      "room": 1,
+      "frames": 53719,
+      "native": "docs/screenshots/room-13-2-opening-native.png",
+      "native_sha256": "8034c45e4af2f7d382cbf638fa15e6663f01abc3237ecaa00b608ec57d7ad674",
+      "enlarged": "docs/screenshots/room-13-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-13-2-verified",
+      "stage": 12,
+      "room": 1,
+      "frames": 55177,
+      "native": "docs/screenshots/room-13-2-verified-native.png",
+      "native_sha256": "ea1e77bc522480d5afeccb15a665e62750b78a269e8c72bc1b66a8aa1b57be9e",
+      "enlarged": "docs/screenshots/room-13-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-13-3-opening",
+      "stage": 12,
+      "room": 2,
+      "frames": 55213,
+      "native": "docs/screenshots/room-13-3-opening-native.png",
+      "native_sha256": "9e0f7ae22eb329b838177fa691b450aa810d33eaf748ea9bdc3357bfdc566859",
+      "enlarged": "docs/screenshots/room-13-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-13-3-verified",
+      "stage": 12,
+      "room": 2,
+      "frames": 56555,
+      "native": "docs/screenshots/room-13-3-verified-native.png",
+      "native_sha256": "8eaf6d8b65ee780f52ebdb5f4335187845d059bdc0382c63b1f66c30decdf937",
+      "enlarged": "docs/screenshots/room-13-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-13-clear",
+      "stage": 12,
+      "room": 2,
+      "frames": 56593,
+      "native": "docs/screenshots/stage-13-clear-native.png",
+      "native_sha256": "ad64b0bef0a28dec1e7328ff12f9f8dc811a4fd65f6603da3635ad256c0cca12",
+      "enlarged": "docs/screenshots/stage-13-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-14-1-opening",
+      "stage": 13,
+      "room": 0,
+      "frames": 56809,
+      "native": "docs/screenshots/room-14-1-opening-native.png",
+      "native_sha256": "9d564c2d3d808376e89ee92fda717f740bdf6d081ede4eec6236c780e437bfbb",
+      "enlarged": "docs/screenshots/room-14-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-14-1-verified",
+      "stage": 13,
+      "room": 0,
+      "frames": 58304,
+      "native": "docs/screenshots/room-14-1-verified-native.png",
+      "native_sha256": "5fc3ff5f67109c060931253f13f38ae46a7dfc831e8e5d26541f171d1d42a369",
+      "enlarged": "docs/screenshots/room-14-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-14-2-opening",
+      "stage": 13,
+      "room": 1,
+      "frames": 58339,
+      "native": "docs/screenshots/room-14-2-opening-native.png",
+      "native_sha256": "c886a88ec1efa477d7aabf970fbe0ea46ddc63cf0ccf9d993f1e68b7c022efb4",
+      "enlarged": "docs/screenshots/room-14-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-14-2-verified",
+      "stage": 13,
+      "room": 1,
+      "frames": 59716,
+      "native": "docs/screenshots/room-14-2-verified-native.png",
+      "native_sha256": "dad46db928bcca137075497abd0340a8f24abc1c212be0bf77a57591e55b880e",
+      "enlarged": "docs/screenshots/room-14-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-14-3-opening",
+      "stage": 13,
+      "room": 2,
+      "frames": 59752,
+      "native": "docs/screenshots/room-14-3-opening-native.png",
+      "native_sha256": "a9264dba1ab18e713e5c3ef978eef25a09b3af813452921009111961fb7e1344",
+      "enlarged": "docs/screenshots/room-14-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-14-3-verified",
+      "stage": 13,
+      "room": 2,
+      "frames": 61270,
+      "native": "docs/screenshots/room-14-3-verified-native.png",
+      "native_sha256": "d56e7423cbaa3325e73af3aa2f89bbf9e74ececd9d48ba4db1f50328723a5f8a",
+      "enlarged": "docs/screenshots/room-14-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-14-clear",
+      "stage": 13,
+      "room": 2,
+      "frames": 61307,
+      "native": "docs/screenshots/stage-14-clear-native.png",
+      "native_sha256": "1837a2395c10f0201081fb2acc73a60100b051a9e3c2edf0ca0258df6bba395a",
+      "enlarged": "docs/screenshots/stage-14-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-15-1-opening",
+      "stage": 14,
+      "room": 0,
+      "frames": 61523,
+      "native": "docs/screenshots/room-15-1-opening-native.png",
+      "native_sha256": "5888d3644ea5ac7c6c7207cf968e0ee0fc63e096d24848791260b223203c41d8",
+      "enlarged": "docs/screenshots/room-15-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-15-1-verified",
+      "stage": 14,
+      "room": 0,
+      "frames": 62994,
+      "native": "docs/screenshots/room-15-1-verified-native.png",
+      "native_sha256": "c456f5af5519bdf3981e035f683c499aa91dccaab9a1fcb1bfd51381d0372db4",
+      "enlarged": "docs/screenshots/room-15-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-15-2-opening",
+      "stage": 14,
+      "room": 1,
+      "frames": 63030,
+      "native": "docs/screenshots/room-15-2-opening-native.png",
+      "native_sha256": "3afb9ae63c9c12425869e8bf2005b912ea475bc57a0edf68ecc47fd2cbe84e5a",
+      "enlarged": "docs/screenshots/room-15-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-15-2-verified",
+      "stage": 14,
+      "room": 1,
+      "frames": 64311,
+      "native": "docs/screenshots/room-15-2-verified-native.png",
+      "native_sha256": "70a14172c0cac0d072eaf0918f8f5a0236496281f1ea9fe50a9e1743dfce5248",
+      "enlarged": "docs/screenshots/room-15-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-15-3-opening",
+      "stage": 14,
+      "room": 2,
+      "frames": 64346,
+      "native": "docs/screenshots/room-15-3-opening-native.png",
+      "native_sha256": "35e74309da32ec86e9f06f1aba6f54b0e30f1f6d16f695310b9ef668f3d300c6",
+      "enlarged": "docs/screenshots/room-15-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-15-3-verified",
+      "stage": 14,
+      "room": 2,
+      "frames": 65809,
+      "native": "docs/screenshots/room-15-3-verified-native.png",
+      "native_sha256": "48c8f0d7492d00285ea38cf15abeadf075c0d5bc78ec57d6e84554c8e18bd0d8",
+      "enlarged": "docs/screenshots/room-15-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-15-clear",
+      "stage": 14,
+      "room": 2,
+      "frames": 65847,
+      "native": "docs/screenshots/stage-15-clear-native.png",
+      "native_sha256": "6a20c50ba3662019979a884fea4a9004e40994fd7ca2fafaf60b2f15a77b35a0",
+      "enlarged": "docs/screenshots/stage-15-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "world-6",
+      "stage": 15,
+      "room": 0,
+      "frames": 66063,
+      "native": "docs/screenshots/world-6-native.png",
+      "native_sha256": "f02533487167d1a485256a55a7a566fa3eba09e51caa880298df819f68392096",
+      "enlarged": "docs/screenshots/world-6.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-16-1-opening",
+      "stage": 15,
+      "room": 0,
+      "frames": 66063,
+      "native": "docs/screenshots/room-16-1-opening-native.png",
+      "native_sha256": "f02533487167d1a485256a55a7a566fa3eba09e51caa880298df819f68392096",
+      "enlarged": "docs/screenshots/room-16-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-16-1-verified",
+      "stage": 15,
+      "room": 0,
+      "frames": 67383,
+      "native": "docs/screenshots/room-16-1-verified-native.png",
+      "native_sha256": "05b9165e0061a9141132af54ea3bac4440ecab5817f9dbab1723681d86ada0ab",
+      "enlarged": "docs/screenshots/room-16-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-16-2-opening",
+      "stage": 15,
+      "room": 1,
+      "frames": 67419,
+      "native": "docs/screenshots/room-16-2-opening-native.png",
+      "native_sha256": "c06041f2ffafdfd7681a605e1e4f12dc73fe05b4a5069321a7170e17ff7c91e3",
+      "enlarged": "docs/screenshots/room-16-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-16-2-verified",
+      "stage": 15,
+      "room": 1,
+      "frames": 68889,
+      "native": "docs/screenshots/room-16-2-verified-native.png",
+      "native_sha256": "a133dd20c31231fd7b4baefdd77e8f47eeef5abbbb622feee85ee1c878b40f6d",
+      "enlarged": "docs/screenshots/room-16-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-16-3-opening",
+      "stage": 15,
+      "room": 2,
+      "frames": 68925,
+      "native": "docs/screenshots/room-16-3-opening-native.png",
+      "native_sha256": "185ffd62941e483f111229a229d236f614557e6361a01115facd224c480cbc99",
+      "enlarged": "docs/screenshots/room-16-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-16-3-verified",
+      "stage": 15,
+      "room": 2,
+      "frames": 70347,
+      "native": "docs/screenshots/room-16-3-verified-native.png",
+      "native_sha256": "d10ffa15ecd4f22bc25e4bbd6e9338782e84b9af62e56a8a7bf285e867d757b7",
+      "enlarged": "docs/screenshots/room-16-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-16-clear",
+      "stage": 15,
+      "room": 2,
+      "frames": 70385,
+      "native": "docs/screenshots/stage-16-clear-native.png",
+      "native_sha256": "a4d280e6d3633944214a97e5d6c79e717120c381018a46d95888294f1ac0fc5d",
+      "enlarged": "docs/screenshots/stage-16-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-17-1-opening",
+      "stage": 16,
+      "room": 0,
+      "frames": 70601,
+      "native": "docs/screenshots/room-17-1-opening-native.png",
+      "native_sha256": "e864098ad3ab79fb6fb05d5a3088d614f256a2106456e53d48f5550a5c4836e8",
+      "enlarged": "docs/screenshots/room-17-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-17-1-verified",
+      "stage": 16,
+      "room": 0,
+      "frames": 72148,
+      "native": "docs/screenshots/room-17-1-verified-native.png",
+      "native_sha256": "a526d70ba12500902b6fe3b710a75d8f3d8888a6ce2155ec0c024c4d8174e0ee",
+      "enlarged": "docs/screenshots/room-17-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-17-2-opening",
+      "stage": 16,
+      "room": 1,
+      "frames": 72184,
+      "native": "docs/screenshots/room-17-2-opening-native.png",
+      "native_sha256": "6ce9dd03faa959ef8b599384a3035c8b763e60cbf615316592709ad652a476f5",
+      "enlarged": "docs/screenshots/room-17-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-17-2-verified",
+      "stage": 16,
+      "room": 1,
+      "frames": 73480,
+      "native": "docs/screenshots/room-17-2-verified-native.png",
+      "native_sha256": "8cce23cc0d859d5fdf9733385c1df02e3a8c35dcd7bec9aba646916eb2422aa3",
+      "enlarged": "docs/screenshots/room-17-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-17-3-opening",
+      "stage": 16,
+      "room": 2,
+      "frames": 73516,
+      "native": "docs/screenshots/room-17-3-opening-native.png",
+      "native_sha256": "fa09f3b75efd1523e9579648459713f6df64bbc3a26d76907e5902e08665144b",
+      "enlarged": "docs/screenshots/room-17-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-17-3-verified",
+      "stage": 16,
+      "room": 2,
+      "frames": 75015,
+      "native": "docs/screenshots/room-17-3-verified-native.png",
+      "native_sha256": "f17ba4ddfa6d5caab7010b535ad9ddaefd2ac68da7c6c21b6e0a0d59c023f4dd",
+      "enlarged": "docs/screenshots/room-17-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-17-clear",
+      "stage": 16,
+      "room": 2,
+      "frames": 75053,
+      "native": "docs/screenshots/stage-17-clear-native.png",
+      "native_sha256": "f02395dc9634db159881154051bb062e9ee2422683a9f9357f884e3978172a54",
+      "enlarged": "docs/screenshots/stage-17-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-18-1-opening",
+      "stage": 17,
+      "room": 0,
+      "frames": 75269,
+      "native": "docs/screenshots/room-18-1-opening-native.png",
+      "native_sha256": "2ff31f12d93401b907e4db7f167f2999077014c85be52c68445e26d4a3fd6554",
+      "enlarged": "docs/screenshots/room-18-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-18-1-verified",
+      "stage": 17,
+      "room": 0,
+      "frames": 76752,
+      "native": "docs/screenshots/room-18-1-verified-native.png",
+      "native_sha256": "cfa0bd762cacf10db3d5969edafcd92065fe8a213aa16caa6518a674ead6d2f6",
+      "enlarged": "docs/screenshots/room-18-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-18-2-opening",
+      "stage": 17,
+      "room": 1,
+      "frames": 76788,
+      "native": "docs/screenshots/room-18-2-opening-native.png",
+      "native_sha256": "1f0902e46e145432645c4ca85554147a270dbcf8a69fa73ea4515edc2807d350",
+      "enlarged": "docs/screenshots/room-18-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-18-2-verified",
+      "stage": 17,
+      "room": 1,
+      "frames": 78225,
+      "native": "docs/screenshots/room-18-2-verified-native.png",
+      "native_sha256": "f2eeb2c19f5e0b0dac3b6fe64fc47adbedf71f40ed05e0c46e4f8d420e822082",
+      "enlarged": "docs/screenshots/room-18-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-18-3-opening",
+      "stage": 17,
+      "room": 2,
+      "frames": 78260,
+      "native": "docs/screenshots/room-18-3-opening-native.png",
+      "native_sha256": "8f2dba0d5c72df1823be1528fefb5cd5ea66dfe21a5d6596034b42c3cb14f63a",
+      "enlarged": "docs/screenshots/room-18-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-3",
+      "stage": 17,
+      "room": 2,
+      "frames": 79554,
+      "native": "docs/screenshots/boss-3-native.png",
+      "native_sha256": "a5d55857bf4f8ddf8701ec947d9a08440b459b5574cd3798e96735369ed79258",
+      "enlarged": "docs/screenshots/boss-3.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-3-hit-1",
+      "stage": 17,
+      "room": 2,
+      "frames": 79631,
+      "native": "docs/screenshots/boss-3-hit-1-native.png",
+      "native_sha256": "8ac08c8ac29ae80ad6758a8558cd7b271668c273c7980146efea7bfd89ec1292",
+      "enlarged": "docs/screenshots/boss-3-hit-1.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-3-hit-2",
+      "stage": 17,
+      "room": 2,
+      "frames": 79752,
+      "native": "docs/screenshots/boss-3-hit-2-native.png",
+      "native_sha256": "55613b4a6f3aacfda67134f15a9f3812cd0c09e8d94e064d23ae5cad55c36e3a",
+      "enlarged": "docs/screenshots/boss-3-hit-2.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-3-hit-3",
+      "stage": 17,
+      "room": 2,
+      "frames": 79821,
+      "native": "docs/screenshots/boss-3-hit-3-native.png",
+      "native_sha256": "5b45b2ef1f2f86a810416c09bbd6ed441f5de30ba10f6c04d85df57a42a828a1",
+      "enlarged": "docs/screenshots/boss-3-hit-3.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-3-hit-4",
+      "stage": 17,
+      "room": 2,
+      "frames": 79890,
+      "native": "docs/screenshots/boss-3-hit-4-native.png",
+      "native_sha256": "5b76bb638d3ebed99d08015c8a77ec4375285ef4af2ea3fddebf61f553129bab",
+      "enlarged": "docs/screenshots/boss-3-hit-4.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-3-hit-5",
+      "stage": 17,
+      "room": 2,
+      "frames": 80011,
+      "native": "docs/screenshots/boss-3-hit-5-native.png",
+      "native_sha256": "a798dfe04639c8007e805e1c1a9e351a913f130eae96e478d04aaab7e073957a",
+      "enlarged": "docs/screenshots/boss-3-hit-5.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-3-hit-6",
+      "stage": 17,
+      "room": 2,
+      "frames": 80032,
+      "native": "docs/screenshots/boss-3-hit-6-native.png",
+      "native_sha256": "ecb7590c922751a70bb125c07da3de78a3d20899ce58317679670a1166bd4839",
+      "enlarged": "docs/screenshots/boss-3-hit-6.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-18-3-verified",
+      "stage": 17,
+      "room": 2,
+      "frames": 80032,
+      "native": "docs/screenshots/room-18-3-verified-native.png",
+      "native_sha256": "ecb7590c922751a70bb125c07da3de78a3d20899ce58317679670a1166bd4839",
+      "enlarged": "docs/screenshots/room-18-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-18-clear",
+      "stage": 17,
+      "room": 2,
+      "frames": 80076,
+      "native": "docs/screenshots/stage-18-clear-native.png",
+      "native_sha256": "d1abc43a98e74b2289fb98abdf06018c68f7e3258dcaf8dbcdd68c82edabf3b5",
+      "enlarged": "docs/screenshots/stage-18-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "world-7",
+      "stage": 18,
+      "room": 0,
+      "frames": 80292,
+      "native": "docs/screenshots/world-7-native.png",
+      "native_sha256": "208b8d56826007afb81fe826730783f9f94daae230cfbe8cc89dd461e47c705f",
+      "enlarged": "docs/screenshots/world-7.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-19-1-opening",
+      "stage": 18,
+      "room": 0,
+      "frames": 80292,
+      "native": "docs/screenshots/room-19-1-opening-native.png",
+      "native_sha256": "208b8d56826007afb81fe826730783f9f94daae230cfbe8cc89dd461e47c705f",
+      "enlarged": "docs/screenshots/room-19-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-19-1-verified",
+      "stage": 18,
+      "room": 0,
+      "frames": 81757,
+      "native": "docs/screenshots/room-19-1-verified-native.png",
+      "native_sha256": "3932bc6b8cb4117f9368116b63526d8058fc0dba1a79c94d847d9364f91578c4",
+      "enlarged": "docs/screenshots/room-19-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-19-2-opening",
+      "stage": 18,
+      "room": 1,
+      "frames": 81793,
+      "native": "docs/screenshots/room-19-2-opening-native.png",
+      "native_sha256": "99d1bc994d402a9286e6fbfe32f8e8026046d7357349c916bdd2df4a2e45b76e",
+      "enlarged": "docs/screenshots/room-19-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-19-2-verified",
+      "stage": 18,
+      "room": 1,
+      "frames": 83259,
+      "native": "docs/screenshots/room-19-2-verified-native.png",
+      "native_sha256": "943c35a5cbf48a5bfdaf672ceb09b26f9a53c900734fb7b138e87265c50936a5",
+      "enlarged": "docs/screenshots/room-19-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-19-3-opening",
+      "stage": 18,
+      "room": 2,
+      "frames": 83295,
+      "native": "docs/screenshots/room-19-3-opening-native.png",
+      "native_sha256": "08cf8e308174b168bf27b6d2acd2993dea711e45ab970da04ec022d6de0b0693",
+      "enlarged": "docs/screenshots/room-19-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-19-3-verified",
+      "stage": 18,
+      "room": 2,
+      "frames": 84822,
+      "native": "docs/screenshots/room-19-3-verified-native.png",
+      "native_sha256": "e5debeaf880aa0b1b56df4c7aa2e05308925010254a8c87a64c9e01ef7dead2b",
+      "enlarged": "docs/screenshots/room-19-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-19-clear",
+      "stage": 18,
+      "room": 2,
+      "frames": 84860,
+      "native": "docs/screenshots/stage-19-clear-native.png",
+      "native_sha256": "ada36a457a1421a18ffc0133fabf5d7603a8164b5125edfece5f2a87422cdd62",
+      "enlarged": "docs/screenshots/stage-19-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-20-1-opening",
+      "stage": 19,
+      "room": 0,
+      "frames": 85076,
+      "native": "docs/screenshots/room-20-1-opening-native.png",
+      "native_sha256": "89aad0042e23765478b1c24095155e9cc13051e4cb1dc0361eee4045a8f5c04c",
+      "enlarged": "docs/screenshots/room-20-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-20-1-verified",
+      "stage": 19,
+      "room": 0,
+      "frames": 86583,
+      "native": "docs/screenshots/room-20-1-verified-native.png",
+      "native_sha256": "775885f9dac8f1630e9c36ecaf3dd359f8d07485fdee6e6f922d787ff7ce3041",
+      "enlarged": "docs/screenshots/room-20-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-20-2-opening",
+      "stage": 19,
+      "room": 1,
+      "frames": 86619,
+      "native": "docs/screenshots/room-20-2-opening-native.png",
+      "native_sha256": "c2e4c063edca537708a6b4e4d3e59cfec7fd223fe3428efdba0a6ddf0271595e",
+      "enlarged": "docs/screenshots/room-20-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-20-2-verified",
+      "stage": 19,
+      "room": 1,
+      "frames": 87958,
+      "native": "docs/screenshots/room-20-2-verified-native.png",
+      "native_sha256": "0a6ca4cd4912b0a6fab47d7944cca1c54896beaf426ecb3ae7b7125f087dc07c",
+      "enlarged": "docs/screenshots/room-20-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-20-3-opening",
+      "stage": 19,
+      "room": 2,
+      "frames": 87994,
+      "native": "docs/screenshots/room-20-3-opening-native.png",
+      "native_sha256": "1bc723a7992e8f4d9a4ed2cb422e2fab25fd33c19ce28533e84a771bbdef74aa",
+      "enlarged": "docs/screenshots/room-20-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-20-3-verified",
+      "stage": 19,
+      "room": 2,
+      "frames": 89442,
+      "native": "docs/screenshots/room-20-3-verified-native.png",
+      "native_sha256": "52a54403e69ac6c0fdbc1340c1ee8c40321776e04b4240d1e58a9c9e34537161",
+      "enlarged": "docs/screenshots/room-20-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-20-clear",
+      "stage": 19,
+      "room": 2,
+      "frames": 89480,
+      "native": "docs/screenshots/stage-20-clear-native.png",
+      "native_sha256": "ff6ad5b4158dca73cc6191d0706563ab7bc399249c8d31ee95e8d1d63cdfb237",
+      "enlarged": "docs/screenshots/stage-20-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-21-1-opening",
+      "stage": 20,
+      "room": 0,
+      "frames": 89696,
+      "native": "docs/screenshots/room-21-1-opening-native.png",
+      "native_sha256": "5c819c69c8532a9d6492fa89adbd82f6463d2a912852987aff73be8eab026536",
+      "enlarged": "docs/screenshots/room-21-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-21-1-verified",
+      "stage": 20,
+      "room": 0,
+      "frames": 91189,
+      "native": "docs/screenshots/room-21-1-verified-native.png",
+      "native_sha256": "a50428fb1f9b6096fe1a3fe3a6e51d80b1ca2dfcdd3667527c02d34a88104653",
+      "enlarged": "docs/screenshots/room-21-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-21-2-opening",
+      "stage": 20,
+      "room": 1,
+      "frames": 91224,
+      "native": "docs/screenshots/room-21-2-opening-native.png",
+      "native_sha256": "c36690385b69791c143652ce3571aeb664840db29c00555a3116dfd82022c85e",
+      "enlarged": "docs/screenshots/room-21-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-21-2-verified",
+      "stage": 20,
+      "room": 1,
+      "frames": 92717,
+      "native": "docs/screenshots/room-21-2-verified-native.png",
+      "native_sha256": "a624a50b075a62334875cd22d8f6bdcd52d87e9e8e2315c4f61298ca39f16b3d",
+      "enlarged": "docs/screenshots/room-21-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-21-3-opening",
+      "stage": 20,
+      "room": 2,
+      "frames": 92753,
+      "native": "docs/screenshots/room-21-3-opening-native.png",
+      "native_sha256": "1c65f7f30a5e517d57803a6a304453e27be13ef3321b1aa84a5c1a87c48adb0d",
+      "enlarged": "docs/screenshots/room-21-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-21-3-verified",
+      "stage": 20,
+      "room": 2,
+      "frames": 94045,
+      "native": "docs/screenshots/room-21-3-verified-native.png",
+      "native_sha256": "7ad6eb4e128b47cf370cebd20001071c535f812a62f0a8434e3466645b8cfd5b",
+      "enlarged": "docs/screenshots/room-21-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-21-clear",
+      "stage": 20,
+      "room": 2,
+      "frames": 94082,
+      "native": "docs/screenshots/stage-21-clear-native.png",
+      "native_sha256": "7779d2ad50abe3096184bbeb69a37117bd6a394a254e9813837608843925df63",
+      "enlarged": "docs/screenshots/stage-21-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "world-8",
+      "stage": 21,
+      "room": 0,
+      "frames": 94298,
+      "native": "docs/screenshots/world-8-native.png",
+      "native_sha256": "6484b99d63694ee79caaa1ace4bf366cebcbb41db154102a8092c314311bd236",
+      "enlarged": "docs/screenshots/world-8.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-22-1-opening",
+      "stage": 21,
+      "room": 0,
+      "frames": 94298,
+      "native": "docs/screenshots/room-22-1-opening-native.png",
+      "native_sha256": "6484b99d63694ee79caaa1ace4bf366cebcbb41db154102a8092c314311bd236",
+      "enlarged": "docs/screenshots/room-22-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-22-1-verified",
+      "stage": 21,
+      "room": 0,
+      "frames": 95786,
+      "native": "docs/screenshots/room-22-1-verified-native.png",
+      "native_sha256": "16062ba4e48e3ba71aafc2f7d9b100aa9dcd4f1d880df2ee30462d1480cd25dc",
+      "enlarged": "docs/screenshots/room-22-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-22-2-opening",
+      "stage": 21,
+      "room": 1,
+      "frames": 95822,
+      "native": "docs/screenshots/room-22-2-opening-native.png",
+      "native_sha256": "39327006b889e9c00b54d85dd6bb30e2d0f1924552a667174d4a8ee5a698590e",
+      "enlarged": "docs/screenshots/room-22-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-22-2-verified",
+      "stage": 21,
+      "room": 1,
+      "frames": 97311,
+      "native": "docs/screenshots/room-22-2-verified-native.png",
+      "native_sha256": "c9275770354e60447e5ec549bb44ff3bb43b3e7af900fd11da69eb18fcd2849e",
+      "enlarged": "docs/screenshots/room-22-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-22-3-opening",
+      "stage": 21,
+      "room": 2,
+      "frames": 97347,
+      "native": "docs/screenshots/room-22-3-opening-native.png",
+      "native_sha256": "ac66216975233b33bdff58dcdc18db454ca131321a9e49fdff2fc24c4b1a89d0",
+      "enlarged": "docs/screenshots/room-22-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-22-3-verified",
+      "stage": 21,
+      "room": 2,
+      "frames": 98908,
+      "native": "docs/screenshots/room-22-3-verified-native.png",
+      "native_sha256": "608d1703b50fdb138d7c0fb9245118e23a3df0a8780d789d970f2943dd8ca01d",
+      "enlarged": "docs/screenshots/room-22-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-22-clear",
+      "stage": 21,
+      "room": 2,
+      "frames": 98946,
+      "native": "docs/screenshots/stage-22-clear-native.png",
+      "native_sha256": "50c3f3b7427afc483831ba8d3ee1cb044ce87d24aaa7495a70eae2cdaa44657a",
+      "enlarged": "docs/screenshots/stage-22-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-23-1-opening",
+      "stage": 22,
+      "room": 0,
+      "frames": 99162,
+      "native": "docs/screenshots/room-23-1-opening-native.png",
+      "native_sha256": "87c7b8c9a4ea23cf88161382c6cbc39ba02104ce6264dc9a5f1a9f12dd722024",
+      "enlarged": "docs/screenshots/room-23-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-23-1-verified",
+      "stage": 22,
+      "room": 0,
+      "frames": 100519,
+      "native": "docs/screenshots/room-23-1-verified-native.png",
+      "native_sha256": "ca91c64c87c01927656a5e5f4cc4a707c7ea9e713d2bd0e769f49dd4f1ea72bc",
+      "enlarged": "docs/screenshots/room-23-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-23-2-opening",
+      "stage": 22,
+      "room": 1,
+      "frames": 100555,
+      "native": "docs/screenshots/room-23-2-opening-native.png",
+      "native_sha256": "7e23110532cc75515b974bf7fa1afbb2b6e839a64ae810c76aaad3c6a0a5f03f",
+      "enlarged": "docs/screenshots/room-23-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-23-2-verified",
+      "stage": 22,
+      "room": 1,
+      "frames": 101994,
+      "native": "docs/screenshots/room-23-2-verified-native.png",
+      "native_sha256": "3c3b2433ed6c6d504eeb24c96bd02806f2a04ad1495ba48e8c9a88c36db6a5d0",
+      "enlarged": "docs/screenshots/room-23-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-23-3-opening",
+      "stage": 22,
+      "room": 2,
+      "frames": 102030,
+      "native": "docs/screenshots/room-23-3-opening-native.png",
+      "native_sha256": "bd3726fb12d400e38663d704dd7e2a160e4c99466404e3a1cb28da6749010555",
+      "enlarged": "docs/screenshots/room-23-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-23-3-verified",
+      "stage": 22,
+      "room": 2,
+      "frames": 103486,
+      "native": "docs/screenshots/room-23-3-verified-native.png",
+      "native_sha256": "c5c936cb3e7f136dff8adee0add1625a473cf581f75492a4a15c16f20eaa7bb0",
+      "enlarged": "docs/screenshots/room-23-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-23-clear",
+      "stage": 22,
+      "room": 2,
+      "frames": 103523,
+      "native": "docs/screenshots/stage-23-clear-native.png",
+      "native_sha256": "6e053ae2c55d59c081f18a57e73a8a2e5edb3121917dcc101578ea1e36de8580",
+      "enlarged": "docs/screenshots/stage-23-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-24-1-opening",
+      "stage": 23,
+      "room": 0,
+      "frames": 103739,
+      "native": "docs/screenshots/room-24-1-opening-native.png",
+      "native_sha256": "8cbb83ce932442766c6bc7fbecb14adeebdd61976017cf9f2d35d35d71014601",
+      "enlarged": "docs/screenshots/room-24-1-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-24-1-verified",
+      "stage": 23,
+      "room": 0,
+      "frames": 105000,
+      "native": "docs/screenshots/room-24-1-verified-native.png",
+      "native_sha256": "46e199e7774e7be761a3e951fe6a78d9a635d7289f894f294edacd27f1b0a22b",
+      "enlarged": "docs/screenshots/room-24-1-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-24-2-opening",
+      "stage": 23,
+      "room": 1,
+      "frames": 105035,
+      "native": "docs/screenshots/room-24-2-opening-native.png",
+      "native_sha256": "d86c0ab7d83dc0e05bb374d60cf306acc370c38a1b54d12e28aad078be397ede",
+      "enlarged": "docs/screenshots/room-24-2-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-24-2-verified",
+      "stage": 23,
+      "room": 1,
+      "frames": 106536,
+      "native": "docs/screenshots/room-24-2-verified-native.png",
+      "native_sha256": "e1a68b6afdaabe28ff443c097601eec6a6f74d013d73f19068e272222050d627",
+      "enlarged": "docs/screenshots/room-24-2-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-24-3-opening",
+      "stage": 23,
+      "room": 2,
+      "frames": 106571,
+      "native": "docs/screenshots/room-24-3-opening-native.png",
+      "native_sha256": "57a08d6883f2c5dde13a80beb121fec528e6f57e473709a11ee157bdf98ce7d0",
+      "enlarged": "docs/screenshots/room-24-3-opening.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-4",
+      "stage": 23,
+      "room": 2,
+      "frames": 107902,
+      "native": "docs/screenshots/boss-4-native.png",
+      "native_sha256": "29048c728743ecac68e2a305cc69b405e037274d8731fb0e065c656ba945fe85",
+      "enlarged": "docs/screenshots/boss-4.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-4-hit-1",
+      "stage": 23,
+      "room": 2,
+      "frames": 107971,
+      "native": "docs/screenshots/boss-4-hit-1-native.png",
+      "native_sha256": "5c9c36111384a254ed6f0bb76bc37518a0cfcd60cfeb1edfab9a178cbd606c98",
+      "enlarged": "docs/screenshots/boss-4-hit-1.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-4-hit-2",
+      "stage": 23,
+      "room": 2,
+      "frames": 108037,
+      "native": "docs/screenshots/boss-4-hit-2-native.png",
+      "native_sha256": "efd436687fe47e8c403e072f2cd02564ba46c38ff46f90c2ed98f119043e58d8",
+      "enlarged": "docs/screenshots/boss-4-hit-2.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-4-hit-3",
+      "stage": 23,
+      "room": 2,
+      "frames": 108125,
+      "native": "docs/screenshots/boss-4-hit-3-native.png",
+      "native_sha256": "b6e8e5c53f08b3fac8fb8ae5365f61ad3c8977595eaec9e3a93cbaea091c7eed",
+      "enlarged": "docs/screenshots/boss-4-hit-3.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-4-hit-4",
+      "stage": 23,
+      "room": 2,
+      "frames": 108195,
+      "native": "docs/screenshots/boss-4-hit-4-native.png",
+      "native_sha256": "db99fae0549e295dd1008451ba9de3e0087d4f2870dba81889117bd0cdd49e64",
+      "enlarged": "docs/screenshots/boss-4-hit-4.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-4-hit-5",
+      "stage": 23,
+      "room": 2,
+      "frames": 108264,
+      "native": "docs/screenshots/boss-4-hit-5-native.png",
+      "native_sha256": "4a825657707d8b1d3d5abdb934f1b187172ceda49fb5a77942c3dd981ab32583",
+      "enlarged": "docs/screenshots/boss-4-hit-5.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "boss-4-hit-6",
+      "stage": 23,
+      "room": 2,
+      "frames": 108298,
+      "native": "docs/screenshots/boss-4-hit-6-native.png",
+      "native_sha256": "3203dede91e5649d9413b8984f427479132d876bdeeb26a1a9c0137cc7031f04",
+      "enlarged": "docs/screenshots/boss-4-hit-6.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "room-24-3-verified",
+      "stage": 23,
+      "room": 2,
+      "frames": 108298,
+      "native": "docs/screenshots/room-24-3-verified-native.png",
+      "native_sha256": "3203dede91e5649d9413b8984f427479132d876bdeeb26a1a9c0137cc7031f04",
+      "enlarged": "docs/screenshots/room-24-3-verified.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "stage-24-clear",
+      "stage": 23,
+      "room": 2,
+      "frames": 108343,
+      "native": "docs/screenshots/stage-24-clear-native.png",
+      "native_sha256": "d67c8193a964ccdcbd0bc1834a3606a538aacf7d03179fe53056e2657973ef52",
+      "enlarged": "docs/screenshots/stage-24-clear.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "ending",
+      "stage": 23,
+      "room": 2,
+      "frames": 108466,
+      "native": "docs/screenshots/ending-native.png",
+      "native_sha256": "4388c819a11065bc3d02876b28ce20dbf7deccc7856d26af7ccf193b0210838a",
+      "enlarged": "docs/screenshots/ending.png",
+      "provenance": "controller-earned planning path; snapshot branching permitted"
+    },
+    {
+      "name": "linear-title",
+      "stage": 0,
+      "room": 0,
+      "frames": 180,
+      "native": "docs/screenshots/linear-title-native.png",
+      "native_sha256": "3676d1b6207a6d4f280d30bdbca3c658223cb9e048e566055de3d9696b5bd0e5",
+      "enlarged": "docs/screenshots/linear-title.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-01-1",
+      "stage": 0,
+      "room": 0,
+      "frames": 396,
+      "native": "docs/screenshots/linear-room-01-1-native.png",
+      "native_sha256": "78f96edca14ca905c6a412d59b8ab97dd88ea409680322ca5387c947a28df627",
+      "enlarged": "docs/screenshots/linear-room-01-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-01-2",
+      "stage": 0,
+      "room": 1,
+      "frames": 1407,
+      "native": "docs/screenshots/linear-room-01-2-native.png",
+      "native_sha256": "36ff71dd6c74b6e5a7863df753441be5d687a4b20d1566759382f1cccda3aeed",
+      "enlarged": "docs/screenshots/linear-room-01-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-01-3",
+      "stage": 0,
+      "room": 2,
+      "frames": 2898,
+      "native": "docs/screenshots/linear-room-01-3-native.png",
+      "native_sha256": "15a4c339358572a2af3e8f3901cb7e1196222d38eabe6bce25994daae335d3f7",
+      "enlarged": "docs/screenshots/linear-room-01-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-02-1",
+      "stage": 1,
+      "room": 0,
+      "frames": 4450,
+      "native": "docs/screenshots/linear-room-02-1-native.png",
+      "native_sha256": "6d012ff1c5d41989883a17c51ac41f3f73c6d044e5e907bf8c0e45cdf0ddf621",
+      "enlarged": "docs/screenshots/linear-room-02-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-02-2",
+      "stage": 1,
+      "room": 1,
+      "frames": 5579,
+      "native": "docs/screenshots/linear-room-02-2-native.png",
+      "native_sha256": "5a289f6394ba4da8230583853dbf0194dc12d52c100be9fee00c3cf31cbfe786",
+      "enlarged": "docs/screenshots/linear-room-02-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-02-3",
+      "stage": 1,
+      "room": 2,
+      "frames": 7035,
+      "native": "docs/screenshots/linear-room-02-3-native.png",
+      "native_sha256": "bfb4db0289c34e3ae07de7717aabda4fa36d008fd1d66411bfa08b976fa2f222",
+      "enlarged": "docs/screenshots/linear-room-02-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-03-1",
+      "stage": 2,
+      "room": 0,
+      "frames": 8684,
+      "native": "docs/screenshots/linear-room-03-1-native.png",
+      "native_sha256": "3023a627024d081c249ebba735731c86cf84459dcd3313ae61f6c0cd7a6e4cd3",
+      "enlarged": "docs/screenshots/linear-room-03-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-03-2",
+      "stage": 2,
+      "room": 1,
+      "frames": 9886,
+      "native": "docs/screenshots/linear-room-03-2-native.png",
+      "native_sha256": "763c31de32cc38dc656f8973abd53c945e0ec88d42e9db7b6c02f1e102e218c3",
+      "enlarged": "docs/screenshots/linear-room-03-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-03-3",
+      "stage": 2,
+      "room": 2,
+      "frames": 11376,
+      "native": "docs/screenshots/linear-room-03-3-native.png",
+      "native_sha256": "ec6801e44c8936bee4d05db0651523314383cb16bbe6033ee289e06294f138b8",
+      "enlarged": "docs/screenshots/linear-room-03-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-04-1",
+      "stage": 3,
+      "room": 0,
+      "frames": 12906,
+      "native": "docs/screenshots/linear-room-04-1-native.png",
+      "native_sha256": "ff7296b823d91dcb57f282c8463c8c65cb88f773f8b386757e2841b912cf633e",
+      "enlarged": "docs/screenshots/linear-room-04-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-04-2",
+      "stage": 3,
+      "room": 1,
+      "frames": 14176,
+      "native": "docs/screenshots/linear-room-04-2-native.png",
+      "native_sha256": "2bd5a1d49ecc8c2cf5a6e592ad3dbe91746ca4f37fca090bd265123228e7fe99",
+      "enlarged": "docs/screenshots/linear-room-04-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-04-3",
+      "stage": 3,
+      "room": 2,
+      "frames": 15690,
+      "native": "docs/screenshots/linear-room-04-3-native.png",
+      "native_sha256": "afcc8c743a1fb2d4ead9a6901bbd7a9385817a7aed77b946a9b711c21d10c5b2",
+      "enlarged": "docs/screenshots/linear-room-04-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-05-1",
+      "stage": 4,
+      "room": 0,
+      "frames": 17185,
+      "native": "docs/screenshots/linear-room-05-1-native.png",
+      "native_sha256": "4043380365870581f718b6b84b648ed3d90670e40f09cf867402d7fa83bba32b",
+      "enlarged": "docs/screenshots/linear-room-05-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-05-2",
+      "stage": 4,
+      "room": 1,
+      "frames": 18422,
+      "native": "docs/screenshots/linear-room-05-2-native.png",
+      "native_sha256": "3aeae16025a59563ed6cdc6d025ef70b62f31a40ffec80fa5d93cd0b95a67dd4",
+      "enlarged": "docs/screenshots/linear-room-05-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-05-3",
+      "stage": 4,
+      "room": 2,
+      "frames": 19854,
+      "native": "docs/screenshots/linear-room-05-3-native.png",
+      "native_sha256": "c582b727781ff5b66f6c475a76f6a0bbb0b97093dff7b61f218516cf8df5c776",
+      "enlarged": "docs/screenshots/linear-room-05-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-06-1",
+      "stage": 5,
+      "room": 0,
+      "frames": 21470,
+      "native": "docs/screenshots/linear-room-06-1-native.png",
+      "native_sha256": "617af76cb72a45a799ab305224834f7c558ff6e9ca8bf152068ed0e2e30169bc",
+      "enlarged": "docs/screenshots/linear-room-06-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-06-2",
+      "stage": 5,
+      "room": 1,
+      "frames": 22712,
+      "native": "docs/screenshots/linear-room-06-2-native.png",
+      "native_sha256": "e93ff959047ed74ba6a58bcf5306d8c1e4e475929086861addecc862621fae68",
+      "enlarged": "docs/screenshots/linear-room-06-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-06-3",
+      "stage": 5,
+      "room": 2,
+      "frames": 24180,
+      "native": "docs/screenshots/linear-room-06-3-native.png",
+      "native_sha256": "f37c601bd70fb958689e1a3f8b2ddd2fba2caf2a95a2b2d1cbb86645deff8d28",
+      "enlarged": "docs/screenshots/linear-room-06-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-07-1",
+      "stage": 6,
+      "room": 0,
+      "frames": 26191,
+      "native": "docs/screenshots/linear-room-07-1-native.png",
+      "native_sha256": "a6c90f632f036fa6fbb3648100348a7da6d36190e5b419f727fbe4010b9d9a02",
+      "enlarged": "docs/screenshots/linear-room-07-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-07-2",
+      "stage": 6,
+      "room": 1,
+      "frames": 27354,
+      "native": "docs/screenshots/linear-room-07-2-native.png",
+      "native_sha256": "76dbb035dd5f65916af8535d720f8adafecd60af68f5c350da66630f66795cbd",
+      "enlarged": "docs/screenshots/linear-room-07-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-07-3",
+      "stage": 6,
+      "room": 2,
+      "frames": 28819,
+      "native": "docs/screenshots/linear-room-07-3-native.png",
+      "native_sha256": "dd550394fdb4a3128a42ba96c828d77d7c420bece89b24e0971d5f2b94a67655",
+      "enlarged": "docs/screenshots/linear-room-07-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-08-1",
+      "stage": 7,
+      "room": 0,
+      "frames": 30460,
+      "native": "docs/screenshots/linear-room-08-1-native.png",
+      "native_sha256": "1ffc1b407ab3d9a7bee8cdda0450da3587f2a8daf307cf5aa3db658d2c35b467",
+      "enlarged": "docs/screenshots/linear-room-08-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-08-2",
+      "stage": 7,
+      "room": 1,
+      "frames": 31701,
+      "native": "docs/screenshots/linear-room-08-2-native.png",
+      "native_sha256": "bd38056d933df2e1c7e6cfe2088d996387b7bc8ed37e4ec4ed6a8560e6ddaace",
+      "enlarged": "docs/screenshots/linear-room-08-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-08-3",
+      "stage": 7,
+      "room": 2,
+      "frames": 33184,
+      "native": "docs/screenshots/linear-room-08-3-native.png",
+      "native_sha256": "cf65f8400e564d3074878c0a39abf9882fad392e6eb4d0b379a3b93f70ecd3ad",
+      "enlarged": "docs/screenshots/linear-room-08-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-09-1",
+      "stage": 8,
+      "room": 0,
+      "frames": 34862,
+      "native": "docs/screenshots/linear-room-09-1-native.png",
+      "native_sha256": "2570c437a5edc2f33e43e050d8f105c41d88c99e72902b94766ede5705989713",
+      "enlarged": "docs/screenshots/linear-room-09-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-09-2",
+      "stage": 8,
+      "room": 1,
+      "frames": 36107,
+      "native": "docs/screenshots/linear-room-09-2-native.png",
+      "native_sha256": "fa635c83bde9b9f2916c15ef1c8ce8785694026ec44eded80c8e6870ff2b4587",
+      "enlarged": "docs/screenshots/linear-room-09-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-09-3",
+      "stage": 8,
+      "room": 2,
+      "frames": 37424,
+      "native": "docs/screenshots/linear-room-09-3-native.png",
+      "native_sha256": "61a84889c5193cb7ba467685cd6e03a635ae776ff4f357bac27772e7e19d352b",
+      "enlarged": "docs/screenshots/linear-room-09-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-10-1",
+      "stage": 9,
+      "room": 0,
+      "frames": 39105,
+      "native": "docs/screenshots/linear-room-10-1-native.png",
+      "native_sha256": "ec506743587018c72c8312e1e650a35f08c220d2c2b3e08df93a6c1c73f1d2d0",
+      "enlarged": "docs/screenshots/linear-room-10-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-10-2",
+      "stage": 9,
+      "room": 1,
+      "frames": 40325,
+      "native": "docs/screenshots/linear-room-10-2-native.png",
+      "native_sha256": "86917acb644dc56ac9fe7a6ddab72246f0886254c4563653ed67f788e174ac75",
+      "enlarged": "docs/screenshots/linear-room-10-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-10-3",
+      "stage": 9,
+      "room": 2,
+      "frames": 41633,
+      "native": "docs/screenshots/linear-room-10-3-native.png",
+      "native_sha256": "9afdcd900db48508fe9240b905200e790684b96cede31d2870c4f81dd99c6a95",
+      "enlarged": "docs/screenshots/linear-room-10-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-11-1",
+      "stage": 10,
+      "room": 0,
+      "frames": 43277,
+      "native": "docs/screenshots/linear-room-11-1-native.png",
+      "native_sha256": "e6682b00a22bbdb64679da4203e80e9ed0b38d2d7ac5ec087e53d6168096a99d",
+      "enlarged": "docs/screenshots/linear-room-11-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-11-2",
+      "stage": 10,
+      "room": 1,
+      "frames": 44629,
+      "native": "docs/screenshots/linear-room-11-2-native.png",
+      "native_sha256": "43df4437a10560d87044dfdc1ab45e4d727bdc4b6855b1726e9769663df0dbb0",
+      "enlarged": "docs/screenshots/linear-room-11-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-11-3",
+      "stage": 10,
+      "room": 2,
+      "frames": 46119,
+      "native": "docs/screenshots/linear-room-11-3-native.png",
+      "native_sha256": "569ce2be8ac1c648eaa21a2d1bce2d2459aa71422cd307d529888eb0bc7decea",
+      "enlarged": "docs/screenshots/linear-room-11-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-12-1",
+      "stage": 11,
+      "room": 0,
+      "frames": 47665,
+      "native": "docs/screenshots/linear-room-12-1-native.png",
+      "native_sha256": "db153baee34c86ce02851b23692eee17fb5cbf38b7ffd5fd2ee1741032bb6f75",
+      "enlarged": "docs/screenshots/linear-room-12-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-12-2",
+      "stage": 11,
+      "room": 1,
+      "frames": 48849,
+      "native": "docs/screenshots/linear-room-12-2-native.png",
+      "native_sha256": "6a4f607392ea7514a4d0f9a0b4d2747bbe245b7bf9d6f66ad4bb8a7056bfe443",
+      "enlarged": "docs/screenshots/linear-room-12-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-12-3",
+      "stage": 11,
+      "room": 2,
+      "frames": 50318,
+      "native": "docs/screenshots/linear-room-12-3-native.png",
+      "native_sha256": "c24836d80c794c03e623d523b55fd11b62310153f4e64ba213b7b3aa298e752b",
+      "enlarged": "docs/screenshots/linear-room-12-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-13-1",
+      "stage": 12,
+      "room": 0,
+      "frames": 52258,
+      "native": "docs/screenshots/linear-room-13-1-native.png",
+      "native_sha256": "819d677c53285e4662cfaa1bb43a011da0b0905abc7ce33a58dd43853458e563",
+      "enlarged": "docs/screenshots/linear-room-13-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-13-2",
+      "stage": 12,
+      "room": 1,
+      "frames": 53778,
+      "native": "docs/screenshots/linear-room-13-2-native.png",
+      "native_sha256": "9ecd4de499110d39eadf621b99945c0529e646b90c6531d473228b236757796a",
+      "enlarged": "docs/screenshots/linear-room-13-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-13-3",
+      "stage": 12,
+      "room": 2,
+      "frames": 55284,
+      "native": "docs/screenshots/linear-room-13-3-native.png",
+      "native_sha256": "7878225c45a66546fb7043ebb8275a947407e23d397620e4589694a0f3592f19",
+      "enlarged": "docs/screenshots/linear-room-13-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-14-1",
+      "stage": 13,
+      "room": 0,
+      "frames": 56809,
+      "native": "docs/screenshots/linear-room-14-1-native.png",
+      "native_sha256": "9d564c2d3d808376e89ee92fda717f740bdf6d081ede4eec6236c780e437bfbb",
+      "enlarged": "docs/screenshots/linear-room-14-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-14-2",
+      "stage": 13,
+      "room": 1,
+      "frames": 58398,
+      "native": "docs/screenshots/linear-room-14-2-native.png",
+      "native_sha256": "2bec2878128e5fc1ccde5a4946b6c851b8a5b90926fe29891f6234f1706e7e11",
+      "enlarged": "docs/screenshots/linear-room-14-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-14-3",
+      "stage": 13,
+      "room": 2,
+      "frames": 59823,
+      "native": "docs/screenshots/linear-room-14-3-native.png",
+      "native_sha256": "4b982822654b84a552469dd308e80d1be3eb7de66c639e4ff26d1e7840ffec63",
+      "enlarged": "docs/screenshots/linear-room-14-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-15-1",
+      "stage": 14,
+      "room": 0,
+      "frames": 61523,
+      "native": "docs/screenshots/linear-room-15-1-native.png",
+      "native_sha256": "5888d3644ea5ac7c6c7207cf968e0ee0fc63e096d24848791260b223203c41d8",
+      "enlarged": "docs/screenshots/linear-room-15-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-15-2",
+      "stage": 14,
+      "room": 1,
+      "frames": 63101,
+      "native": "docs/screenshots/linear-room-15-2-native.png",
+      "native_sha256": "a1e941c52729f2da10dd2b3a4fa415f11c6497f08af33a93a9b73164c336cb9f",
+      "enlarged": "docs/screenshots/linear-room-15-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-15-3",
+      "stage": 14,
+      "room": 2,
+      "frames": 64405,
+      "native": "docs/screenshots/linear-room-15-3-native.png",
+      "native_sha256": "d6fab86b4406c627e6c7094fdfa817037090d405b9b3d8054643be36e6bc0869",
+      "enlarged": "docs/screenshots/linear-room-15-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-16-1",
+      "stage": 15,
+      "room": 0,
+      "frames": 66063,
+      "native": "docs/screenshots/linear-room-16-1-native.png",
+      "native_sha256": "f02533487167d1a485256a55a7a566fa3eba09e51caa880298df819f68392096",
+      "enlarged": "docs/screenshots/linear-room-16-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-16-2",
+      "stage": 15,
+      "room": 1,
+      "frames": 67478,
+      "native": "docs/screenshots/linear-room-16-2-native.png",
+      "native_sha256": "d6fd104315e21b8345cfe0aeda8f827c1d5caad946c37513de48cb0ba6662892",
+      "enlarged": "docs/screenshots/linear-room-16-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-16-3",
+      "stage": 15,
+      "room": 2,
+      "frames": 68996,
+      "native": "docs/screenshots/linear-room-16-3-native.png",
+      "native_sha256": "0902e6c31383efd68f469d700d81075047ac9823c4a4bb83bfd149de75660245",
+      "enlarged": "docs/screenshots/linear-room-16-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-17-1",
+      "stage": 16,
+      "room": 0,
+      "frames": 70601,
+      "native": "docs/screenshots/linear-room-17-1-native.png",
+      "native_sha256": "e864098ad3ab79fb6fb05d5a3088d614f256a2106456e53d48f5550a5c4836e8",
+      "enlarged": "docs/screenshots/linear-room-17-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-17-2",
+      "stage": 16,
+      "room": 1,
+      "frames": 72255,
+      "native": "docs/screenshots/linear-room-17-2-native.png",
+      "native_sha256": "891b8549eeb5837b673e1a4a5facee0e35259c7841347e72100c5421fd42c333",
+      "enlarged": "docs/screenshots/linear-room-17-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-17-3",
+      "stage": 16,
+      "room": 2,
+      "frames": 73575,
+      "native": "docs/screenshots/linear-room-17-3-native.png",
+      "native_sha256": "ab19fa0ad78f82876d6fdab2c1d88adea1fd8e0f9fb0592008bc57e6472555be",
+      "enlarged": "docs/screenshots/linear-room-17-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-18-1",
+      "stage": 17,
+      "room": 0,
+      "frames": 75269,
+      "native": "docs/screenshots/linear-room-18-1-native.png",
+      "native_sha256": "2ff31f12d93401b907e4db7f167f2999077014c85be52c68445e26d4a3fd6554",
+      "enlarged": "docs/screenshots/linear-room-18-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-18-2",
+      "stage": 17,
+      "room": 1,
+      "frames": 76847,
+      "native": "docs/screenshots/linear-room-18-2-native.png",
+      "native_sha256": "a8a079dc640ffd5767c60b5c4d1d88121a6f6d5bc44172115856b128e8150ce7",
+      "enlarged": "docs/screenshots/linear-room-18-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-18-3",
+      "stage": 17,
+      "room": 2,
+      "frames": 78331,
+      "native": "docs/screenshots/linear-room-18-3-native.png",
+      "native_sha256": "fc55bfe720fafee4962cbf20b0e77ba203ad2b376e7b91bdf95de8899ff92800",
+      "enlarged": "docs/screenshots/linear-room-18-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-19-1",
+      "stage": 18,
+      "room": 0,
+      "frames": 80292,
+      "native": "docs/screenshots/linear-room-19-1-native.png",
+      "native_sha256": "208b8d56826007afb81fe826730783f9f94daae230cfbe8cc89dd461e47c705f",
+      "enlarged": "docs/screenshots/linear-room-19-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-19-2",
+      "stage": 18,
+      "room": 1,
+      "frames": 81852,
+      "native": "docs/screenshots/linear-room-19-2-native.png",
+      "native_sha256": "5cad4a22dadf0bedf5ed0f07ad270784e49ce700625422d5b79ac96f68861cc9",
+      "enlarged": "docs/screenshots/linear-room-19-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-19-3",
+      "stage": 18,
+      "room": 2,
+      "frames": 83366,
+      "native": "docs/screenshots/linear-room-19-3-native.png",
+      "native_sha256": "c0fd2712c7222a1854d9c4768ec294b1c04a7f58d580e0bb6b9ec7141c982be8",
+      "enlarged": "docs/screenshots/linear-room-19-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-20-1",
+      "stage": 19,
+      "room": 0,
+      "frames": 85076,
+      "native": "docs/screenshots/linear-room-20-1-native.png",
+      "native_sha256": "89aad0042e23765478b1c24095155e9cc13051e4cb1dc0361eee4045a8f5c04c",
+      "enlarged": "docs/screenshots/linear-room-20-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-20-2",
+      "stage": 19,
+      "room": 1,
+      "frames": 86690,
+      "native": "docs/screenshots/linear-room-20-2-native.png",
+      "native_sha256": "c604982e03bcf9df1971cced65871892ce9b2f1be27264e6cd6ea6d57bc100b7",
+      "enlarged": "docs/screenshots/linear-room-20-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-20-3",
+      "stage": 19,
+      "room": 2,
+      "frames": 88053,
+      "native": "docs/screenshots/linear-room-20-3-native.png",
+      "native_sha256": "7ebcd6bb54fe5fa96b72dd7728fe3c77ba67d2ecb229bad816ace7ec9d33e2fe",
+      "enlarged": "docs/screenshots/linear-room-20-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-21-1",
+      "stage": 20,
+      "room": 0,
+      "frames": 89696,
+      "native": "docs/screenshots/linear-room-21-1-native.png",
+      "native_sha256": "5c819c69c8532a9d6492fa89adbd82f6463d2a912852987aff73be8eab026536",
+      "enlarged": "docs/screenshots/linear-room-21-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-21-2",
+      "stage": 20,
+      "room": 1,
+      "frames": 91283,
+      "native": "docs/screenshots/linear-room-21-2-native.png",
+      "native_sha256": "65f6ab28a5dde809ab63700bfb905a0268209d2628fcfab3d5aa3204e3b6e5dd",
+      "enlarged": "docs/screenshots/linear-room-21-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-21-3",
+      "stage": 20,
+      "room": 2,
+      "frames": 92824,
+      "native": "docs/screenshots/linear-room-21-3-native.png",
+      "native_sha256": "763d283fc12ab34fdd6f22f0a228873755a8a506221c263b3f9cacd306d317f7",
+      "enlarged": "docs/screenshots/linear-room-21-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-22-1",
+      "stage": 21,
+      "room": 0,
+      "frames": 94298,
+      "native": "docs/screenshots/linear-room-22-1-native.png",
+      "native_sha256": "6484b99d63694ee79caaa1ace4bf366cebcbb41db154102a8092c314311bd236",
+      "enlarged": "docs/screenshots/linear-room-22-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-22-2",
+      "stage": 21,
+      "room": 1,
+      "frames": 95881,
+      "native": "docs/screenshots/linear-room-22-2-native.png",
+      "native_sha256": "9a6ba4fdcbd92826c3257a1d7617eec0450c0c0f45d468cad75a76595dcfdb9a",
+      "enlarged": "docs/screenshots/linear-room-22-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-22-3",
+      "stage": 21,
+      "room": 2,
+      "frames": 97415,
+      "native": "docs/screenshots/linear-room-22-3-native.png",
+      "native_sha256": "41cc77da92c0e77c0e90f06cd487196c4bfede3108836103c32d0e80f05010df",
+      "enlarged": "docs/screenshots/linear-room-22-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-23-1",
+      "stage": 22,
+      "room": 0,
+      "frames": 99162,
+      "native": "docs/screenshots/linear-room-23-1-native.png",
+      "native_sha256": "87c7b8c9a4ea23cf88161382c6cbc39ba02104ce6264dc9a5f1a9f12dd722024",
+      "enlarged": "docs/screenshots/linear-room-23-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-23-2",
+      "stage": 22,
+      "room": 1,
+      "frames": 100626,
+      "native": "docs/screenshots/linear-room-23-2-native.png",
+      "native_sha256": "2f750afeffd1e052e54290ccc5a647ebbcab92abe51f1ad5fb62fe9a58ff6518",
+      "enlarged": "docs/screenshots/linear-room-23-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-23-3",
+      "stage": 22,
+      "room": 2,
+      "frames": 102083,
+      "native": "docs/screenshots/linear-room-23-3-native.png",
+      "native_sha256": "5cecd398a4340a097baa5b494b14be3a6e477c58d6990c0bf8ec6659252e6a78",
+      "enlarged": "docs/screenshots/linear-room-23-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-24-1",
+      "stage": 23,
+      "room": 0,
+      "frames": 103739,
+      "native": "docs/screenshots/linear-room-24-1-native.png",
+      "native_sha256": "8cbb83ce932442766c6bc7fbecb14adeebdd61976017cf9f2d35d35d71014601",
+      "enlarged": "docs/screenshots/linear-room-24-1.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-24-2",
+      "stage": 23,
+      "room": 1,
+      "frames": 105094,
+      "native": "docs/screenshots/linear-room-24-2-native.png",
+      "native_sha256": "f1d317b0c858cd3bd90346ae31bcff9d11b00a59116ccfced156423ac4695fb6",
+      "enlarged": "docs/screenshots/linear-room-24-2.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-room-24-3",
+      "stage": 23,
+      "room": 2,
+      "frames": 106642,
+      "native": "docs/screenshots/linear-room-24-3-native.png",
+      "native_sha256": "466a031101ae7d6e6a4111bca18ba20356d5559ef9d4e2c38f236fdd6c1b9ea5",
+      "enlarged": "docs/screenshots/linear-room-24-3.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    },
+    {
+      "name": "linear-ending",
+      "stage": 23,
+      "room": 2,
+      "frames": 108466,
+      "native": "docs/screenshots/linear-ending-native.png",
+      "native_sha256": "4388c819a11065bc3d02876b28ce20dbf7deccc7856d26af7ccf193b0210838a",
+      "enlarged": "docs/screenshots/linear-ending.png",
+      "provenance": "fresh blank-SRAM linear controller replay; no snapshots or gameplay-memory writes"
+    }
+  ]
+}

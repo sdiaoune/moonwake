@@ -1,0 +1,65 @@
+{
+  "rom_sha256": "6ef653eba34dae18385501266ee266b689d857823db28ca5fd2c3d304f6a0721",
+  "par_seconds": 95,
+  "evidence": "Two fresh blank-SRAM linear controller traces earn all nine seals; the slower run waits safely at spawn in actual PLAY. No game-memory writes or snapshots.",
+  "checks": {
+    "fast_all_nine_S": {
+      "rank": 3,
+      "clear_ticks": 3610,
+      "state": {
+        "game_mode": 3,
+        "stage_id": 0,
+        "room_id": 2,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "dash_timer": 0,
+        "seal_count": 9,
+        "stars": 55,
+        "checkpoint_on": 1,
+        "boss_hp": 0,
+        "deaths": 0,
+        "stage_frames": 3610,
+        "camera_x": 1664,
+        "run_seal_bits": 511,
+        "journey_frames": 3610,
+        "x": 1762.1875,
+        "y": 112.0,
+        "vx": 2.625,
+        "vy": 0.0,
+        "video_frame": 4018
+      }
+    },
+    "over_par_all_nine_A": {
+      "rank": 2,
+      "clear_ticks": 9754,
+      "state": {
+        "game_mode": 3,
+        "stage_id": 0,
+        "room_id": 2,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "dash_timer": 0,
+        "seal_count": 9,
+        "stars": 55,
+        "checkpoint_on": 1,
+        "boss_hp": 0,
+        "deaths": 0,
+        "stage_frames": 9754,
+        "camera_x": 1664,
+        "run_seal_bits": 511,
+        "journey_frames": 9754,
+        "x": 1762.1875,
+        "y": 112.0,
+        "vx": 2.625,
+        "vy": 0.0,
+        "video_frame": 10162
+      }
+    }
+  },
+  "accepted_input_traces": [
+    "dist/critic-expansion-fast-S-inputs.json",
+    "dist/critic-expansion-over-par-A-inputs.json"
+  ]
+}

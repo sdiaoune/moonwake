@@ -1,0 +1,4 @@
+# Optional tooling: Python 3.12; the ROM itself has no Python dependency.
+pyboy==2.7.0
+Pillow==12.3.0
+numpy==2.5.3

@@ -1,0 +1,4519 @@
+{
+  "schema": 1,
+  "game": "Moonwake",
+  "coordinates": {
+    "platform_y": "top surface / player feet",
+    "spawn_y": "player top-left",
+    "goal_y": "player feet",
+    "checkpoint_y": "player feet",
+    "pickup_y": "sprite top-left",
+    "enemy_y": "sprite top-left",
+    "platform_width": "pixels; not tiles"
+  },
+  "kinds": {
+    "platform": {
+      "0": "solid",
+      "1": "one-way",
+      "2": "spring",
+      "3": "crumble"
+    },
+    "pickup": {
+      "0": "star",
+      "1": "dash-refresh lantern",
+      "2": "moon seal"
+    },
+    "enemy": {
+      "0": "beetle patrol",
+      "1": "owl flight",
+      "2": "thorn"
+    }
+  },
+  "maxima": {
+    "platforms": 48,
+    "pickups": 64,
+    "enemies": 12
+  },
+  "playtest_note": "main_route and safe_platform_indices refer to the identical authored solid path. Optional branch indices are separate. Physics are root-owned; these geometry checks do not certify controller reachability.",
+  "levels": [
+    {
+      "id": 0,
+      "name": "Lantern Quay",
+      "length": 1536,
+      "biome": 0,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1488,
+      "goal_y": 128,
+      "checkpoint_x": 840,
+      "checkpoint_y": 128,
+      "boss": 0,
+      "par_seconds": 26,
+      "intro": [
+        "THE SKY SEA SLEEPS.",
+        "KIP, LIGHT THE WAY.",
+        "A HOP. B SCARF DASH."
+      ],
+      "lesson": "Teach variable jump and safe landing; the first gaps are only24pixels.",
+      "beats": [
+        "Wide224px starting dock, two approachable stars, optional seal clearly above.",
+        "First beetle has a176px platform and a24px patrol.",
+        "Gentle16px roof rise, generous checkpoint landing, slightly longer final rooftop."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 224,
+          "kind": 0
+        },
+        {
+          "x": 224,
+          "y": 128,
+          "w": 176,
+          "kind": 0
+        },
+        {
+          "x": 424,
+          "y": 128,
+          "w": 176,
+          "kind": 0
+        },
+        {
+          "x": 624,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 776,
+          "y": 128,
+          "w": 176,
+          "kind": 0
+        },
+        {
+          "x": 976,
+          "y": 128,
+          "w": 160,
+          "kind": 0
+        },
+        {
+          "x": 1160,
+          "y": 112,
+          "w": 152,
+          "kind": 0
+        },
+        {
+          "x": 1336,
+          "y": 128,
+          "w": 200,
+          "kind": 0
+        },
+        {
+          "x": 176,
+          "y": 96,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 264,
+          "y": 72,
+          "w": 80,
+          "kind": 1
+        },
+        {
+          "x": 632,
+          "y": 80,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 728,
+          "y": 56,
+          "w": 80,
+          "kind": 1
+        },
+        {
+          "x": 1064,
+          "y": 96,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 1152,
+          "y": 72,
+          "w": 96,
+          "kind": 1
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 248,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 288,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 448,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 488,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 648,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 688,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 800,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 840,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1000,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1040,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1184,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1224,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1360,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1400,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 192,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 280,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 304,
+          "y": 48,
+          "kind": 2
+        },
+        {
+          "x": 648,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 744,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 768,
+          "y": 32,
+          "kind": 2
+        },
+        {
+          "x": 1080,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1168,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 1200,
+          "y": 48,
+          "kind": 2
+        }
+      ],
+      "enemies": [
+        {
+          "x": 496,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 896,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1256,
+          "y": 96,
+          "range": 24,
+          "kind": 0
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "checkpoint_platform_index": 4,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 18,
+          "platform_indices": [
+            8,
+            9
+          ],
+          "entry_main_platform": 0,
+          "rejoin_main_platform": 1,
+          "technique": "Two small hops above a broad dock; the first visible seal."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 21,
+          "platform_indices": [
+            10,
+            11
+          ],
+          "entry_main_platform": 3,
+          "rejoin_main_platform": 4,
+          "technique": "Follow the rising star trail; drop back onto the checkpoint dock."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 24,
+          "platform_indices": [
+            12,
+            13
+          ],
+          "entry_main_platform": 5,
+          "rejoin_main_platform": 7,
+          "technique": "Use a held jump, then cross the short rooftop gap."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Apricot Rooftops",
+      "length": 1600,
+      "biome": 0,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1552,
+      "goal_y": 128,
+      "checkpoint_x": 808,
+      "checkpoint_y": 128,
+      "boss": 0,
+      "par_seconds": 29,
+      "intro": [
+        "ROOFS HOLD THE HEAT.",
+        "STARS SHOW THE WAY.",
+        "LET YOUR SCARF FLY."
+      ],
+      "lesson": "Repeat a16px rising roof rhythm, then invert it; teach deliberate jump release.",
+      "beats": [
+        "Three ascending roof heights128/112/96, then a courtyard breath.",
+        "Upper eaves preserve the same silhouette and16/24px rises.",
+        "Second rooftop phrase reverses the first; a lantern supports the highest seal."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 192,
+          "kind": 0
+        },
+        {
+          "x": 208,
+          "y": 112,
+          "w": 144,
+          "kind": 0
+        },
+        {
+          "x": 376,
+          "y": 96,
+          "w": 144,
+          "kind": 0
+        },
+        {
+          "x": 544,
+          "y": 112,
+          "w": 152,
+          "kind": 0
+        },
+        {
+          "x": 720,
+          "y": 128,
+          "w": 184,
+          "kind": 0
+        },
+        {
+          "x": 928,
+          "y": 112,
+          "w": 144,
+          "kind": 0
+        },
+        {
+          "x": 1096,
+          "y": 96,
+          "w": 144,
+          "kind": 0
+        },
+        {
+          "x": 1264,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1416,
+          "y": 128,
+          "w": 184,
+          "kind": 0
+        },
+        {
+          "x": 240,
+          "y": 80,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 328,
+          "y": 56,
+          "w": 88,
+          "kind": 1
+        },
+        {
+          "x": 736,
+          "y": 96,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 824,
+          "y": 72,
+          "w": 88,
+          "kind": 1
+        },
+        {
+          "x": 1120,
+          "y": 64,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 1216,
+          "y": 48,
+          "w": 88,
+          "kind": 1
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 232,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 272,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 400,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 440,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 568,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 608,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 744,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 784,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 952,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 992,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1120,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1160,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1288,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1328,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1440,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1480,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 256,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 344,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 368,
+          "y": 32,
+          "kind": 2
+        },
+        {
+          "x": 752,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 840,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 864,
+          "y": 48,
+          "kind": 2
+        },
+        {
+          "x": 1136,
+          "y": 40,
+          "kind": 0
+        },
+        {
+          "x": 1232,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 1184,
+          "y": 48,
+          "kind": 1
+        },
+        {
+          "x": 1264,
+          "y": 24,
+          "kind": 2
+        }
+      ],
+      "enemies": [
+        {
+          "x": 296,
+          "y": 96,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 616,
+          "y": 96,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1000,
+          "y": 96,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1320,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "checkpoint_platform_index": 4,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 20,
+          "platform_indices": [
+            9,
+            10
+          ],
+          "entry_main_platform": 1,
+          "rejoin_main_platform": 2,
+          "technique": "Climb the two roof eaves; release jump for the tight landing."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 23,
+          "platform_indices": [
+            11,
+            12
+          ],
+          "entry_main_platform": 4,
+          "rejoin_main_platform": 5,
+          "technique": "Choose the upper eave from the flat resting courtyard."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 27,
+          "platform_indices": [
+            13,
+            14
+          ],
+          "entry_main_platform": 6,
+          "rejoin_main_platform": 7,
+          "technique": "A high ledge rewards a short dash between equal-height roofs."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Kitewake Causeway",
+      "length": 1664,
+      "biome": 0,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1616,
+      "goal_y": 128,
+      "checkpoint_x": 896,
+      "checkpoint_y": 128,
+      "boss": 0,
+      "par_seconds": 27,
+      "intro": [
+        "KITES CARRY WISHES.",
+        "TOUCH A LANTERN.",
+        "DASH AGAIN IN AIR."
+      ],
+      "lesson": "Introduce lantern refresh over safe land, then offer a three-step aerial kite route.",
+      "beats": [
+        "First48px main gap, open landing128px wide.",
+        "Central ground runway lets the player watch the airborne kite route before choosing it.",
+        "Final248px causeway is a celebratory run to the harbor gate."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 224,
+          "kind": 0
+        },
+        {
+          "x": 248,
+          "y": 128,
+          "w": 160,
+          "kind": 0
+        },
+        {
+          "x": 456,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 624,
+          "y": 128,
+          "w": 176,
+          "kind": 0
+        },
+        {
+          "x": 832,
+          "y": 128,
+          "w": 160,
+          "kind": 0
+        },
+        {
+          "x": 1032,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1208,
+          "y": 128,
+          "w": 176,
+          "kind": 0
+        },
+        {
+          "x": 1416,
+          "y": 128,
+          "w": 248,
+          "kind": 0
+        },
+        {
+          "x": 264,
+          "y": 96,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 352,
+          "y": 72,
+          "w": 88,
+          "kind": 1
+        },
+        {
+          "x": 648,
+          "y": 96,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 752,
+          "y": 72,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 856,
+          "y": 56,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 1216,
+          "y": 96,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 1312,
+          "y": 72,
+          "w": 88,
+          "kind": 1
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 272,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 312,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 480,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 520,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 648,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 688,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 856,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 896,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1056,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1096,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1232,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1272,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1440,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1480,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 280,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 368,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 400,
+          "y": 48,
+          "kind": 2
+        },
+        {
+          "x": 664,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 768,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 872,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 728,
+          "y": 64,
+          "kind": 1
+        },
+        {
+          "x": 832,
+          "y": 48,
+          "kind": 1
+        },
+        {
+          "x": 896,
+          "y": 32,
+          "kind": 2
+        },
+        {
+          "x": 1232,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1328,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 1296,
+          "y": 64,
+          "kind": 1
+        },
+        {
+          "x": 1360,
+          "y": 48,
+          "kind": 2
+        },
+        {
+          "x": 440,
+          "y": 88,
+          "kind": 1
+        },
+        {
+          "x": 1192,
+          "y": 88,
+          "kind": 1
+        }
+      ],
+      "enemies": [
+        {
+          "x": 336,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 712,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1104,
+          "y": 96,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1512,
+          "y": 112,
+          "range": 32,
+          "kind": 0
+        },
+        {
+          "x": 816,
+          "y": 64,
+          "range": 24,
+          "kind": 1
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "checkpoint_platform_index": 4,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 18,
+          "platform_indices": [
+            8,
+            9
+          ],
+          "entry_main_platform": 1,
+          "rejoin_main_platform": 2,
+          "technique": "Begin with a familiar two-hop roof before the dash lesson."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 24,
+          "platform_indices": [
+            10,
+            11,
+            12
+          ],
+          "entry_main_platform": 3,
+          "rejoin_main_platform": 4,
+          "technique": "Chain the two hanging kite lanterns with an air dash."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 28,
+          "platform_indices": [
+            13,
+            14
+          ],
+          "entry_main_platform": 6,
+          "rejoin_main_platform": 7,
+          "technique": "One final lantern lets a brave jump keep its forward flow."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Lotus After Rain",
+      "length": 1600,
+      "biome": 1,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1552,
+      "goal_y": 128,
+      "checkpoint_x": 840,
+      "checkpoint_y": 128,
+      "boss": 0,
+      "par_seconds": 33,
+      "intro": [
+        "RAIN WAKES LOTUS.",
+        "SMALL SPRINGS SING.",
+        "BOUNCE TOWARD LIGHT."
+      ],
+      "lesson": "Introduce side-route springs while keeping the ground route gentle.",
+      "beats": [
+        "Familiar24px stepping-stone gaps beneath an optional high lotus.",
+        "One owl circles above a seal route, never the first spring.",
+        "Second spring sequence repeats the setup with a higher view of the jade rain."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 224,
+          "kind": 0
+        },
+        {
+          "x": 248,
+          "y": 128,
+          "w": 144,
+          "kind": 0
+        },
+        {
+          "x": 416,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 568,
+          "y": 128,
+          "w": 168,
+          "kind": 0
+        },
+        {
+          "x": 760,
+          "y": 128,
+          "w": 176,
+          "kind": 0
+        },
+        {
+          "x": 960,
+          "y": 112,
+          "w": 136,
+          "kind": 0
+        },
+        {
+          "x": 1120,
+          "y": 128,
+          "w": 160,
+          "kind": 0
+        },
+        {
+          "x": 1304,
+          "y": 112,
+          "w": 112,
+          "kind": 0
+        },
+        {
+          "x": 1440,
+          "y": 128,
+          "w": 160,
+          "kind": 0
+        },
+        {
+          "x": 272,
+          "y": 104,
+          "w": 32,
+          "kind": 2
+        },
+        {
+          "x": 320,
+          "y": 72,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 408,
+          "y": 48,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 792,
+          "y": 96,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 888,
+          "y": 72,
+          "w": 80,
+          "kind": 1
+        },
+        {
+          "x": 1160,
+          "y": 104,
+          "w": 32,
+          "kind": 2
+        },
+        {
+          "x": 1208,
+          "y": 72,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 1304,
+          "y": 48,
+          "w": 80,
+          "kind": 1
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 272,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 312,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 440,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 480,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 592,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 632,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 784,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 824,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 984,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1024,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1144,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1184,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1328,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1368,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1464,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1504,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 336,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 424,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 440,
+          "y": 24,
+          "kind": 2
+        },
+        {
+          "x": 808,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 904,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 928,
+          "y": 48,
+          "kind": 2
+        },
+        {
+          "x": 1224,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 1320,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 1344,
+          "y": 24,
+          "kind": 2
+        }
+      ],
+      "enemies": [
+        {
+          "x": 328,
+          "y": 112,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 648,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1032,
+          "y": 96,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1384,
+          "y": 96,
+          "range": 8,
+          "kind": 0
+        },
+        {
+          "x": 904,
+          "y": 40,
+          "range": 16,
+          "kind": 1
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "checkpoint_platform_index": 4,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 20,
+          "platform_indices": [
+            9,
+            10,
+            11
+          ],
+          "entry_main_platform": 1,
+          "rejoin_main_platform": 2,
+          "technique": "Bounce from the little lotus spring onto the pearl ledge."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 23,
+          "platform_indices": [
+            12,
+            13
+          ],
+          "entry_main_platform": 4,
+          "rejoin_main_platform": 5,
+          "technique": "A calm mid-level lotus climb above the checkpoint pool."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 26,
+          "platform_indices": [
+            14,
+            15,
+            16
+          ],
+          "entry_main_platform": 6,
+          "rejoin_main_platform": 7,
+          "technique": "Repeat the spring climb with a longer second landing."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Rainbell Canopy",
+      "length": 1664,
+      "biome": 1,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1616,
+      "goal_y": 128,
+      "checkpoint_x": 760,
+      "checkpoint_y": 128,
+      "boss": 0,
+      "par_seconds": 28,
+      "intro": [
+        "RAINBELLS KEEP TIME.",
+        "BRITTLE LEAVES FALL.",
+        "KEEP YOUR FEET LIGHT"
+      ],
+      "lesson": "Teach crumble platforms above forgiving ground; practice alternating roof heights.",
+      "beats": [
+        "First crumbling upper platform drops to a main-route landing instead of a pit.",
+        "Broad192px low platform resets the rhythm at the checkpoint.",
+        "Second half alternates high and low boughs with an optional timed upper shortcut."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 192,
+          "kind": 0
+        },
+        {
+          "x": 216,
+          "y": 112,
+          "w": 120,
+          "kind": 0
+        },
+        {
+          "x": 360,
+          "y": 96,
+          "w": 112,
+          "kind": 0
+        },
+        {
+          "x": 496,
+          "y": 112,
+          "w": 144,
+          "kind": 0
+        },
+        {
+          "x": 664,
+          "y": 128,
+          "w": 192,
+          "kind": 0
+        },
+        {
+          "x": 880,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1032,
+          "y": 96,
+          "w": 120,
+          "kind": 0
+        },
+        {
+          "x": 1176,
+          "y": 112,
+          "w": 136,
+          "kind": 0
+        },
+        {
+          "x": 1336,
+          "y": 128,
+          "w": 144,
+          "kind": 0
+        },
+        {
+          "x": 1504,
+          "y": 128,
+          "w": 160,
+          "kind": 0
+        },
+        {
+          "x": 240,
+          "y": 80,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 328,
+          "y": 56,
+          "w": 88,
+          "kind": 3
+        },
+        {
+          "x": 696,
+          "y": 96,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 784,
+          "y": 72,
+          "w": 72,
+          "kind": 3
+        },
+        {
+          "x": 880,
+          "y": 48,
+          "w": 80,
+          "kind": 1
+        },
+        {
+          "x": 1200,
+          "y": 80,
+          "w": 64,
+          "kind": 3
+        },
+        {
+          "x": 1288,
+          "y": 56,
+          "w": 96,
+          "kind": 1
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 240,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 280,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 384,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 424,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 520,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 560,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 688,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 728,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 904,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 944,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1056,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1096,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1200,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1240,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1360,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1400,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1528,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1568,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 256,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 344,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 368,
+          "y": 32,
+          "kind": 2
+        },
+        {
+          "x": 712,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 800,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 896,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 856,
+          "y": 48,
+          "kind": 1
+        },
+        {
+          "x": 920,
+          "y": 24,
+          "kind": 2
+        },
+        {
+          "x": 1216,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 1304,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 1336,
+          "y": 32,
+          "kind": 2
+        }
+      ],
+      "enemies": [
+        {
+          "x": 280,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 568,
+          "y": 96,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 952,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 1416,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 832,
+          "y": 40,
+          "range": 16,
+          "kind": 1
+        },
+        {
+          "x": 1104,
+          "y": 56,
+          "range": 16,
+          "kind": 1
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "checkpoint_platform_index": 4,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 22,
+          "platform_indices": [
+            10,
+            11
+          ],
+          "entry_main_platform": 1,
+          "rejoin_main_platform": 2,
+          "technique": "The first crumble leaf sits over solid canopy; keep moving across."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 27,
+          "platform_indices": [
+            12,
+            13,
+            14
+          ],
+          "entry_main_platform": 4,
+          "rejoin_main_platform": 5,
+          "technique": "A three-tier leaf stair lets hesitation fall back to the safe path."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 30,
+          "platform_indices": [
+            15,
+            16
+          ],
+          "entry_main_platform": 7,
+          "rejoin_main_platform": 8,
+          "technique": "Leap quickly from the last brittle leaf into a broad upper bough."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Glasswater Run",
+      "length": 1728,
+      "biome": 1,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1680,
+      "goal_y": 128,
+      "checkpoint_x": 800,
+      "checkpoint_y": 128,
+      "boss": 0,
+      "par_seconds": 28,
+      "intro": [
+        "THE RIVER IS GLASS.",
+        "LIGHT SKIPS ON RAIN.",
+        "RUN WITH THE CURRENT"
+      ],
+      "lesson": "Join rise-and-fall landings into a flowing run; upper routes ask for repeated dash refresh.",
+      "beats": [
+        "Two broad low banks invite acceleration before the48px crossing.",
+        "Raised128/112/96/112 wave makes one readable movement phrase.",
+        "Final two wide landings leave a clean sprint to the rain gate.",
+        "The river launches Kip from a main-route spring into the long glasswater leap."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 224,
+          "kind": 0
+        },
+        {
+          "x": 256,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 424,
+          "y": 128,
+          "w": 192,
+          "kind": 0
+        },
+        {
+          "x": 656,
+          "y": 128,
+          "w": 176,
+          "kind": 0
+        },
+        {
+          "x": 880,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1048,
+          "y": 96,
+          "w": 112,
+          "kind": 2
+        },
+        {
+          "x": 1200,
+          "y": 112,
+          "w": 144,
+          "kind": 0
+        },
+        {
+          "x": 1384,
+          "y": 128,
+          "w": 160,
+          "kind": 0
+        },
+        {
+          "x": 1568,
+          "y": 128,
+          "w": 160,
+          "kind": 0
+        },
+        {
+          "x": 272,
+          "y": 80,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 368,
+          "y": 56,
+          "w": 96,
+          "kind": 1
+        },
+        {
+          "x": 680,
+          "y": 96,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 776,
+          "y": 72,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 872,
+          "y": 48,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 1216,
+          "y": 80,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 1320,
+          "y": 56,
+          "w": 80,
+          "kind": 1
+        },
+        {
+          "x": 1440,
+          "y": 56,
+          "w": 64,
+          "kind": 1
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 280,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 320,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 448,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 488,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 680,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 720,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 904,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 944,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1072,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1112,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1224,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1264,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1408,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1448,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1592,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1632,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 288,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 384,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 416,
+          "y": 32,
+          "kind": 2
+        },
+        {
+          "x": 696,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 792,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 888,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 752,
+          "y": 64,
+          "kind": 1
+        },
+        {
+          "x": 848,
+          "y": 40,
+          "kind": 1
+        },
+        {
+          "x": 904,
+          "y": 24,
+          "kind": 2
+        },
+        {
+          "x": 1232,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 1336,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 1456,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 1304,
+          "y": 56,
+          "kind": 1
+        },
+        {
+          "x": 1416,
+          "y": 40,
+          "kind": 1
+        },
+        {
+          "x": 1464,
+          "y": 32,
+          "kind": 2
+        },
+        {
+          "x": 864,
+          "y": 88,
+          "kind": 1
+        },
+        {
+          "x": 1360,
+          "y": 88,
+          "kind": 1
+        }
+      ],
+      "enemies": [
+        {
+          "x": 336,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 520,
+          "y": 112,
+          "range": 32,
+          "kind": 0
+        },
+        {
+          "x": 752,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1120,
+          "y": 80,
+          "range": 8,
+          "kind": 0
+        },
+        {
+          "x": 1480,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1304,
+          "y": 40,
+          "range": 24,
+          "kind": 1
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "checkpoint_platform_index": 3,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 20,
+          "platform_indices": [
+            9,
+            10
+          ],
+          "entry_main_platform": 1,
+          "rejoin_main_platform": 2,
+          "technique": "A short roof climb offers a quiet view before the water run."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 26,
+          "platform_indices": [
+            11,
+            12,
+            13
+          ],
+          "entry_main_platform": 3,
+          "rejoin_main_platform": 4,
+          "technique": "Two lanterns carry a rising dash chain over a safe riverbank."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 32,
+          "platform_indices": [
+            14,
+            15,
+            16
+          ],
+          "entry_main_platform": 6,
+          "rejoin_main_platform": 7,
+          "technique": "A longer airborne ribbon finishes with an equal-height dash."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Brass Moonworks",
+      "length": 1600,
+      "biome": 2,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1552,
+      "goal_y": 128,
+      "checkpoint_x": 800,
+      "checkpoint_y": 128,
+      "boss": 0,
+      "par_seconds": 28,
+      "intro": [
+        "THE MOONWORKS HUM.",
+        "OLD GEARS NEED LIGHT",
+        "ONE HOP AT A TIME."
+      ],
+      "lesson": "A metronomic low/high pattern makes workshop movement musical and readable.",
+      "beats": [
+        "The first repeated128/112 beat uses24px gaps and wide gear tops.",
+        "An184px central workshop provides recovery and checkpoint.",
+        "A final96px gear peak recasts the earlier brass spring route without requiring a spring."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 224,
+          "kind": 0
+        },
+        {
+          "x": 248,
+          "y": 112,
+          "w": 120,
+          "kind": 0
+        },
+        {
+          "x": 392,
+          "y": 128,
+          "w": 152,
+          "kind": 0
+        },
+        {
+          "x": 568,
+          "y": 112,
+          "w": 120,
+          "kind": 0
+        },
+        {
+          "x": 712,
+          "y": 128,
+          "w": 184,
+          "kind": 0
+        },
+        {
+          "x": 920,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1072,
+          "y": 96,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1224,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1376,
+          "y": 128,
+          "w": 224,
+          "kind": 0
+        },
+        {
+          "x": 272,
+          "y": 88,
+          "w": 32,
+          "kind": 2
+        },
+        {
+          "x": 320,
+          "y": 56,
+          "w": 88,
+          "kind": 1
+        },
+        {
+          "x": 736,
+          "y": 96,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 832,
+          "y": 72,
+          "w": 88,
+          "kind": 1
+        },
+        {
+          "x": 1104,
+          "y": 64,
+          "w": 64,
+          "kind": 3
+        },
+        {
+          "x": 1192,
+          "y": 48,
+          "w": 88,
+          "kind": 1
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 272,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 312,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 416,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 456,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 592,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 632,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 736,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 776,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 944,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 984,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1096,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1136,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1248,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1288,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1400,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1440,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 336,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 360,
+          "y": 32,
+          "kind": 2
+        },
+        {
+          "x": 752,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 848,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 872,
+          "y": 48,
+          "kind": 2
+        },
+        {
+          "x": 1120,
+          "y": 40,
+          "kind": 0
+        },
+        {
+          "x": 1208,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 1176,
+          "y": 40,
+          "kind": 1
+        },
+        {
+          "x": 1240,
+          "y": 24,
+          "kind": 2
+        }
+      ],
+      "enemies": [
+        {
+          "x": 320,
+          "y": 96,
+          "range": 8,
+          "kind": 0
+        },
+        {
+          "x": 472,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 792,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 992,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 1464,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 872,
+          "y": 40,
+          "range": 16,
+          "kind": 1
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "checkpoint_platform_index": 4,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 19,
+          "platform_indices": [
+            9,
+            10
+          ],
+          "entry_main_platform": 1,
+          "rejoin_main_platform": 2,
+          "technique": "A brass spring launches the first gear balcony."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 22,
+          "platform_indices": [
+            11,
+            12
+          ],
+          "entry_main_platform": 4,
+          "rejoin_main_platform": 5,
+          "technique": "Climb above the midpoint workshop and its low patrol."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 26,
+          "platform_indices": [
+            13,
+            14
+          ],
+          "entry_main_platform": 6,
+          "rejoin_main_platform": 7,
+          "technique": "Keep moving across a brittle gear tooth into the upper gallery."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Pendulum Steps",
+      "length": 1664,
+      "biome": 2,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1616,
+      "goal_y": 128,
+      "checkpoint_x": 792,
+      "checkpoint_y": 112,
+      "boss": 0,
+      "par_seconds": 30,
+      "intro": [
+        "PENDULUMS COUNT TIME",
+        "UP. OVER. DOWN.",
+        "FIND YOUR OWN RHYTHM"
+      ],
+      "lesson": "Use an ascending and descending staircase for precise short-jump rhythm.",
+      "beats": [
+        "A four-step128/112/96/80 climb has no sudden32px wall.",
+        "Descending stairs lead into the checkpoint shelf and a broad low rest.",
+        "The second climb is shorter; the seal extends it into a separate high phrase.",
+        "A brittle main-route ledge teaches commitment; a lower catch shelf forgives hesitation."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 192,
+          "kind": 0
+        },
+        {
+          "x": 216,
+          "y": 112,
+          "w": 104,
+          "kind": 0
+        },
+        {
+          "x": 344,
+          "y": 96,
+          "w": 96,
+          "kind": 0
+        },
+        {
+          "x": 464,
+          "y": 80,
+          "w": 96,
+          "kind": 0
+        },
+        {
+          "x": 584,
+          "y": 96,
+          "w": 104,
+          "kind": 0
+        },
+        {
+          "x": 712,
+          "y": 112,
+          "w": 144,
+          "kind": 0
+        },
+        {
+          "x": 880,
+          "y": 128,
+          "w": 160,
+          "kind": 0
+        },
+        {
+          "x": 1064,
+          "y": 112,
+          "w": 112,
+          "kind": 0
+        },
+        {
+          "x": 1200,
+          "y": 96,
+          "w": 96,
+          "kind": 3
+        },
+        {
+          "x": 1320,
+          "y": 112,
+          "w": 136,
+          "kind": 0
+        },
+        {
+          "x": 1480,
+          "y": 128,
+          "w": 184,
+          "kind": 0
+        },
+        {
+          "x": 240,
+          "y": 80,
+          "w": 56,
+          "kind": 1
+        },
+        {
+          "x": 320,
+          "y": 56,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 488,
+          "y": 48,
+          "w": 80,
+          "kind": 1
+        },
+        {
+          "x": 592,
+          "y": 48,
+          "w": 80,
+          "kind": 3
+        },
+        {
+          "x": 1088,
+          "y": 80,
+          "w": 56,
+          "kind": 1
+        },
+        {
+          "x": 1168,
+          "y": 56,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 1256,
+          "y": 48,
+          "w": 80,
+          "kind": 1
+        },
+        {
+          "x": 1200,
+          "y": 128,
+          "w": 96,
+          "kind": 0
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 240,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 280,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 368,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 408,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 488,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 528,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 608,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 648,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 736,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 776,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 904,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 944,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1088,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1128,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1224,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1264,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1344,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1384,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1504,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1544,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 256,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 336,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 352,
+          "y": 32,
+          "kind": 2
+        },
+        {
+          "x": 504,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 608,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 576,
+          "y": 32,
+          "kind": 1
+        },
+        {
+          "x": 632,
+          "y": 24,
+          "kind": 2
+        },
+        {
+          "x": 1104,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 1184,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 1272,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 1296,
+          "y": 24,
+          "kind": 2
+        }
+      ],
+      "enemies": [
+        {
+          "x": 272,
+          "y": 96,
+          "range": 8,
+          "kind": 0
+        },
+        {
+          "x": 528,
+          "y": 64,
+          "range": 8,
+          "kind": 0
+        },
+        {
+          "x": 784,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 968,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1424,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 1224,
+          "y": 32,
+          "range": 24,
+          "kind": 1
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "checkpoint_platform_index": 5,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 24,
+          "platform_indices": [
+            11,
+            12
+          ],
+          "entry_main_platform": 1,
+          "rejoin_main_platform": 2,
+          "technique": "A little side stair mirrors the bigger staircase."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 28,
+          "platform_indices": [
+            13,
+            14
+          ],
+          "entry_main_platform": 3,
+          "rejoin_main_platform": 5,
+          "technique": "A flat upper walkway rewards a short dash before the descending run."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 32,
+          "platform_indices": [
+            15,
+            16,
+            17
+          ],
+          "entry_main_platform": 7,
+          "rejoin_main_platform": 9,
+          "technique": "Read the rising pendulum rhythm and take the upper final balcony."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Sleepwheel Express",
+      "length": 1760,
+      "biome": 2,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1712,
+      "goal_y": 128,
+      "checkpoint_x": 912,
+      "checkpoint_y": 112,
+      "boss": 0,
+      "par_seconds": 27,
+      "intro": [
+        "THE LAST WHEEL STIRS",
+        "WISHES RIDE GEARS.",
+        "LET THE NIGHT TURN."
+      ],
+      "lesson": "Main-route48px gaps alternate low runway and high gear; optional crumble chains reward speed.",
+      "beats": [
+        "A long starting station previews the express48px rhythm.",
+        "Checkpoint rests on a broad gear between two repeating wave phrases.",
+        "The final200px station lets the player land, exhale, and leave the moonworks.",
+        "A brittle main-route ledge teaches commitment; a lower catch shelf forgives hesitation."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 224,
+          "kind": 0
+        },
+        {
+          "x": 256,
+          "y": 128,
+          "w": 168,
+          "kind": 0
+        },
+        {
+          "x": 472,
+          "y": 112,
+          "w": 112,
+          "kind": 0
+        },
+        {
+          "x": 632,
+          "y": 128,
+          "w": 168,
+          "kind": 0
+        },
+        {
+          "x": 848,
+          "y": 112,
+          "w": 112,
+          "kind": 0
+        },
+        {
+          "x": 1008,
+          "y": 128,
+          "w": 168,
+          "kind": 0
+        },
+        {
+          "x": 1224,
+          "y": 112,
+          "w": 112,
+          "kind": 3
+        },
+        {
+          "x": 1384,
+          "y": 128,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1560,
+          "y": 128,
+          "w": 200,
+          "kind": 0
+        },
+        {
+          "x": 280,
+          "y": 96,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 376,
+          "y": 72,
+          "w": 80,
+          "kind": 3
+        },
+        {
+          "x": 656,
+          "y": 96,
+          "w": 64,
+          "kind": 3
+        },
+        {
+          "x": 752,
+          "y": 72,
+          "w": 64,
+          "kind": 3
+        },
+        {
+          "x": 848,
+          "y": 48,
+          "w": 88,
+          "kind": 1
+        },
+        {
+          "x": 1248,
+          "y": 80,
+          "w": 64,
+          "kind": 3
+        },
+        {
+          "x": 1344,
+          "y": 56,
+          "w": 72,
+          "kind": 3
+        },
+        {
+          "x": 1456,
+          "y": 56,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 1224,
+          "y": 128,
+          "w": 112,
+          "kind": 0
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 280,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 320,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 496,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 536,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 656,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 696,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 872,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 912,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1032,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1072,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1248,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1288,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1408,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1448,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1584,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1624,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 296,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 392,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 416,
+          "y": 48,
+          "kind": 2
+        },
+        {
+          "x": 672,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 768,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 864,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 728,
+          "y": 64,
+          "kind": 1
+        },
+        {
+          "x": 824,
+          "y": 40,
+          "kind": 1
+        },
+        {
+          "x": 888,
+          "y": 24,
+          "kind": 2
+        },
+        {
+          "x": 1264,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 1360,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 1472,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 1320,
+          "y": 56,
+          "kind": 1
+        },
+        {
+          "x": 1424,
+          "y": 40,
+          "kind": 1
+        },
+        {
+          "x": 1488,
+          "y": 32,
+          "kind": 2
+        },
+        {
+          "x": 824,
+          "y": 88,
+          "kind": 1
+        },
+        {
+          "x": 1200,
+          "y": 88,
+          "kind": 1
+        }
+      ],
+      "enemies": [
+        {
+          "x": 344,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 544,
+          "y": 96,
+          "range": 8,
+          "kind": 0
+        },
+        {
+          "x": 720,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 920,
+          "y": 96,
+          "range": 8,
+          "kind": 0
+        },
+        {
+          "x": 1104,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1296,
+          "y": 96,
+          "range": 8,
+          "kind": 0
+        },
+        {
+          "x": 1664,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1400,
+          "y": 40,
+          "range": 16,
+          "kind": 1
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "checkpoint_platform_index": 4,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 20,
+          "platform_indices": [
+            9,
+            10
+          ],
+          "entry_main_platform": 1,
+          "rejoin_main_platform": 2,
+          "technique": "The first sleepwheel tooth crumbles above a stable station."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 26,
+          "platform_indices": [
+            11,
+            12,
+            13
+          ],
+          "entry_main_platform": 3,
+          "rejoin_main_platform": 4,
+          "technique": "Commit to a rising express route; two lanterns keep the scarf charged."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 32,
+          "platform_indices": [
+            14,
+            15,
+            16
+          ],
+          "entry_main_platform": 6,
+          "rejoin_main_platform": 7,
+          "technique": "A quick equal-height dash skips the last brittle cog."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Whale in the Sky",
+      "length": 1600,
+      "biome": 3,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1552,
+      "goal_y": 128,
+      "checkpoint_x": 896,
+      "checkpoint_y": 128,
+      "boss": 0,
+      "par_seconds": 27,
+      "intro": [
+        "A WHALE HOLDS SKY.",
+        "ITS DREAM GROWS DIM.",
+        "BRING BACK THE DAWN."
+      ],
+      "lesson": "A gentle scenic breath turns familiar harbor rhythms into the whale spine.",
+      "beats": [
+        "No opening pit for408px; give the colossal whale scene time to read.",
+        "Three broad low shelves and only16px rises create a calm before the final challenges.",
+        "Three easy seals echo the first stage so the player feels their improvement."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 224,
+          "kind": 0
+        },
+        {
+          "x": 224,
+          "y": 128,
+          "w": 184,
+          "kind": 0
+        },
+        {
+          "x": 432,
+          "y": 112,
+          "w": 152,
+          "kind": 0
+        },
+        {
+          "x": 608,
+          "y": 128,
+          "w": 184,
+          "kind": 0
+        },
+        {
+          "x": 816,
+          "y": 128,
+          "w": 184,
+          "kind": 0
+        },
+        {
+          "x": 1024,
+          "y": 112,
+          "w": 144,
+          "kind": 0
+        },
+        {
+          "x": 1192,
+          "y": 128,
+          "w": 184,
+          "kind": 0
+        },
+        {
+          "x": 1400,
+          "y": 128,
+          "w": 200,
+          "kind": 0
+        },
+        {
+          "x": 248,
+          "y": 96,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 344,
+          "y": 72,
+          "w": 88,
+          "kind": 1
+        },
+        {
+          "x": 840,
+          "y": 96,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 936,
+          "y": 72,
+          "w": 88,
+          "kind": 1
+        },
+        {
+          "x": 1216,
+          "y": 96,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 1312,
+          "y": 72,
+          "w": 88,
+          "kind": 1
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 248,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 288,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 456,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 496,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 632,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 672,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 840,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 880,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1048,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1088,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1216,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1256,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1424,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1464,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 264,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 360,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 384,
+          "y": 48,
+          "kind": 2
+        },
+        {
+          "x": 856,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 952,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 976,
+          "y": 48,
+          "kind": 2
+        },
+        {
+          "x": 1232,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1328,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 1360,
+          "y": 48,
+          "kind": 2
+        }
+      ],
+      "enemies": [
+        {
+          "x": 520,
+          "y": 96,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 712,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1104,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 1496,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 992,
+          "y": 40,
+          "range": 16,
+          "kind": 1
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "checkpoint_platform_index": 4,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 18,
+          "platform_indices": [
+            8,
+            9
+          ],
+          "entry_main_platform": 1,
+          "rejoin_main_platform": 2,
+          "technique": "An easy star-spine climb welcomes the final world."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 21,
+          "platform_indices": [
+            10,
+            11
+          ],
+          "entry_main_platform": 4,
+          "rejoin_main_platform": 5,
+          "technique": "Climb beside the whale eye; the broad spine catches missed landings."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 24,
+          "platform_indices": [
+            12,
+            13
+          ],
+          "entry_main_platform": 6,
+          "rejoin_main_platform": 7,
+          "technique": "One familiar rooftop phrase becomes a pearl ridge on the whale."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Stardrift Current",
+      "length": 1760,
+      "biome": 3,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1712,
+      "goal_y": 128,
+      "checkpoint_x": 848,
+      "checkpoint_y": 128,
+      "boss": 0,
+      "par_seconds": 30,
+      "intro": [
+        "STARS ARE A CURRENT.",
+        "LANTERNS ARE ANCHORS",
+        "CHASE THE WAKING SKY"
+      ],
+      "lesson": "Combine climb, descent and chained lantern dash with wide fallback shelves.",
+      "beats": [
+        "A mirrored128/112/96/112/128 wave anchors the main route.",
+        "Central192px checkpoint shelf supports an optional rising aerial chain.",
+        "A second wave sharpens the upper route while the ground rhythm remains readable.",
+        "The final current opens a 96px main gap; a hanging lantern rewards the taught air-dash chain."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 224,
+          "kind": 0
+        },
+        {
+          "x": 256,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 424,
+          "y": 96,
+          "w": 112,
+          "kind": 0
+        },
+        {
+          "x": 576,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 744,
+          "y": 128,
+          "w": 192,
+          "kind": 0
+        },
+        {
+          "x": 976,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1200,
+          "y": 96,
+          "w": 96,
+          "kind": 0
+        },
+        {
+          "x": 1296,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1464,
+          "y": 128,
+          "w": 112,
+          "kind": 0
+        },
+        {
+          "x": 1600,
+          "y": 128,
+          "w": 160,
+          "kind": 0
+        },
+        {
+          "x": 280,
+          "y": 80,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 376,
+          "y": 56,
+          "w": 80,
+          "kind": 1
+        },
+        {
+          "x": 776,
+          "y": 96,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 872,
+          "y": 72,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 976,
+          "y": 48,
+          "w": 88,
+          "kind": 1
+        },
+        {
+          "x": 1168,
+          "y": 64,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 1264,
+          "y": 48,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 1376,
+          "y": 48,
+          "w": 80,
+          "kind": 1
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 280,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 320,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 448,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 488,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 600,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 640,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 768,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 808,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1000,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1040,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1168,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1208,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1320,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1360,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1488,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1528,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1624,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1664,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 296,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 392,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 416,
+          "y": 32,
+          "kind": 2
+        },
+        {
+          "x": 792,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 888,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 992,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 848,
+          "y": 64,
+          "kind": 1
+        },
+        {
+          "x": 952,
+          "y": 40,
+          "kind": 1
+        },
+        {
+          "x": 1024,
+          "y": 24,
+          "kind": 2
+        },
+        {
+          "x": 1184,
+          "y": 40,
+          "kind": 0
+        },
+        {
+          "x": 1280,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 1392,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 1240,
+          "y": 40,
+          "kind": 1
+        },
+        {
+          "x": 1344,
+          "y": 32,
+          "kind": 1
+        },
+        {
+          "x": 1424,
+          "y": 24,
+          "kind": 2
+        },
+        {
+          "x": 952,
+          "y": 88,
+          "kind": 1
+        },
+        {
+          "x": 1440,
+          "y": 88,
+          "kind": 1
+        },
+        {
+          "x": 1144,
+          "y": 64,
+          "kind": 1
+        }
+      ],
+      "enemies": [
+        {
+          "x": 336,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 648,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 848,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1056,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 1376,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 1688,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 920,
+          "y": 40,
+          "range": 24,
+          "kind": 1
+        },
+        {
+          "x": 1336,
+          "y": 32,
+          "range": 16,
+          "kind": 1
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "checkpoint_platform_index": 4,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 22,
+          "platform_indices": [
+            10,
+            11
+          ],
+          "entry_main_platform": 1,
+          "rejoin_main_platform": 2,
+          "technique": "A precise climb prepares the aerial current."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 28,
+          "platform_indices": [
+            12,
+            13,
+            14
+          ],
+          "entry_main_platform": 4,
+          "rejoin_main_platform": 5,
+          "technique": "Three pearl islands and two lanterns create the most expressive rising dash line."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 34,
+          "platform_indices": [
+            15,
+            16,
+            17
+          ],
+          "entry_main_platform": 6,
+          "rejoin_main_platform": 8,
+          "technique": "An upper48px gap at equal height asks for a clean charged scarf dash."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Heart of Moonwake",
+      "length": 1760,
+      "biome": 3,
+      "spawn_x": 24,
+      "spawn_y": 112,
+      "goal_x": 1712,
+      "goal_y": 128,
+      "checkpoint_x": 824,
+      "checkpoint_y": 128,
+      "boss": 1,
+      "par_seconds": 42,
+      "intro": [
+        "THE DREAM HAS A KNOT",
+        "LOOSEN IT WITH LIGHT",
+        "WAKE THE SKY SEA."
+      ],
+      "lesson": "Restate familiar movement before a spacious six-hit dream-knot finale.",
+      "beats": [
+        "Opening roof phrase recalls the harbor without introducing a new rule.",
+        "All three optional seals occur before the arena; none requires boss farming.",
+        "Final360px continuous floor creates a two-screen arena without pits; the gate opens on boss defeat."
+      ],
+      "platforms": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 224,
+          "kind": 0
+        },
+        {
+          "x": 248,
+          "y": 112,
+          "w": 120,
+          "kind": 0
+        },
+        {
+          "x": 392,
+          "y": 128,
+          "w": 160,
+          "kind": 0
+        },
+        {
+          "x": 576,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 728,
+          "y": 128,
+          "w": 192,
+          "kind": 0
+        },
+        {
+          "x": 944,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1096,
+          "y": 96,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1248,
+          "y": 112,
+          "w": 128,
+          "kind": 0
+        },
+        {
+          "x": 1400,
+          "y": 128,
+          "w": 176,
+          "kind": 0
+        },
+        {
+          "x": 1576,
+          "y": 128,
+          "w": 184,
+          "kind": 0
+        },
+        {
+          "x": 272,
+          "y": 80,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 360,
+          "y": 56,
+          "w": 88,
+          "kind": 1
+        },
+        {
+          "x": 752,
+          "y": 96,
+          "w": 72,
+          "kind": 1
+        },
+        {
+          "x": 848,
+          "y": 72,
+          "w": 80,
+          "kind": 1
+        },
+        {
+          "x": 1120,
+          "y": 64,
+          "w": 64,
+          "kind": 1
+        },
+        {
+          "x": 1208,
+          "y": 48,
+          "w": 88,
+          "kind": 1
+        }
+      ],
+      "pickups": [
+        {
+          "x": 72,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 120,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 272,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 312,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 416,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 456,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 600,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 640,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 752,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 792,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 968,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1008,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1120,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1160,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 1272,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1312,
+          "y": 88,
+          "kind": 0
+        },
+        {
+          "x": 1424,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 1464,
+          "y": 104,
+          "kind": 0
+        },
+        {
+          "x": 288,
+          "y": 56,
+          "kind": 0
+        },
+        {
+          "x": 376,
+          "y": 32,
+          "kind": 0
+        },
+        {
+          "x": 408,
+          "y": 32,
+          "kind": 2
+        },
+        {
+          "x": 768,
+          "y": 72,
+          "kind": 0
+        },
+        {
+          "x": 864,
+          "y": 48,
+          "kind": 0
+        },
+        {
+          "x": 888,
+          "y": 48,
+          "kind": 2
+        },
+        {
+          "x": 1136,
+          "y": 40,
+          "kind": 0
+        },
+        {
+          "x": 1224,
+          "y": 24,
+          "kind": 0
+        },
+        {
+          "x": 1192,
+          "y": 40,
+          "kind": 1
+        },
+        {
+          "x": 1256,
+          "y": 24,
+          "kind": 2
+        }
+      ],
+      "enemies": [
+        {
+          "x": 320,
+          "y": 96,
+          "range": 8,
+          "kind": 0
+        },
+        {
+          "x": 472,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 656,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 824,
+          "y": 112,
+          "range": 24,
+          "kind": 0
+        },
+        {
+          "x": 1016,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        },
+        {
+          "x": 1304,
+          "y": 96,
+          "range": 16,
+          "kind": 0
+        }
+      ],
+      "main_route": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "safe_platform_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "checkpoint_platform_index": 4,
+      "seal_routes": [
+        {
+          "seal": 1,
+          "seal_pickup_index": 20,
+          "platform_indices": [
+            10,
+            11
+          ],
+          "entry_main_platform": 1,
+          "rejoin_main_platform": 2,
+          "technique": "A familiar lantern-quiet balcony before the last ascent."
+        },
+        {
+          "seal": 2,
+          "seal_pickup_index": 23,
+          "platform_indices": [
+            12,
+            13
+          ],
+          "entry_main_platform": 4,
+          "rejoin_main_platform": 5,
+          "technique": "Take one last optional climb beside the checkpoint spine."
+        },
+        {
+          "seal": 3,
+          "seal_pickup_index": 27,
+          "platform_indices": [
+            14,
+            15
+          ],
+          "entry_main_platform": 6,
+          "rejoin_main_platform": 8,
+          "technique": "The final pearl seal is before the arena, with a clear fall back to the main route."
+        }
+      ]
+    }
+  ]
+}

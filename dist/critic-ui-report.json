@@ -1,0 +1,89 @@
+{
+  "rom_sha256": "9310fa3d598b72b41c56b46f1a99b373b7176dcb38d1fc5de795f1520ab38bc7",
+  "evidence": "Joypad-only UI tests; legitimate prior earned save copied in emulator; no running RAM writes.",
+  "checks": {
+    "help": {
+      "mode": 7,
+      "lines": [
+        "  CHASE THE MOON.",
+        "",
+        " D-PAD  RUN",
+        " A      JUMP",
+        " HOLD A FOR HEIGHT",
+        " B      COMET DASH",
+        "",
+        "LAND / TOUCH LANTERN",
+        " TO REFILL YOUR DASH",
+        " STOMP OR DASH FOES",
+        "",
+        " START PAUSE / ATLAS",
+        " SELECT CHECKPOINT",
+        " A BEGIN   B BACK"
+      ]
+    },
+    "help_back": true,
+    "atlas_earned_next_stage": {
+      "selection": 1,
+      "lines": [
+        "   THE SKY ATLAS",
+        "BEST ---S PAR 029S",
+        " LANTERN QUAY",
+        "  SEALS 2/3  B",
+        ">APRICOT ROOFTOPS",
+        "  SEALS 0/3  -",
+        " ??? SLEEPING SEA",
+        "",
+        " ??? SLEEPING SEA",
+        "",
+        " ??? SLEEPING SEA",
+        "",
+        " ??? SLEEPING SEA",
+        "",
+        "A GO B BACK <> PAGE"
+      ]
+    },
+    "title_atlas_back": true,
+    "reset_first_press": {
+      "unlocked": 1,
+      "seals": 3,
+      "prompt": "  B AGAIN: NEW GAME"
+    },
+    "navigation_cancels_reset": {
+      "unlocked": 1,
+      "prompt_immediately_after_navigation": "  A / START TO PLAY",
+      "prompt_after_new_first_B": "  B AGAIN: NEW GAME"
+    },
+    "reset_second_confirm": {
+      "mode": 5,
+      "unlocked": 0,
+      "seals": 0,
+      "medal": 0
+    },
+    "reset_reboot": true,
+    "started_next_stage": 1,
+    "continue_after_next_stage_start": {
+      "saved_stage": 1,
+      "unlocked": 1,
+      "latest_played_stage_restored": true
+    },
+    "mute": {
+      "sound_on": 0,
+      "audio_enabled": 0,
+      "apu_power": false,
+      "line": "  > SOUND OFF"
+    },
+    "mute_score_paused": true,
+    "sfx_stay_muted": true,
+    "mute_reboot": {
+      "sound_on": 0,
+      "audio_enabled": 0,
+      "apu_power": false
+    },
+    "unmute": {
+      "sound_on": 1,
+      "audio_enabled": 1,
+      "apu_power": true,
+      "line": "  > SOUND ON"
+    }
+  }
+}

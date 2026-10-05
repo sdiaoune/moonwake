@@ -1,0 +1,979 @@
+{
+  "rom_sha256": "9310fa3d598b72b41c56b46f1a99b373b7176dcb38d1fc5de795f1520ab38bc7",
+  "evidence": "Profile of controller-earned boss arena snapshot; no RAM writes or teleport.",
+  "cases": {
+    "idle": {
+      "emulator_frames": 120,
+      "game_ticks": 120,
+      "draw_calls": 120,
+      "before": {
+        "x": 1734.4375,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "after": {
+        "x": 1734.4375,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "profile": {
+        "world_tick -> camera_update": {
+          "calls": 120,
+          "mean_cycles": 20980,
+          "mean_frame_share": 0.149,
+          "max_frame_share": 0.169
+        },
+        "camera_update -> draw_objects": {
+          "calls": 120,
+          "mean_cycles": 1224,
+          "mean_frame_share": 0.009,
+          "max_frame_share": 0.009
+        },
+        "audio_tick -> game_tick": {
+          "calls": 120,
+          "mean_cycles": 965,
+          "mean_frame_share": 0.007,
+          "max_frame_share": 0.038
+        },
+        "game_tick -> physics": {
+          "calls": 120,
+          "mean_cycles": 396,
+          "mean_frame_share": 0.003,
+          "max_frame_share": 0.003
+        },
+        "physics -> world_tick": {
+          "calls": 119,
+          "mean_cycles": 12380,
+          "mean_frame_share": 0.088,
+          "max_frame_share": 0.088
+        }
+      },
+      "state_changes": [
+        {
+          "video_frame": 0,
+          "stage_frames": 1230,
+          "x": 1734.4375,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        }
+      ]
+    },
+    "run_right": {
+      "emulator_frames": 45,
+      "game_ticks": 45,
+      "draw_calls": 45,
+      "before": {
+        "x": 1734.4375,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "after": {
+        "x": 1744.0,
+        "y": 112.0,
+        "vx": 2.625,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "profile": {
+        "world_tick -> camera_update": {
+          "calls": 45,
+          "mean_cycles": 20604,
+          "mean_frame_share": 0.147,
+          "max_frame_share": 0.168
+        },
+        "camera_update -> draw_objects": {
+          "calls": 45,
+          "mean_cycles": 1224,
+          "mean_frame_share": 0.009,
+          "max_frame_share": 0.009
+        },
+        "audio_tick -> game_tick": {
+          "calls": 45,
+          "mean_cycles": 1012,
+          "mean_frame_share": 0.007,
+          "max_frame_share": 0.037
+        },
+        "game_tick -> physics": {
+          "calls": 45,
+          "mean_cycles": 396,
+          "mean_frame_share": 0.003,
+          "max_frame_share": 0.003
+        },
+        "physics -> world_tick": {
+          "calls": 44,
+          "mean_cycles": 12505,
+          "mean_frame_share": 0.089,
+          "max_frame_share": 0.089
+        }
+      },
+      "state_changes": [
+        {
+          "video_frame": 120,
+          "stage_frames": 1230,
+          "x": 1734.4375,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        }
+      ]
+    },
+    "run_left": {
+      "emulator_frames": 45,
+      "game_ticks": 45,
+      "draw_calls": 45,
+      "before": {
+        "x": 1734.4375,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "after": {
+        "x": 1628.6875,
+        "y": 112.0,
+        "vx": -2.625,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1532
+      },
+      "profile": {
+        "world_tick -> camera_update": {
+          "calls": 45,
+          "mean_cycles": 21554,
+          "mean_frame_share": 0.153,
+          "max_frame_share": 0.171
+        },
+        "camera_update -> draw_objects": {
+          "calls": 45,
+          "mean_cycles": 9552,
+          "mean_frame_share": 0.068,
+          "max_frame_share": 0.307
+        },
+        "audio_tick -> game_tick": {
+          "calls": 45,
+          "mean_cycles": 1012,
+          "mean_frame_share": 0.007,
+          "max_frame_share": 0.037
+        },
+        "game_tick -> physics": {
+          "calls": 45,
+          "mean_cycles": 396,
+          "mean_frame_share": 0.003,
+          "max_frame_share": 0.003
+        },
+        "physics -> world_tick": {
+          "calls": 44,
+          "mean_cycles": 12509,
+          "mean_frame_share": 0.089,
+          "max_frame_share": 0.089
+        }
+      },
+      "state_changes": [
+        {
+          "video_frame": 165,
+          "stage_frames": 1230,
+          "x": 1734.4375,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        }
+      ]
+    },
+    "ground_dash": {
+      "emulator_frames": 40,
+      "game_ticks": 40,
+      "draw_calls": 40,
+      "before": {
+        "x": 1734.4375,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "after": {
+        "x": 1744.0,
+        "y": 112.0,
+        "vx": 2.625,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "profile": {
+        "world_tick -> camera_update": {
+          "calls": 40,
+          "mean_cycles": 20568,
+          "mean_frame_share": 0.146,
+          "max_frame_share": 0.168
+        },
+        "camera_update -> draw_objects": {
+          "calls": 40,
+          "mean_cycles": 1224,
+          "mean_frame_share": 0.009,
+          "max_frame_share": 0.009
+        },
+        "audio_tick -> game_tick": {
+          "calls": 40,
+          "mean_cycles": 1152,
+          "mean_frame_share": 0.008,
+          "max_frame_share": 0.037
+        },
+        "game_tick -> physics": {
+          "calls": 40,
+          "mean_cycles": 398,
+          "mean_frame_share": 0.003,
+          "max_frame_share": 0.003
+        },
+        "physics -> world_tick": {
+          "calls": 39,
+          "mean_cycles": 12395,
+          "mean_frame_share": 0.088,
+          "max_frame_share": 0.098
+        }
+      },
+      "state_changes": [
+        {
+          "video_frame": 210,
+          "stage_frames": 1230,
+          "x": 1734.4375,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        }
+      ]
+    },
+    "ground_dash_left": {
+      "emulator_frames": 40,
+      "game_ticks": 40,
+      "draw_calls": 40,
+      "before": {
+        "x": 1734.4375,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "after": {
+        "x": 1600.8125,
+        "y": 112.0,
+        "vx": -2.625,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1504
+      },
+      "profile": {
+        "world_tick -> camera_update": {
+          "calls": 40,
+          "mean_cycles": 21535,
+          "mean_frame_share": 0.153,
+          "max_frame_share": 0.171
+        },
+        "camera_update -> draw_objects": {
+          "calls": 40,
+          "mean_cycles": 13745,
+          "mean_frame_share": 0.098,
+          "max_frame_share": 0.316
+        },
+        "audio_tick -> game_tick": {
+          "calls": 40,
+          "mean_cycles": 1152,
+          "mean_frame_share": 0.008,
+          "max_frame_share": 0.037
+        },
+        "game_tick -> physics": {
+          "calls": 40,
+          "mean_cycles": 398,
+          "mean_frame_share": 0.003,
+          "max_frame_share": 0.003
+        },
+        "physics -> world_tick": {
+          "calls": 39,
+          "mean_cycles": 12388,
+          "mean_frame_share": 0.088,
+          "max_frame_share": 0.098
+        }
+      },
+      "state_changes": [
+        {
+          "video_frame": 250,
+          "stage_frames": 1230,
+          "x": 1734.4375,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        }
+      ]
+    },
+    "held_jump": {
+      "emulator_frames": 90,
+      "game_ticks": 90,
+      "draw_calls": 90,
+      "before": {
+        "x": 1734.4375,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "after": {
+        "x": 1744.0,
+        "y": 112.0,
+        "vx": 2.625,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "profile": {
+        "world_tick -> camera_update": {
+          "calls": 90,
+          "mean_cycles": 20492,
+          "mean_frame_share": 0.146,
+          "max_frame_share": 0.168
+        },
+        "camera_update -> draw_objects": {
+          "calls": 90,
+          "mean_cycles": 1224,
+          "mean_frame_share": 0.009,
+          "max_frame_share": 0.009
+        },
+        "audio_tick -> game_tick": {
+          "calls": 90,
+          "mean_cycles": 1034,
+          "mean_frame_share": 0.007,
+          "max_frame_share": 0.037
+        },
+        "game_tick -> physics": {
+          "calls": 90,
+          "mean_cycles": 396,
+          "mean_frame_share": 0.003,
+          "max_frame_share": 0.003
+        },
+        "physics -> world_tick": {
+          "calls": 89,
+          "mean_cycles": 11307,
+          "mean_frame_share": 0.081,
+          "max_frame_share": 0.122
+        }
+      },
+      "state_changes": [
+        {
+          "video_frame": 290,
+          "stage_frames": 1230,
+          "x": 1734.4375,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        },
+        {
+          "video_frame": 291,
+          "stage_frames": 1231,
+          "x": 1734.75,
+          "y": 106.0625,
+          "vy": -5.9375,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 329,
+          "stage_frames": 1269,
+          "x": 1744.0,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        }
+      ]
+    },
+    "air_dash_then_recoil": {
+      "emulator_frames": 90,
+      "game_ticks": 90,
+      "draw_calls": 90,
+      "before": {
+        "x": 1734.4375,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "after": {
+        "x": 1744.0,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "profile": {
+        "world_tick -> camera_update": {
+          "calls": 90,
+          "mean_cycles": 20492,
+          "mean_frame_share": 0.146,
+          "max_frame_share": 0.168
+        },
+        "camera_update -> draw_objects": {
+          "calls": 90,
+          "mean_cycles": 1224,
+          "mean_frame_share": 0.009,
+          "max_frame_share": 0.009
+        },
+        "audio_tick -> game_tick": {
+          "calls": 90,
+          "mean_cycles": 1115,
+          "mean_frame_share": 0.008,
+          "max_frame_share": 0.04
+        },
+        "game_tick -> physics": {
+          "calls": 90,
+          "mean_cycles": 397,
+          "mean_frame_share": 0.003,
+          "max_frame_share": 0.003
+        },
+        "physics -> world_tick": {
+          "calls": 89,
+          "mean_cycles": 12389,
+          "mean_frame_share": 0.088,
+          "max_frame_share": 0.131
+        },
+        "draw_objects -> hud_update": {
+          "calls": 2,
+          "mean_cycles": 33430,
+          "mean_frame_share": 0.238,
+          "max_frame_share": 0.253
+        }
+      },
+      "state_changes": [
+        {
+          "video_frame": 380,
+          "stage_frames": 1230,
+          "x": 1734.4375,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        },
+        {
+          "video_frame": 381,
+          "stage_frames": 1231,
+          "x": 1734.75,
+          "y": 106.0625,
+          "vy": -5.9375,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 420,
+          "stage_frames": 1270,
+          "x": 1744.0,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        }
+      ]
+    },
+    "air_dash_left_then_recoil": {
+      "emulator_frames": 90,
+      "game_ticks": 90,
+      "draw_calls": 90,
+      "before": {
+        "x": 1734.4375,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "after": {
+        "x": 1613.9375,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1517
+      },
+      "profile": {
+        "world_tick -> camera_update": {
+          "calls": 90,
+          "mean_cycles": 21558,
+          "mean_frame_share": 0.153,
+          "max_frame_share": 0.173
+        },
+        "camera_update -> draw_objects": {
+          "calls": 90,
+          "mean_cycles": 6312,
+          "mean_frame_share": 0.045,
+          "max_frame_share": 0.307
+        },
+        "audio_tick -> game_tick": {
+          "calls": 90,
+          "mean_cycles": 1115,
+          "mean_frame_share": 0.008,
+          "max_frame_share": 0.04
+        },
+        "game_tick -> physics": {
+          "calls": 90,
+          "mean_cycles": 397,
+          "mean_frame_share": 0.003,
+          "max_frame_share": 0.003
+        },
+        "physics -> world_tick": {
+          "calls": 89,
+          "mean_cycles": 12402,
+          "mean_frame_share": 0.088,
+          "max_frame_share": 0.131
+        },
+        "draw_objects -> hud_update": {
+          "calls": 2,
+          "mean_cycles": 33090,
+          "mean_frame_share": 0.236,
+          "max_frame_share": 0.253
+        }
+      },
+      "state_changes": [
+        {
+          "video_frame": 470,
+          "stage_frames": 1230,
+          "x": 1734.4375,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        },
+        {
+          "video_frame": 471,
+          "stage_frames": 1231,
+          "x": 1734.125,
+          "y": 106.0625,
+          "vy": -5.9375,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 510,
+          "stage_frames": 1270,
+          "x": 1613.9375,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        }
+      ]
+    },
+    "six_hit_earned_trace": {
+      "emulator_frames": 403,
+      "game_ticks": 402,
+      "draw_calls": 402,
+      "before": {
+        "x": 1734.4375,
+        "y": 112.0,
+        "vx": 0.0,
+        "vy": 0.0,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 2,
+        "grounded": 1,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1600
+      },
+      "after": {
+        "x": 1691.375,
+        "y": 57.3125,
+        "vx": -2.25,
+        "vy": -5.875,
+        "game_mode": 1,
+        "stage_id": 11,
+        "health": 3,
+        "grounded": 0,
+        "dash_charge": 1,
+        "seal_count": 3,
+        "deaths": 0,
+        "camera": 1595
+      },
+      "profile": {
+        "world_tick -> camera_update": {
+          "calls": 402,
+          "mean_cycles": 21020,
+          "mean_frame_share": 0.15,
+          "max_frame_share": 0.186
+        },
+        "camera_update -> draw_objects": {
+          "calls": 402,
+          "mean_cycles": 3388,
+          "mean_frame_share": 0.024,
+          "max_frame_share": 0.307
+        },
+        "audio_tick -> game_tick": {
+          "calls": 402,
+          "mean_cycles": 1167,
+          "mean_frame_share": 0.008,
+          "max_frame_share": 0.045
+        },
+        "game_tick -> physics": {
+          "calls": 402,
+          "mean_cycles": 401,
+          "mean_frame_share": 0.003,
+          "max_frame_share": 0.003
+        },
+        "physics -> world_tick": {
+          "calls": 402,
+          "mean_cycles": 10079,
+          "mean_frame_share": 0.072,
+          "max_frame_share": 0.131
+        },
+        "draw_objects -> hud_update": {
+          "calls": 57,
+          "mean_cycles": 31744,
+          "mean_frame_share": 0.226,
+          "max_frame_share": 0.253
+        }
+      },
+      "state_changes": [
+        {
+          "video_frame": 560,
+          "stage_frames": 1230,
+          "x": 1734.4375,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 1,
+          "dash": 0
+        },
+        {
+          "video_frame": 563,
+          "stage_frames": 1233,
+          "x": 1734.125,
+          "y": 106.0625,
+          "vy": -5.9375,
+          "health": 2,
+          "boss_hp": 6,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 577,
+          "stage_frames": 1247,
+          "x": 1689.1875,
+          "y": 66.6875,
+          "vy": -5.875,
+          "health": 2,
+          "boss_hp": 5,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 622,
+          "stage_frames": 1292,
+          "x": 1735.8125,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 5,
+          "grounded": 1,
+          "dash": 0
+        },
+        {
+          "video_frame": 637,
+          "stage_frames": 1307,
+          "x": 1735.5,
+          "y": 106.0625,
+          "vy": -5.9375,
+          "health": 2,
+          "boss_hp": 5,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 658,
+          "stage_frames": 1328,
+          "x": 1662.8125,
+          "y": 57.3125,
+          "vy": -5.875,
+          "health": 2,
+          "boss_hp": 4,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 704,
+          "stage_frames": 1374,
+          "x": 1738.75,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 2,
+          "boss_hp": 4,
+          "grounded": 1,
+          "dash": 0
+        },
+        {
+          "video_frame": 718,
+          "stage_frames": 1388,
+          "x": 1735.375,
+          "y": 106.0625,
+          "vy": -5.9375,
+          "health": 2,
+          "boss_hp": 4,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 734,
+          "stage_frames": 1404,
+          "x": 1691.4375,
+          "y": 57.3125,
+          "vy": -5.875,
+          "health": 3,
+          "boss_hp": 3,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 781,
+          "stage_frames": 1450,
+          "x": 1735.8125,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 3,
+          "boss_hp": 3,
+          "grounded": 1,
+          "dash": 0
+        },
+        {
+          "video_frame": 794,
+          "stage_frames": 1463,
+          "x": 1735.8125,
+          "y": 106.0625,
+          "vy": -5.9375,
+          "health": 3,
+          "boss_hp": 3,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 810,
+          "stage_frames": 1479,
+          "x": 1691.875,
+          "y": 57.3125,
+          "vy": -5.875,
+          "health": 3,
+          "boss_hp": 2,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 856,
+          "stage_frames": 1525,
+          "x": 1735.875,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 3,
+          "boss_hp": 2,
+          "grounded": 1,
+          "dash": 0
+        },
+        {
+          "video_frame": 870,
+          "stage_frames": 1539,
+          "x": 1735.5625,
+          "y": 106.0625,
+          "vy": -5.9375,
+          "health": 3,
+          "boss_hp": 2,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 886,
+          "stage_frames": 1555,
+          "x": 1691.625,
+          "y": 57.3125,
+          "vy": -5.875,
+          "health": 3,
+          "boss_hp": 1,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 932,
+          "stage_frames": 1601,
+          "x": 1735.625,
+          "y": 112.0,
+          "vy": 0.0,
+          "health": 3,
+          "boss_hp": 1,
+          "grounded": 1,
+          "dash": 0
+        },
+        {
+          "video_frame": 946,
+          "stage_frames": 1615,
+          "x": 1735.3125,
+          "y": 106.0625,
+          "vy": -5.9375,
+          "health": 3,
+          "boss_hp": 1,
+          "grounded": 0,
+          "dash": 0
+        },
+        {
+          "video_frame": 962,
+          "stage_frames": 1631,
+          "x": 1691.375,
+          "y": 57.3125,
+          "vy": -5.875,
+          "health": 3,
+          "boss_hp": 0,
+          "grounded": 0,
+          "dash": 0
+        }
+      ]
+    }
+  }
+}

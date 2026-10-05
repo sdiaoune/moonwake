@@ -1,0 +1,9 @@
+/build/
+/.venv/
+/.tools/
+/release/
+__pycache__/
+*.pyc
+*.sav
+*.state
+.DS_Store

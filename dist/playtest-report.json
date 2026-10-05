@@ -1,0 +1,107 @@
+{
+  "rom_sha256": "9310fa3d598b72b41c56b46f1a99b373b7176dcb38d1fc5de795f1520ab38bc7",
+  "input_only": true,
+  "linear_replay_passed": true,
+  "all_12_stages_completed": true,
+  "all_36_seals_collected": true,
+  "saved_completion_restored": true,
+  "frames": 16969,
+  "stages": [
+    {
+      "id": 0,
+      "name": "Lantern Quay",
+      "seals": 3,
+      "frames": 1076,
+      "par_seconds": 26,
+      "deaths": 0
+    },
+    {
+      "id": 1,
+      "name": "Apricot Rooftops",
+      "seals": 3,
+      "frames": 1218,
+      "par_seconds": 29,
+      "deaths": 0
+    },
+    {
+      "id": 2,
+      "name": "Kitewake Causeway",
+      "seals": 3,
+      "frames": 1172,
+      "par_seconds": 27,
+      "deaths": 0
+    },
+    {
+      "id": 3,
+      "name": "Lotus After Rain",
+      "seals": 3,
+      "frames": 1370,
+      "par_seconds": 33,
+      "deaths": 0
+    },
+    {
+      "id": 4,
+      "name": "Rainbell Canopy",
+      "seals": 3,
+      "frames": 1202,
+      "par_seconds": 28,
+      "deaths": 0
+    },
+    {
+      "id": 5,
+      "name": "Glasswater Run",
+      "seals": 3,
+      "frames": 1229,
+      "par_seconds": 28,
+      "deaths": 0
+    },
+    {
+      "id": 6,
+      "name": "Brass Moonworks",
+      "seals": 3,
+      "frames": 1128,
+      "par_seconds": 28,
+      "deaths": 0
+    },
+    {
+      "id": 7,
+      "name": "Pendulum Steps",
+      "seals": 3,
+      "frames": 1217,
+      "par_seconds": 30,
+      "deaths": 0
+    },
+    {
+      "id": 8,
+      "name": "Sleepwheel Express",
+      "seals": 3,
+      "frames": 1142,
+      "par_seconds": 27,
+      "deaths": 0
+    },
+    {
+      "id": 9,
+      "name": "Whale in the Sky",
+      "seals": 3,
+      "frames": 1121,
+      "par_seconds": 27,
+      "deaths": 0
+    },
+    {
+      "id": 10,
+      "name": "Stardrift Current",
+      "seals": 3,
+      "frames": 1300,
+      "par_seconds": 30,
+      "deaths": 0
+    },
+    {
+      "id": 11,
+      "name": "Heart of Moonwake",
+      "seals": 3,
+      "frames": 1659,
+      "par_seconds": 42,
+      "deaths": 0
+    }
+  ]
+}

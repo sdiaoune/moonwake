@@ -1,0 +1,38 @@
+{
+  "rom_sha256": "9310fa3d598b72b41c56b46f1a99b373b7176dcb38d1fc5de795f1520ab38bc7",
+  "earned_allseal_run": {
+    "x": 1474.875,
+    "y": 112.0,
+    "vx": 2.625,
+    "vy": 0.0,
+    "game_mode": 3,
+    "stage_id": 0,
+    "health": 2,
+    "grounded": 1,
+    "dash_charge": 1,
+    "seal_count": 3,
+    "deaths": 0,
+    "camera": 1376
+  },
+  "earned_rank": 3,
+  "best_medal": 3,
+  "seconds": 19.183333333333334,
+  "replay_initial_seals": 0,
+  "replay_run": {
+    "x": 1474.375,
+    "y": 112.0,
+    "vx": 2.625,
+    "vy": 0.0,
+    "game_mode": 3,
+    "stage_id": 0,
+    "health": 3,
+    "grounded": 1,
+    "dash_charge": 1,
+    "seal_count": 0,
+    "deaths": 0,
+    "camera": 1376
+  },
+  "replay_current_rank": 1,
+  "replay_best_medal": 3,
+  "replay_rank_line": "  RANK   B ARRIVED"
+}

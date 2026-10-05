@@ -1,0 +1,62 @@
+{
+  "game": "Moonwake",
+  "rom_sha256": "9310fa3d598b72b41c56b46f1a99b373b7176dcb38d1fc5de795f1520ab38bc7",
+  "target_score": 9.0,
+  "all_categories_certified_at_target": false,
+  "ratings": {
+    "movement_fun": {
+      "score": 9.0,
+      "review": "docs/reviews/play-round2.md"
+    },
+    "level_design": {
+      "score": 8.8,
+      "review": "docs/reviews/play-round2.md"
+    },
+    "progression_replay": {
+      "score": 9.0,
+      "review": "docs/reviews/play-round2.md"
+    },
+    "emulator_technical_reliability": {
+      "score": 9.1,
+      "review": "docs/reviews/play-round2.md"
+    },
+    "visual_art_readability": {
+      "score": 9.0,
+      "review": "docs/reviews/visual-final.md"
+    },
+    "originality_world_identity": {
+      "score": 9.0,
+      "review": "docs/reviews/visual-final.md"
+    },
+    "audio_implementation_composition": {
+      "score": 8.8,
+      "provisional": true,
+      "review": "docs/reviews/visual-final.md"
+    },
+    "subjective_sound_quality": {
+      "score": null,
+      "reason": "Direct listening was not performed."
+    }
+  },
+  "verification": {
+    "native_cgb_rom": true,
+    "all_12_stages_and_36_seals_controller_verified": true,
+    "independent_fresh_replay_passed": true,
+    "all_12_s_ranks_earned": true,
+    "zero_death_verified_trace": true,
+    "saved_completion_reboot": true,
+    "crc_transaction_fallback": true,
+    "actual_boss_fight_ticks": 402,
+    "actual_boss_fight_video_frames": 403,
+    "flashgbx_install_and_independent_rom_readback": true,
+    "original_progress_and_backups_preserved": true,
+    "physical_controls_display_speaker_observation": false
+  },
+  "limits": [
+    "Several stages repeat broad ground routes with three upper seal excursions.",
+    "Crossing to the boss right side largely neutralizes its left-moving projectiles.",
+    "Audio composition review is provisional; subjective listening and physical speaker testing remain unscored.",
+    "Emulator completion and cartridge byte readback do not substitute for broad human playtesting or visual physical boot observation."
+  ],
+  "generated_at_utc": "2026-10-05T01:11:08.240726+00:00"
+}

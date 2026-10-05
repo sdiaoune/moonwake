@@ -1,0 +1,9 @@
+{
+  "title": "MOONWAKE",
+  "bytes": 262144,
+  "sha256": "9310fa3d598b72b41c56b46f1a99b373b7176dcb38d1fc5de795f1520ab38bc7",
+  "cgb_only": true,
+  "mapper": "MBC5 + RAM + battery",
+  "sram_bytes": 8192,
+  "checksums_valid": true
+}

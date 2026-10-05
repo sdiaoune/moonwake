@@ -1,0 +1,216 @@
+{
+  "method": "Exact production music.c linked to a bank7 CGB harness, rendered by PyBoy 2.7.0",
+  "sample_rate": 24000,
+  "encoding": "16-bit stereo, fixed gain900, 20Hz DC-removal only",
+  "music_sha256": "f25d55d4f19f8986b81914046d361c6a46922088059a7988cace41bcfc5a5117",
+  "harness_sha256": "4deb6eceeecc8e20bb0942e02a48ea1e37ddf5137cfee5ac85b2f270fa6bc0f8",
+  "tracks": [
+    {
+      "seconds": 32.08,
+      "raw_dac_peak": 18.0,
+      "pcm_peak": 12320,
+      "clipped_samples": 0,
+      "rms": 2588.03,
+      "sha256": "04d097a0ef03a15ad86adc2aeb6bf58129eb7c985f3853697177d634c072432b",
+      "scene": 0,
+      "name": "01-a-scarf-for-the-sleeping-sea",
+      "score_frames": 1920,
+      "channels_observed": 15,
+      "energy_frames": [
+        960,
+        1440
+      ],
+      "phrase_steps": 128,
+      "score_step_after": 0,
+      "score_loops_after": 1
+    },
+    {
+      "seconds": 25.664,
+      "raw_dac_peak": 19.0,
+      "pcm_peak": 13096,
+      "clipped_samples": 0,
+      "rms": 2485.09,
+      "sha256": "cd2227366f597cefcea0c31092b3099c8fac7ecb09de2b1742223d5f75a1676a",
+      "scene": 1,
+      "name": "02-persimmon-postcard",
+      "score_frames": 1536,
+      "channels_observed": 15,
+      "energy_frames": [
+        768,
+        1152
+      ],
+      "phrase_steps": 128,
+      "score_step_after": 0,
+      "score_loops_after": 1
+    },
+    {
+      "seconds": 29.941,
+      "raw_dac_peak": 17.0,
+      "pcm_peak": 11969,
+      "clipped_samples": 0,
+      "rms": 2497.34,
+      "sha256": "c2f1d2d7df03f950e329e59344b34bb5c2eb4695f5db4710c522505402eee7ea",
+      "scene": 2,
+      "name": "03-rain-on-a-giant-lotus",
+      "score_frames": 1792,
+      "channels_observed": 15,
+      "energy_frames": [
+        896,
+        1344
+      ],
+      "phrase_steps": 128,
+      "score_step_after": 0,
+      "score_loops_after": 1
+    },
+    {
+      "seconds": 23.525,
+      "raw_dac_peak": 20.0,
+      "pcm_peak": 12327,
+      "clipped_samples": 0,
+      "rms": 2347.85,
+      "sha256": "f7293229adb6ab61a13018e8a67881ece0252f58c7d4992c972124668dc870b0",
+      "scene": 3,
+      "name": "04-brass-clock-violet-sky",
+      "score_frames": 1408,
+      "channels_observed": 15,
+      "energy_frames": [
+        704,
+        1056
+      ],
+      "phrase_steps": 128,
+      "score_step_after": 0,
+      "score_loops_after": 1
+    },
+    {
+      "seconds": 34.219,
+      "raw_dac_peak": 17.0,
+      "pcm_peak": 12274,
+      "clipped_samples": 0,
+      "rms": 2640.75,
+      "sha256": "b66f6d6aa3f69ededd73595b678463f7417f670c9e36db988abaca6e8fb2e4bb",
+      "scene": 4,
+      "name": "05-the-whale-that-carried-tomorrow",
+      "score_frames": 2048,
+      "channels_observed": 15,
+      "energy_frames": [
+        1024,
+        1536
+      ],
+      "phrase_steps": 128,
+      "score_step_after": 0,
+      "score_loops_after": 1
+    },
+    {
+      "seconds": 21.387,
+      "raw_dac_peak": 20.0,
+      "pcm_peak": 13913,
+      "clipped_samples": 0,
+      "rms": 2547.84,
+      "sha256": "adc6f7c61c727e76a9210d376f6f7d97d5a23e2afc3e8b39cf37962990f38a78",
+      "scene": 5,
+      "name": "06-wake-up-sleepstorm",
+      "score_frames": 1280,
+      "channels_observed": 15,
+      "energy_frames": [
+        640,
+        960
+      ],
+      "phrase_steps": 128,
+      "score_step_after": 0,
+      "score_loops_after": 1
+    },
+    {
+      "seconds": 25.664,
+      "raw_dac_peak": 18.0,
+      "pcm_peak": 12393,
+      "clipped_samples": 0,
+      "rms": 2623.26,
+      "sha256": "24af05e45adee769139f27c31096512822e26af167d271e88312e7e8747c711e",
+      "scene": 6,
+      "name": "07-a-little-more-sky",
+      "score_frames": 1536,
+      "channels_observed": 15,
+      "energy_frames": [
+        768,
+        1152
+      ],
+      "phrase_steps": 128,
+      "score_step_after": 0,
+      "score_loops_after": 1
+    },
+    {
+      "seconds": 36.357,
+      "raw_dac_peak": 18.0,
+      "pcm_peak": 11694,
+      "clipped_samples": 0,
+      "rms": 2641.45,
+      "sha256": "b7af34298e84c787253f7a3c8b46eeb4545acaeb3952a7a3d4f5db79726c4827",
+      "scene": 7,
+      "name": "08-home-in-the-open-sky",
+      "score_frames": 2176,
+      "channels_observed": 15,
+      "energy_frames": [
+        1088,
+        1632
+      ],
+      "phrase_steps": 128,
+      "score_step_after": 0,
+      "score_loops_after": 1
+    }
+  ],
+  "effects_and_mute": {
+    "seconds": 18.296,
+    "raw_dac_peak": 20.0,
+    "pcm_peak": 11873,
+    "clipped_samples": 0,
+    "rms": 2487.51,
+    "sha256": "4b285ccfcab1b605cd69cd908b2295e20e3347f59eb8d2988767ad3f39793cd9",
+    "effects": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "sfx_frame_positions": [
+      30,
+      150,
+      270,
+      390,
+      510,
+      630,
+      750,
+      870
+    ],
+    "muted_frames_checked": 44,
+    "mute_nonzero_samples": 0,
+    "mute_freezes_score": true,
+    "channels_after_resume": 7
+  },
+  "sfx_preserves_melody": {
+    "channel1_registers_identical": true,
+    "frames_compared": 480,
+    "effects_tested": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "emulated_frames_without_and_with_sfx": [
+      480,
+      481
+    ],
+    "register_hashes_without_and_with_sfx": [
+      16837,
+      16837
+    ],
+    "method": "16-bit rolling hash of NR10/NR11/NR12 and audio_step after every sequencer tick"
+  }
+}
